@@ -13,6 +13,7 @@ There are 2 key features of our solution:
 
 UMA: We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
 
+
 Filecoin Virtual Machine (FVM): FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving solutions. This improves better outcomes for monitoring, incident reporting, precision maintenance. We are using FVM for:
 
 Creating a Service Ticket NFT on the FVM for NFC tags of service and repair providers to improve incident management, decentralized NFT-based voting system for contract work by service providers, Votes are uploaded to IPFS with the most recent vote linking to one before.
@@ -21,7 +22,9 @@ Decentralized NFT-based voting system for contract work for service & maintenanc
 
 To develop and use composable blocks and ensure effective design, engineering and delivery of a decentralized solution for machine monitoring and incident management using Ethereum & Filecoin eco-system tools. Automated Workflow for decentralized voting for service providers and DAO.
 
+
 Scroll: Scroll enables hyper scalability of the Ethereum network, leveraging roll-up technology and a decentralized data availability layer to increase efficiency and performance in the industrial iot ecosystem, all while reducing fees and latency. We are developing tools and plugins for the green credits platform for heavy industrial machines along with an alarm viewer dapp (please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1). The alarm viewer can be used in case a industrial machines' quarterly pollution check is due or has not been completed one week before the penalty set by the government authorities. This alarm viewer can be further extended by the developers to build community tools, analytics and visualization tooling by adding features like pollution check performance ratings and raising alarms and notifications when the registry of an industrial machine to operate in a region expires (example: 15 years for petrol fuel machines and 10 years for diesel fuel small scale machines in Delhi). The alarm viewer application can also be extended for the use case where the pollution testing equipment does not give optimal results, which is very much true when a machine has been used for more than 45,000 hours.
+
 
 
 Polygon zkEVM Public Goods Track: We are using Polygon zkEVM to develop a platform where government authorities linked with Environment Ministy, Pollution Control department like Water Pollution Monitoring, check control department, Municipality portal can issue, manage and transfer credits of ratings earned by factory owners and their respective heavy industrial machinery via pollution checks, green fuel adoption in machines.
@@ -52,7 +55,19 @@ Attestation Hub Contract for Machine Incident Reports: We are extending the Atte
 
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
 
+
 Tableland: We are using Tableland for implementing incident notes maintained by machine administrators. Please visit Incident Notes powered by Tableland at the github repo link.
+
+
+Spark: ZK SparkLend wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability using SparkLend, Conduits and MakerDAO features. We used Zokrates for building the ZK SparkLend Wallet. 
+
+Cross chain lending platform using SparkLend: We can supply collateral and borrow sDAI tokens from a satellite chain to a fork of Ethereum's mainnet using Spark Conduits and SparkLend.
+
+MakerDAO developer tooling for providing government subsidies for greener fuel and pollution check credits. Government organizations can send sDAI crypto from source-chain to destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with sDAI token.
+
+Please visit the demo at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1
+
+
 
 
 
