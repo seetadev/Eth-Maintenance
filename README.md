@@ -1,7 +1,9 @@
 # Eth-Maintenance
+
 Developers tools to enable preventive and reactive maintenance of industrial grade machine using iot devices, sensors and Ethereum blockcahin, Web3 ecosystem tools. 
 
-Execution: Preventive, Proactive and Reactive Maintenance, Refurbishment of industrial grade machine on Ethereum blockchain using UMA, Scroll,  Polygon zkevm, Uniswap, Tableland, Filecoin, XMTP, Web3 Ecosystem tools.
+Execution: Preventive, Proactive and Reactive Maintenance, Refurbishment of industrial grade machine on Ethereum blockchain using UMA, Scroll, Filecoin, Polygon zkEVM and Safe Account Abstraction SDK, Uniswap, Tableland, Wormhole SDK for cross chain interoperability and Web3 Ecosystem tools.
+
 
 There are 2 key features of our solution:
 
