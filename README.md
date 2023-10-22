@@ -55,6 +55,21 @@ Gasless Transactions: Giving free transactions to citizen developers, journalist
 Attestation Hub Contract for Machine Incident Reports: We are extending the Attestation Station smart contract to develop the Attestation Hub smart contract for Machine Incident Reports.
 
 
+# Wormhole
+
+Wormhole empowers Web3 developers by enabling multichain transactions and interoperability:
+⭐️ Massively expand the utility of decentralize repair delivery, machine testing & research on L1 and L2 stack.
+⭐️ Web3 Dev Tooling: Web3 low code modules using wiki like spreadsheet with ionic framework, open source Web3 automation utilities for DICOM data management, visualization, tabulation, organization, graphing and collaboration, anonymization of data using PyDICOM library. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1
+
+⭐️ Wormhole Cross Chain Borrow and Lend dapp module and Wormhole cross chain interoperability between L1 and L2 chains.
+⭐️ Multi-token web wallet and information explorer with data analytics powered by SocialCalc for managing information and payments to emergency service providers, maintenance and repair servicemen and also insuarnce and aggregator providers for availing their services using Wormhole solidity sdk. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1
+⭐️Analytics tooling for visualization, tabulation, collaboration and organization of data. 
+
+
+Please visit: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules
+
+
+
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
 
 
