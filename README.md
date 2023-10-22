@@ -68,6 +68,8 @@ Wormhole empowers Web3 developers by enabling multichain transactions and intero
 
 Please visit: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules
 
+Twitter Post Link: https://twitter.com/DeTransportICM/status/1716154122599059484
+
 
 
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
