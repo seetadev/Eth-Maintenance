@@ -58,6 +58,12 @@ XMTP: We are implementing XMTP Chat for Machine administrators in a particular r
 
 Tableland: We are using Tableland for implementing incident notes maintained by machine administrators. Please visit Incident Notes powered by Tableland at the github repo link.
 
+- Get Log Events by Contract Address: to get log events like sold/listed nft for NFC tags/NFC Tags of machines on marketplace.
+
+- Get Log Events by Incident Types: to get log data for specific incident event along with its metadata
+
+- - Get NFT External Metadata: To get metadata for NFT like attribute and snapshot images.
+
 
 Spark: ZK SparkLend wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability using SparkLend, Conduits and MakerDAO features. We used Zokrates for building the ZK SparkLend Wallet. 
 
@@ -73,6 +79,15 @@ Hooks for LP operations of Uniswap v2 and v3: We are developing BOS widgets that
 BOS component (LP_Uniswap) in early stage of development for implementing LP operations in Uniswap v2: https://near.org/near/widget/ComponentDetailsPage?src=c0cf2883421bfa90fbedbdaa2ce8aa7b98b21aecb6693f6054e5696890a80a24/widget/lp-uniswap 
 
 Screenshots of the components in development: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
+
+Hooks for Uniswap v2 in Eth Maintenance:
+
+- Get Historical Token Prices: To get price of token for currency that accept spare machine parts NFT/item on marketplace.
+- Uniswap analytics for optimal inventory pricing and order management.
+
+  
+ 
+
 
 
 
