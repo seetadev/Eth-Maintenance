@@ -86,8 +86,7 @@ Hooks for Uniswap v2 in Eth Maintenance:
 - Uniswap analytics for optimal inventory pricing and order management.  Web3 Service Dashboard on Spark to enable third party service and repair organizations to keep track of all the details of their assets, DeFi investments, transactions across all multiple chains and also displays DAO data using a data visualization chart. We are building our solution on top of an existing web3 dashboard system and are planning to integrate an analytics, tabulation and collaboration tool namely EtherCalc.
 
   
- 
-
+Compound Protocol: Cross chain lending platform using Compound protocol. We can supply collateral and borrow tokens for preventive, reactive and pro-active maintenance from a satellite chain to a fork of Ethereum's mainnet using Compound Protocol.
 
 
 
