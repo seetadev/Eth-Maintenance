@@ -1,0 +1,57 @@
+{
+  "name": "liquidity-pool-simulator",
+  "version": "1.0.0",
+  "description": "Liquidity Pool Simulator",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "crypto",
+    "ethereum",
+    "cryptocurrency",
+    "eth",
+    "lp",
+    "stablecoin",
+    "uniswap",
+    "liquidity-pool",
+    "uniswap-v3",
+    "liquidity-provider"
+  ],
+  "homepage": "https://github.com/DOLR-money/liquidity-pool-simulator#readme",
+  "bugs": {
+    "url": "https://github.com/DOLR-money/liquidity-pool-simulator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOLR-money/liquidity-pool-simulator.git"
+  },
+  "license": "MIT",
+  "author": "chainsy-net",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "arb": "node ./src/arb-app.js",
+    "clean": "rm -rf node_modules && rm package-lock.json",
+    "dev": "pnpm start",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "preinstall": "npx only-allow pnpm",
+    "sort-package-json": "pnpx sort-package-json",
+    "start": "node ./src/app.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0",
+    "jest-test-gen": "^1.4.3"
+  }
+}
