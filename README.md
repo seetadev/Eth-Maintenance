@@ -20,3 +20,12 @@ Creating a Service Ticket NFT on the FVM for NFC tags of service and repair prov
 Decentralized NFT-based voting system for contract work for service & maintenance providers and companies. DAOs can issue NFTs to wallets based on service and maintenance performance and work completed, and the holders of these NFTs can create proposals and vote on other proposals whilst they have the NFTs of that contract work.
 
 To develop and use composable blocks and ensure effective design, engineering and delivery of a decentralized solution for machine monitoring and incident management using Ethereum & Filecoin eco-system tools. Automated Workflow for decentralized voting for service providers and DAO.
+
+Polygon zkEVM Public Goods Track: We are using Polygon zkEVM to develop a platform where government authorities linked with Environment Ministy, Pollution Control department like Water Pollution Monitoring, check control department, Municipality portal can issue, manage and transfer credits of ratings earned by factory owners and their respective heavy industrial machinery via pollution checks, green fuel adoption in machines.
+This is especially useful for heavy industrial machinery parts managed by the government for public goods delivery (Example: GeM portal goods in India) where co-incentives can be provided to contract organizations for good performance in pollution checks, green fuel adoption (switching away from diesel fuel to liquid hydrogen). The workflow is as follows:
+
+- Industry/Machine role creation procedure; 
+- Machines identification with NFC tags; 
+- Create credits of ratings earned via pollution checks, green fuel assets; 
+- Issue green credits for machines via pollution checks by Environment Ministry, Pollution Control department like Water Pollution check control; List green credits per heavy machine; 
+- Handle multiple heavy machinery.
