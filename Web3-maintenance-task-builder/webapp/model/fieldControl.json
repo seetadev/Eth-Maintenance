@@ -1,0 +1,79 @@
+{
+	"templateID": "T1000",
+	"templateName" : "",
+	"templateNameState":"None",
+	"templateDescription" : "",
+	"templateCreationDate": "",
+	"templateCreatedBy": "",
+	"templateOrderMap":"",
+	"templateOrderMapState": "None",
+	"navApiEnabled": true,
+	"SimpleControlCollections": [
+		{
+			"ControlId": "inputtext",
+			"Category": "Simple",
+			"ControlName": "Input Field"
+		},
+        {
+			"ControlId": "note",
+			"Category": "Simple",
+			"ControlName": "Note"
+		},
+        {
+			"ControlId": "datepicker",
+			"Category": "Simple",
+			"ControlName": "Date Picker"
+		},
+        {
+			"ControlId": "section",
+			"Category": "Simple",
+			"ControlName": "Section"
+		},
+		{
+			"ControlId": "radiobutton",
+			"Category": "Complex",
+			"ControlName": "Radio Button"
+		},
+        {
+			"ControlId": "dropdown",
+			"Category": "Complex",
+			"ControlName": "Drop Down"
+		},
+        {
+			"ControlId": "attachment",
+			"Category": "Complex",
+			"ControlName": "Attachment"
+		},
+        {
+			"ControlId": "signature",
+			"Category": "Complex",
+			"ControlName": "Signature"
+		}
+    ],
+	"TemplateCollection" : {
+		"rows": 2,
+		"columns": 1,
+		"ControlId": "inputtext",
+		"title": "Form Area",
+		"templateData" : [
+			{
+				"fieldID":"123",
+				"fieldName": "textinput",
+				"fieldLabel": "Label1",
+				"value": ""
+			},
+			{
+				"fieldID":"123",
+				"fieldName": "textinput",
+				"fieldLabel": "Label1",
+				"value": ""
+			},
+			{
+				"fieldID":"123",
+				"fieldName": "textinput",
+				"fieldLabel": "Label1",
+				"value": ""
+			}
+		]
+	}
+}

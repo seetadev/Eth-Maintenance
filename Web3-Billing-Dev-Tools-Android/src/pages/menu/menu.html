@@ -1,0 +1,64 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Menu</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-list-header>
+	OPTIONS
+</ion-list-header>
+	<button ion-item detail-none (click)="newFile()"><ion-icon name="paper"></ion-icon>&nbsp;&nbsp;&nbsp;New File</button>
+	<button ion-item detail-none (click)="updateFile()"><ion-icon name="paper"></ion-icon>&nbsp;&nbsp;&nbsp;Save</button>
+	<button ion-item detail-none (click)="saveAs()"><ion-icon name="paper"></ion-icon>&nbsp;&nbsp;&nbsp;Save As</button>
+	<button ion-item detail-none (click)="saveAsPassword()"><ion-icon name="paper"></ion-icon>&nbsp;&nbsp;&nbsp;Save As Password Protected</button>
+	<button ion-item detail-none (click)="print('current')"><ion-icon name="print"></ion-icon>&nbsp;&nbsp;&nbsp;Print</button>
+	<button ion-item detail-none (click)="print('all')"><ion-icon name="print"></ion-icon>&nbsp;&nbsp;&nbsp;Print Workbook</button>
+	<button ion-item detail-none (click)="addLogo()"><ion-icon name="image"></ion-icon>&nbsp;&nbsp;&nbsp;Add/Remove Logo
+		<ion-spinner item-right name="ios" *ngIf="!request.logo.done"></ion-spinner>
+	</button>
+	<br>
+
+<ion-list-header>
+	SHARE
+</ion-list-header>
+	<button ion-item detail-none (click)="email('current')"><ion-icon name="mail"></ion-icon>&nbsp;&nbsp;&nbsp;Email</button>
+	<button ion-item detail-none (click)="email('all')"><ion-icon name="mail"></ion-icon>&nbsp;&nbsp;&nbsp;Email Workbook</button>
+	<button ion-item detail-none (click)="exportAsCsv()"><ion-icon name="document"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;Export as CSV</button>
+	<button ion-item detail-none (click)="exportAsPDF('one')"><ion-icon name="document"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;Export as PDF
+    	<ion-spinner item-right name="ios" *ngIf="!request.pdf.done"></ion-spinner>
+  	</button>
+  	<button ion-item detail-none (click)="exportAsPDF('all')"><ion-icon name="document"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;Export Workbook as PDF
+    	<ion-spinner item-right name="ios" *ngIf="!request.allpdf.done"></ion-spinner>
+	</button>
+	<button ion-item detail-none (click)="share()"><ion-icon name="share"></ion-icon>&nbsp;&nbsp;&nbsp;Share
+	    <ion-spinner item-right name="ios" *ngIf="!request.sharepdf.done"></ion-spinner>
+	</button>
+	<br>
+	
+<ion-list-header>
+    {{ applicationName }} WEB
+</ion-list-header>
+	<ion-item><ion-label>
+	<ion-icon *ngIf="setting.status" name="cloud-done"></ion-icon>
+	<ion-icon *ngIf="!setting.status" name="log-in"></ion-icon>
+	&nbsp;&nbsp;&nbsp;{{ setting.label }} </ion-label>
+	<ion-toggle item-right checked="{{ setting.status }}" [(ngModel)]="setting.status" (ionChange)="toggleSettings(setting)"></ion-toggle>
+	</ion-item>
+	<button ion-item detail-none (click)="saveToServer()"><ion-icon name="cloud-upload"></ion-icon>&nbsp;&nbsp;&nbsp;Save to Server
+	<ion-spinner item-right name="ios" *ngIf="!request.save.done"></ion-spinner>
+	</button>
+	<br>
+
+
+<ion-list-header>
+	SUPPORT
+</ion-list-header>
+	<button ion-item detail-none (click)="write()"><ion-icon name="create"></ion-icon>&nbsp;&nbsp;&nbsp;Write to Us</button>
+	<button ion-item detail-none (click)="refer()"><ion-icon name="link"></ion-icon>&nbsp;&nbsp;&nbsp;Refer to a friend</button>
+	<button ion-item detail-none (click)="visit()"><ion-icon name="open"></ion-icon>&nbsp;&nbsp;&nbsp;Visit Us</button>
+
+</ion-content>

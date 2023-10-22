@@ -1,0 +1,117 @@
+<mvc:View height="100%" controllerName="com.sap.dynamicform1.controller.View1"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout"
+	xmlns:dnd="sap.ui.core.dnd"
+	xmlns="sap.m">
+	<NavContainer id="wizardNavContainer">
+		<pages>
+			<Page id="wizardContentPage" showHeader="false">
+				<content>
+					<Wizard id="CreateTemplateWizard" class="sapUiResponsivePadding--header sapUiResponsivePadding--content" complete="wizardCompletedHandler">
+						<WizardStep id="TemplateInfoStep" title="Template Details" validated="false">
+							<Text text="Please enter template details"/>
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+								<Label text="Template ID"/>
+								<Input value="{templateModel>/templateID}" editable="false"/>
+								<Label text="Template Name" required="true"/>
+								<Input valueStateText="Enter 6 symbols or more" valueState="{templateModel>/templateNameState}" id="TemplateName" liveChange="additionalInfoValidation" placeholder="Enter name with length greater than 6" value="{templateModel>/templateName}"/>
+								<Label text="Description"/>
+								<TextArea value="{templateModel>/templateDescription}" rows="8"/>
+								<Label text="Creation Date" required="true"/>
+								<DatePicker value="{templateModel>/templateCreationDate}"></DatePicker>
+							</form:SimpleForm>
+						</WizardStep>
+						<WizardStep id="FormDesignerInfoStep" validated="false" activate="formDesignerStepActivation" title="Template Designer" complete="formDesignerStepCompletion">
+							<MessageStrip class="sapUiSmallMarginBottom" text="Design your template by dragging the controls from the list and dropping it in the plane to the right." showIcon="true"/>
+							<l:ResponsiveSplitter defaultPane="default" id="splitter">
+								<l:PaneContainer orientation="Horizontal">
+									<l:SplitPane id="default">
+										<l:layoutData>
+											<l:SplitterLayoutData size="50%" />
+										</l:layoutData>
+										<List headerText="Controls" items="{ path: 'templateModel>/SimpleControlCollections' }" id="fieldControlList1">
+											<items>
+												<StandardListItem title="{templateModel>ControlName}"/>
+											</items>
+											<dragDropConfig>
+												<dnd:DragInfo groupName="list2customList" sourceAggregation="items" />
+												<dnd:DropInfo groupName="customList2list" dropPosition="Between" drop="onDropControls" />
+											</dragDropConfig>
+										</List>
+									</l:SplitPane>
+									<l:SplitPane>
+										<Panel headerText="Form Builder" width="100%" id="fieldControlDrop" height="100%">
+											<HBox justifyContent="End">
+												<Button press="OnFormSave" text="Save" type="Accept"></Button>
+											</HBox>
+											<l:VerticalLayout class="sapUiContentPadding" id="Section_1" width="100%">
+												<Label text="Drop the controls here" textAlign="Center" width="100%" design="Bold"></Label>
+											</l:VerticalLayout>
+										</Panel>
+									</l:SplitPane>
+								</l:PaneContainer>
+							</l:ResponsiveSplitter>
+						</WizardStep>
+						<WizardStep id="TemplateMapStep" title="Template Order Mapping" validated="false">
+							<Text text="Select the Order Type to be mapped with the template designed"/>
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+								<Label text="Template Name"/>
+								<Input value="{templateModel>/templateName}" editable="false"/>
+								<Label text="Order Type" required="true"/>
+								<Select selectedKey="{templateModel>/templateOrderMap}" change="OnOrderTypeSelection" valueState="{templateModel>/templateOrderMapState}">
+									<core:Item key="" text=""/>
+									<core:Item key="PM01" text="PM01"/>
+									<core:Item key="PM02" text="PM02"/>
+									<core:Item key="PM03" text="PM03"/>
+									<core:Item key="PM04" text="PM04"/>
+								</Select>
+							</form:SimpleForm>
+						</WizardStep>
+					</Wizard>
+				</content>
+				<footer>
+					<OverflowToolbar>
+						<ToolbarSpacer/>
+						<Button text="Cancel" press="handleWizardCancel"/>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+			<Page id="wizardReviewPage" showHeader="false">
+				<content>
+					<form:SimpleForm title="Template Details" editable="false" layout="ResponsiveGridLayout">
+						<form:content>
+							<Label text="Template Name"/>
+							<Text id="templateName" text="{templateModel>/templateName}"/>
+							<Label text="Template Description"/>
+							<Text id="templateDesc" text="{templateModel>/templateDescription}"/>
+							<Label text="Template Creation Date"/>
+							<Text id="templateCreateDate" text="{templateModel>/templateCreationDate}"/>
+							<Link press="editStepOne" text="Edit" />
+						</form:content>
+					</form:SimpleForm>
+
+					<form:SimpleForm title="Template Mapping Details" editable="false" layout="ResponsiveGridLayout">
+						<form:content>
+							<Label text="Template Name"/>
+							<Text id="templateNameMap" text="{templateModel>/templateName}"/>
+							<Label text="Template Order Mapping"/>
+							<Text id="templateOrderMap" text="{templateModel>/templateOrderMap}"/>
+							<Link press="editStepTwo" text="Edit" />
+						</form:content>
+					</form:SimpleForm>
+				</content>
+				<footer>
+					<Bar>
+						<contentRight>
+							<Button text="Submit" press="handleWizardSubmit"/>
+							<Button text="Cancel" press="handleWizardCancel"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</NavContainer>
+</mvc:View>

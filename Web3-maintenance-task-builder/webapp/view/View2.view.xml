@@ -1,0 +1,53 @@
+<mvc:View controllerName="com.sap.dynamicform1.controller.View1"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns:dnd="sap.ui.core.dnd"
+	xmlns:f="sap.f"
+	xmlns:card="sap.f.cards"
+	xmlns:fdnd="sap.f.dnd"
+	xmlns="sap.m" height="100%">
+	<l:ResponsiveSplitter defaultPane="default" id="splitter">
+		<l:PaneContainer resize=".onRootContainerResize">
+			<l:SplitPane requiredParentWidth="20%" id="default">
+				<Panel height="100%">
+					<IconTabBar id="idIconTabBar" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+						<items>
+							<IconTabFilter text="Simple Control" key="simple">
+								<List headerText="Simple Controls" items="{ path: 'controlModel>/SimpleControlCollections' }" id="fieldControlList1">
+									<items>
+										<StandardListItem title="{controlModel>ControlName}"/>
+									</items>
+									<dragDropConfig>
+										<dnd:DragInfo groupName="list2customList" sourceAggregation="items" />
+										<dnd:DropInfo groupName="customList2list" dropPosition="Between" drop="onDropControls" />
+									</dragDropConfig>
+								</List>
+							</IconTabFilter>
+							<IconTabFilter text="Complex Control" key="complex">
+								<List headerText="Complex Controls" items="{ path: 'controlModel>/ComplexControlCollections' }" id="fieldControlList2">
+									<items>
+										<StandardListItem title="{controlModel>ControlName}"/>
+									</items>
+									<dragDropConfig>
+										<dnd:DragInfo groupName="list2customList" sourceAggregation="items" />
+										<dnd:DropInfo groupName="customList2list" dropPosition="Between" drop="onDropControls" />
+									</dragDropConfig>
+								</List>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</Panel>
+			</l:SplitPane>
+			<l:PaneContainer orientation="Vertical" resize=".onInnerContainerResize">
+				<l:SplitPane>
+					<Panel headerText="Form Builder" width="100%" id="fieldControlDrop">
+						<l:VerticalLayout class="sapUiContentPadding" id="Section_1" width="100%" >
+							<Label text="Drop the controls here" textAlign="Center" width="100%" design="Bold"></Label>
+						</l:VerticalLayout>
+					</Panel>
+				</l:SplitPane>
+			</l:PaneContainer>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+</mvc:View>

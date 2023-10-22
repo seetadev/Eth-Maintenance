@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="filesSegment">
+      <ion-segment-button value="local" (ionSelect)="loadLocalFiles()">
+      Device Files
+      </ion-segment-button>
+      <ion-segment-button value="server" (ionSelect)="loadServerFiles()">
+      Server Files
+      </ion-segment-button>
+    </ion-segment> 
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-buttons start>
+      <ion-searchbar (ionInput)="getResults($event)"></ion-searchbar>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button (click)="selectClicked = !selectClicked" primary>Select</button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div [ngSwitch]="filesSegment">
+    <ion-list *ngSwitchCase="'local'">
+
+    <ion-list>
+      <div *ngIf="selectClicked">
+        <ion-item *ngFor="let deviceFile of deviceFiles" (click)="showActionForFile(deviceFile)">
+          <ion-label>{{ deviceFile.name }}</ion-label>
+          <ion-checkbox [(ngModel)]="deviceFile.checked"></ion-checkbox>
+        </ion-item>
+      </div>
+      <div *ngIf="!selectClicked">
+        <ion-item *ngFor="let deviceFile of deviceFiles" (click)="showActionForFile(deviceFile)">
+          <ion-icon *ngIf="deviceFile.password" name="lock" item-left></ion-icon>
+          <ion-icon *ngIf="!deviceFile.password" name="ios-unlock-outline" item-left color="primary"></ion-icon>
+          <h2 *ngIf="!selectClicked">{{ deviceFile.name }}</h2>
+          <h3 *ngIf="!selectClicked" ion-text color="primary">{{ deviceFile.modified }}</h3>
+        </ion-item>
+      </div>
+      
+    </ion-list>
+
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'server'">
+      <ion-list>
+          <div *ngIf="selectClicked">
+            <ion-item *ngFor="let cloudFile of cloudFiles" (click)="showActionForFile(cloudFile)">
+              <ion-label *ngIf="selectClicked">{{ cloudFile.name }}</ion-label>
+              <ion-checkbox *ngIf="selectClicked" [(ngModel)]="cloudFile.checked"></ion-checkbox>
+            </ion-item>
+          </div>
+
+          <div *ngIf="!selectClicked">
+            <ion-item *ngFor="let cloudFile of cloudFiles" (click)="showActionForFile(cloudFile)">
+              <h2 *ngIf="!selectClicked">{{ cloudFile.name }}</h2>
+              <h3 *ngIf="!selectClicked" ion-text color="primary">{{ cloudFile.timestamp }}</h3>
+            </ion-item>
+          </div>
+        
+      </ion-list>
+    </ion-list>
+
+  </div>
+
+  <br><div class="spin"><ion-spinner *ngIf="!request.done"></ion-spinner></div>
+  </ion-content>
+  <ion-footer>
+       <ion-toolbar *ngIf="selectClicked">
+      <button ion-button  *ngIf="activeSegment == 'local'" (click)="moveToServer()" outline><ion-icon name="cloud-upload"></ion-icon>
+      &nbsp;&nbsp;Move to Server</button>
+      <button ion-button  *ngIf="activeSegment == 'server'" (click)="moveToLocal()" outline><ion-icon name="cloud-download"></ion-icon>&nbsp;&nbsp;Move to Local</button>
+       </ion-toolbar>
+  </ion-footer>

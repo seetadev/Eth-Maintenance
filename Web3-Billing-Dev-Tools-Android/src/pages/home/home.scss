@@ -1,0 +1,31 @@
+page-home {
+
+	$primary-bgcolor: #f4f4f4;;
+	$active-bgcolor: #3779F9;
+	
+	@mixin footer-buttons() {
+		background: $primary-bgcolor;
+	    color: black;
+	}
+
+	.wide-as-needed {
+	    overflow: scroll;
+	    white-space: nowrap;
+	    width:100%;
+	}
+
+	.button-custom{
+		@include footer-buttons
+	    &:hover {
+        	background: $active-bgcolor;
+			color: black;
+	    }
+	}
+
+	.active{
+		@include footer-buttons
+		background: $active-bgcolor;
+		color: white;
+	}
+
+}

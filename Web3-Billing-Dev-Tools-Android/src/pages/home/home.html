@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title>{{ selectedFile }}<span *ngIf="selectedFile == 'Untitled'">(*)</span></ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <div class="wide-as-needed">
+        <button ion-button color="light" *ngFor="let footer of footers" (click)="activateFooter(footer)" style="width: 25%"> {{footer.name}} </button>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="workbookControl" #workbookControl style="background-color:#80A9F3;"></div>
+  <div id="tableeditor" #tableeditor></div>    
+  <div id="msg" onclick="this.innerHTML='&nbsp;';"></div>
+</ion-content>

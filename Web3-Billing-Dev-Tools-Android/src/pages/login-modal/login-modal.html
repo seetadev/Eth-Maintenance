@@ -1,0 +1,37 @@
+<ion-header>
+
+ <ion-navbar>
+  <ion-title>Login</ion-title>
+	<ion-buttons end>
+		<button ion-button (click)="dismiss()" primary clear>Cancel</button>
+	</ion-buttons>
+</ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="login-modal">
+	<ion-list>
+
+	<form class="list" [formGroup]="loginForm" (ngSubmit)="doAction('login')" novalidate>
+	  <ion-item>
+	    <ion-label stacked>Email</ion-label>
+	    <ion-input type="text" formControlName="email"></ion-input>
+	  </ion-item>
+	  <ion-item>
+	    <ion-label stacked>Password</ion-label>
+	    <ion-input type="password" formControlName="password"></ion-input>
+	  </ion-item>
+	  <ion-buttons>
+	    <button ion-button type="submit" [disabled]="!loginForm.valid" block round>Log in</button>
+	  </ion-buttons>
+	</form>
+
+
+	<button ion-button (click)="doAction('register')" [disabled]="!loginForm.valid" block round>Register</button>
+
+
+	<br><div class="spin"><ion-spinner *ngIf="!request.done"></ion-spinner></div>
+
+	</ion-list>
+
+</ion-content>
