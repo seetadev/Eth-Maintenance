@@ -11,6 +11,25 @@ There are 2 key features of our solution:
 
 2. Web3 Monitor Anaywhere: For developers building cross-platform monitoring dapps using sensors and oscilloscope with low code while retaining dapp core principles and flexibility.
 
+Automated workflow:
+
+- Input Data gateway: DataDAO using FVM and Tableland, and Data Cleaning on Scroll
+
+- Public Industrial Goods Demand Forecasting using Polygon zkEVM, Safe SDK and Uniswap DEX's LP widgets for asset pricing and management. Wormhole SDK for cross chain interoperability.
+
+- Lending of spare parts using SparkLend using sDAI token, Compound III governance and deployment on Scroll, Polygon
+
+- Verification and settling of data using UMA and FVM. Web3 DeFi dashboard to enable third party service and repair organizations to borrow and lend assets using Compound III Protocol;
+
+- ABC Analysis of spare parts and requirements for public goods order generation on Polygon; Asset Pricing using Uniswap and SQL like management using Tableland.
+
+- Public goods management on polygon zkEVM, zk multi currency wallet; Wormhole SDK for cross chain interoperability. 
+
+- Polygon ID verification for asset manager, control center and SKUs
+
+- Levels planning and final order generation, verification using UMA
+
+
 # Blockchain eco-system   
 
 # UMA
@@ -148,7 +167,8 @@ Please visit https://drive.google.com/drive/u/1/folders/1Bt24sL_XSbyFjg3XT6_rx-_
 https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-DAO-modules
 
 # Compound Protocol  
-Cross chain lending platform using Compound protocol. We can supply collateral and borrow tokens for preventive, reactive and pro-active maintenance from a satellite chain to a fork of Ethereum's mainnet using Compound Protocol. Web3 DeFi dashboard to enable third party service and repair organizations to keep track of all the details of their assets, DeFi investments, transactions across all multiple chains and also displays DAO data using a data visualization chart. We are building our solution on top of an existing web3 dashboard system and are planning to integrate an analytics, tabulation and collaboration tool namely EtherCalc. 
+Cross chain lending platform using Compound protocol. We can supply collateral and borrow tokens for preventive, reactive and pro-active maintenance from a satellite chain to a fork of Ethereum's mainnet using Compound Protocol. 
+Web3 DeFi dashboard to enable third party service and repair organizations to keep track of all the details of their assets, DeFi investments, transactions across all multiple chains and also displays DAO data using a data visualization chart. We are building our solution on top of an existing web3 dashboard system and are planning to integrate an analytics, tabulation and collaboration tool namely EtherCalc. 
 Please visit  https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 and https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules/compound-iii-defi-module
 
 
