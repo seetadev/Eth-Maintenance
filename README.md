@@ -68,6 +68,14 @@ MakerDAO developer tooling for providing government subsidies for greener fuel a
 Please visit the demo at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1
 
 
+Hooks for LP operations of Uniswap v2 and v3: We are developing BOS widgets that serve as pluggable hooks for LP operations of Uniswap v2 and v3 that can be extended and embedded in Eth Maintenance dapp. 
+
+BOS component (LP_Uniswap) in early stage of development for implementing LP operations in Uniswap v2: https://near.org/near/widget/ComponentDetailsPage?src=c0cf2883421bfa90fbedbdaa2ce8aa7b98b21aecb6693f6054e5696890a80a24/widget/lp-uniswap 
+
+Screenshots of the components in development: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
+
+
+
 
 
 
