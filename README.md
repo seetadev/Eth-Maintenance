@@ -52,6 +52,10 @@ Attestation Hub Contract for Machine Incident Reports: We are extending the Atte
 
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
 
+Tableland: We are using Tableland for implementing incident notes maintained by machine administrators. Please visit Incident Notes powered by Tableland at the github repo link.
+
+
+
 
 
 
