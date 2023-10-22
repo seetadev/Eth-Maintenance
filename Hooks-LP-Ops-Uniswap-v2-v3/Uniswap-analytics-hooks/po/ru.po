@@ -1,0 +1,1474 @@
+# Copyright (C) 2010 THE PACKAGE"S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# olpc user <olpc@localhost.localdomain>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialCalcActivity.activity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-07 14:46+0000\n"
+"PO-Revision-Date: 2010-01-09 21:53+0530\n"
+"Last-Translator: Diksha<dksh.khatri@gmail.com>\n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "SocialCalcActivity"
+msgstr "SocialCalcActivity"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:10
+#msgid "t"
+#msgstr "Т"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:13
+msgid "Browser not supported. "
+msgstr "Браузер не поддерживается. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:14
+msgid "Internal SocialCalc error (probably an internal bug):"
+msgstr "SocialCalc Внутренняя ошибка (возможно, внутренняя ошибка):"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:20
+msgid "Unknown col type item"
+msgstr "Неизвестный тип элемента Col"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:21
+msgid "Unknown row type item"
+msgstr "Неизвестный тип элемента строки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:22
+msgid "Unknown line type"
+msgstr "Неизвестный тип линии"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:28
+msgid "Unknown cell type item"
+msgstr "Неизвестный тип элемента Cell"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:36
+msgid "Unknown sheet command: "
+msgstr "Неизвестная команда листе: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:37
+msgid "Unknown set coord command: "
+msgstr "Coord Неизвестная команда: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:38
+msgid "Unknown command: "
+msgstr "Неизвестная команда: " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:42
+msgid "Circular reference to "
+msgstr "Циркуляр ссылкой на "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:52
+msgid "padding:2px 2px 1px 2px;vertical-align:top;"
+msgstr "PADDING: 2px 2px 1px 2px; вертикальной Align: Top;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:53
+msgid "normal normal"
+msgstr "Нормальная Нормальная"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:54
+msgid "small"
+msgstr "маленький"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:55
+msgid "Verdana,Arial,Helvetica,sans-serif"
+msgstr "Verdana, Arial, Helvetica, без засечек"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:92
+msgid  "Render Context must have a sheet object"
+msgstr "Render контексте должна иметь лист объект"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Executing..."
+msgstr "Выполнение ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Displaying..."
+msgstr "Просмотр ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Ordering..."
+msgstr "Заказ ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating..."
+msgstr "Расчет ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating... Loading Sheet..."
+msgstr "Расчет ... Загрузка листа ..."
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "doing server function "
+msgstr "делать функции сервера "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " in cell "
+msgstr "в ячейке "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculation start..."
+msgstr "Начало расчета ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SUM"
+msgstr "СГМ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Multi-line text: Click icon on right to edit]"
+msgstr "[Multi-лайн текст: Нажмите на иконку на право править]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function "
+msgstr "Неизвестная функция "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane vertically"
+msgstr "Перетащите для блокировки панели вертикальным"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane horizontally"
+msgstr "Перетащите для блокировки панели горизонтального"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Center"
+msgstr "Выровнять по центру"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Left"
+msgstr "По левому краю"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Right"
+msgstr "По правому краю"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit"
+msgstr "Аудит"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit Trail This Session"
+msgstr "Audit Trail Эта сессия"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto"
+msgstr "Авто"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto Sum"
+msgstr "Авто Sum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto w/ commas"
+msgstr "Авто без запятых"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Automatic"
+msgstr "Автоматическая"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Background"
+msgstr "Фон"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold"
+msgstr "Жирный"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold &amp; Italics"
+msgstr "Жирный Курсив &"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold Italic"
+msgstr "Жирный Курсив"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders"
+msgstr "Границы"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders Off"
+msgstr "Границы Off"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders On"
+msgstr "Граничит"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom"
+msgstr "Дно"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom Border"
+msgstr "Нижняя граница"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CELL SETTINGS"
+msgstr "КЛЕТОК НАСТРОЙКИ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CSV format"
+msgstr "CSV формат"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cancel"
+msgstr "Отмена"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Category"
+msgstr "Категории"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Center"
+msgstr "Центр"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear"
+msgstr "Ясный"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear SocialCalc Clipboard"
+msgstr "Открытый SocialCalc буфер обмена"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clipboard"
+msgstr "Буфер обмена"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Color"
+msgstr "Цвет"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Column"
+msgstr "Колонка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Comment"
+msgstr "Комментарии"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Copy"
+msgstr "Копировать"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Custom"
+msgstr  "Обычай"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cut"
+msgstr "Резать"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default"
+msgstr  "По умолчанию"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Alignment"
+msgstr "Выравнивание по умолчанию"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Column Width"
+msgstr "По умолчанию ширину столбца"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Font"
+msgstr "Шрифт по умолчанию"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Format"
+msgstr "Формат по умолчанию"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Padding"
+msgstr "Умолчанию заполняются"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete"
+msgstr "Удалить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Column"
+msgstr "Удалить столбец"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Contents"
+msgstr  "Удалить содержимое"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Row"
+msgstr "Удалить строку"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Description"
+msgstr "Описание"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Display Clipboard in"
+msgstr  "Дисплей в буфер обмена"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Down"
+msgstr "Вниз"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Edit"
+msgstr "Изменить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Existing Names"
+msgstr "Существующих названий" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Family"
+msgstr "Семья"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Down"
+msgstr "Заполнить вниз"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Right"
+msgstr "Заполните Право"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Font"
+msgstr "Шрифта"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Format"
+msgstr "Формат"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula"
+msgstr "Формулы"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Function List"
+msgstr "Список функций"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Functions"
+msgstr "Функции"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Grid"
+msgstr "Grid"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hidden"
+msgstr "Скрытые"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal"
+msgstr "Горизонтальная"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Column"
+msgstr "Вставить колонку"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Row"
+msgstr "Вставить строку"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Italic"
+msgstr "Курсив"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Last Sort"
+msgstr "Сортировка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left"
+msgstr "Левый"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left Border"
+msgstr "Левая граница"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link"
+msgstr "Ссылка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link Input Box"
+msgstr "Ссылка Input Box"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "List"
+msgstr "Список"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Load SocialCalc Clipboard With This"
+msgstr "Нагрузка SocialCalc Это буфер обмена" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Major Sort"
+msgstr "Основной Сортировка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Manual"
+msgstr "Руководства"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Merge Cells"
+msgstr "Объединить ячейки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Middle"
+msgstr "Ближний"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Minor Sort"
+msgstr "Малые Сортировка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Insert"
+msgstr "Переместить Включить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Paste"
+msgstr "Переместить Вставить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Multi-line Input Box"
+msgstr  "Multi-Line Input Box"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Name"
+msgstr "Имя"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Names"
+msgstr "Название"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "No padding"
+msgstr "Нет обивка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Normal"
+msgstr "Нормальная"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number"
+msgstr "Номер"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number Horizontal"
+msgstr "Номер Горизонтальная"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "OK"
+msgstr "OK"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Padding"
+msgstr "Прокладки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Page Name"
+msgstr "Имя страницы"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste"
+msgstr "Вставить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste Formats"
+msgstr "Вставить форматы"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain Text"
+msgstr "Plain Text"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalc"
+msgstr "Пересчет"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalculation"
+msgstr  "Пересчет"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " Redo"
+msgstr " Повтор"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right"
+msgstr "Правый"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right Border"
+msgstr "Правая граница"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SHEET SETTINGS"
+msgstr "СПРАВКА НАСТРОЙКИ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save"
+msgstr "Сохранить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save to"
+msgstr "Сохранить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cell Contents"
+msgstr "Установить содержимое ячейки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Sort"
+msgstr "Задать Сортировка клеток"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Value To"
+msgstr "Задание значения для"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set to Link format"
+msgstr "Установить для формата ссылки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set/Clear Move From"
+msgstr "Установить / Очистить перейти от"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Cell Settings"
+msgstr "Показать настройки Cell"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Sheet Settings"
+msgstr "Показать настройки листа"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show in new browser window"
+msgstr "Показать в новом окне браузера"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Size"
+msgstr  "Размер"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SocialCalc-save format"
+msgstr "SocialCalc-сохранить формат"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort"
+msgstr "Сортировка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort Cells"
+msgstr "Сортировать Cells"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Swap Colors"
+msgstr "Swap цвета"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Tab-delimited format"
+msgstr "Разделителями табуляции формат"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text"
+msgstr "Текст"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text Horizontal"
+msgstr "Текст Горизонтальная"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "This is a<br>sample"
+msgstr "Это<br>пример"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top"
+msgstr "Верх"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top Border"
+msgstr "Верхняя граница"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "UNDONE STEPS"
+msgstr "Undone ШАГИ"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "URL"
+msgstr "URL"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Undo"
+msgstr  "Отменить"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unmerge Cells"
+msgstr "Unmerge Cells"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Up"
+msgstr "Вверх"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Value"
+msgstr  "Соотношение"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical"
+msgstr "Вертикальные"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Workspace"
+msgstr "Рабочая область"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[New]"
+msgstr "[Новый]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[None]"
+msgstr "[Отсутствует]" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[select range]"
+msgstr  "[выберите диапазон]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+#msgstr ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+#msgstr [ "ВС", "Mon", "ВТ", "Ср", "Чт", "ПТ", "СБ"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["January", "February", "March", "April", "May", "June", "July", "August", "September","October", "November", "December"]
+#msgstr [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+#msgstr [ "Янв", "Фев", "Мар", "Апр", "Май", "Июнь", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "AM"
+#msgstr "AM"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "A"
+#msgstr "A"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "PM"
+#msgstr "PM"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "P"
+#msgstr "П"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed number exponent"
+msgstr "Неправильную форму числа показателя"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unexpected character in formula"
+msgstr "Неожиданный символ в формуле"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed string"
+msgstr "Неправильно сформированные строки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed special value"
+msgstr "Неправильную форму специального значения"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula (two operators inappropriately in a row)"
+msgstr "Ошибка в формуле (два оператора неправильным в строке)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing open parenthesis in list with comma(s)."
+msgstr "Отсутствие открытой скобкой в списке через запятую (ы)."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Closing parenthesis without open parenthesis. "
+msgstr "Закрывающая скобка без открытой скобкой. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing close parenthesis."
+msgstr "Отсутствует тесное скобках."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing operand."
+msgstr "Отсутствует операнд."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula."
+msgstr "Ошибка в формуле."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error value in formula"
+msgstr "Значение ошибки в формуле"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula resulting in bad value"
+msgstr "Ошибка в формуле в результате плохой значения"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in range value:"
+msgstr "Формулы результатов в диапазоне значений:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in an bad numeric value"
+msgstr "Формулы результатов в плохой числовые значения"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Numeric overflow"
+msgstr "Цифровая переполнение"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet unavailable:"
+msgstr "Лист недоступны:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cell reference missing when expected."
+msgstr "Ссылка на ячейку хватает, когда ожидается."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet name missing when expected."
+msgstr "Лист отсутствует имя, когда ожидается."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Circular name reference to name"
+msgstr "Циркуляр имя ссылки на имя"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown name"
+msgstr "Неизвестное название"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Incorrect arguments to function"
+msgstr "Неправильные аргументы функции"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function"
+msgstr "Неизвестная функция"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LN argument must be greater than 0"
+msgstr "Л. Н. аргумент должен быть больше 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG10 argument must be greater than 0"
+msgstr "LOG10 аргумент должен быть больше 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG second argument must be numeric greater than 0"
+msgstr "ВХОД второй аргумент должен быть больше, чем числовые 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG first argument must be greater than 0"
+msgstr "ВХОД Первый аргумент должен быть больше 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "ROUND second argument must be numeric"
+msgstr  "КРУГЛЫЙ второй аргумент должен быть числовым"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "DDB life must be greater than 1"
+msgstr "DDB жизни должно быть больше 1"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SLN life must be greater than 1"
+msgstr "SLN жизни должно быть больше 1"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Absolute value function. "
+msgstr "Абсолютные значения функции. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arccosine function. "
+msgstr  "Арккосинус тригонометрические функции. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if all arguments are true. "
+msgstr "Правда, если все аргументы истинны. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arcsine function. "
+msgstr "Арксинус тригонометрические функции. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arctan function. "
+msgstr "ArcTan тригонометрические функции. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arc tangent function (result is in radians). "
+msgstr "Тригонометрические функции арктангенс (результат в радианах). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values. "
+msgstr "Средние значения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value specified by the index. The values may be ranges of cells. "
+msgstr "Возвращает значение указанного индекса. Значения могут быть диапазонов ячеек. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of columns in the range. "
+msgstr "Возвращает количество столбцов в диапазоне. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric cosine function (value is in radians). "
+msgstr "Тригонометрического косинус (Значение задается в радианах). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error. "
+msgstr "Подсчитывает количество числовых значений, а не пустыми, текст или ошибки. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values. "
+msgstr "Подсчитывает количество непустых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of blank values. (Note: '' is not blank.) "
+msgstr "Подсчитывает количество пустых значений. (Примечание:''не пустой.) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of number of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). "
+msgstr "Подсчитывает количество число клеток в пределах, которые отвечают этим критериям. Критерии могут быть значения ( 'X', 15, 1 3) или теста (> 25). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the appropriate date value given numbers for year, month, and day. For example: DATE(2006,2,1) for February 1, 2006. Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "Возврат соответствующего значения даты, указанной на год число, месяц и день. Например: ДАТА (2006,2,1) на 1 февраля 2006 года. Примечание: В этой программе, это 1 день 31 декабря 1899 и 1900 год не является високосным. Некоторые программы, использование 1 января 1900 года как день, 1 и лечению 1900 как високосный год. В обоих случаях, хотя, даты или после 1 марта 1900, те же самые. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values in the specified field in records that meet the criteria. "
+msgstr "Средние значения в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of month for a date value. "
+msgstr "Возвращает день месяца для значения даты. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error, in the specified field in records that meet the criteria. "
+msgstr "Подсчитывает количество числовых значений, а не пустыми, текст или ошибка в указанном поле в записи, которые удовлетворяют критериям. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values in the specified field in records that meet the criteria. "
+msgstr "Подсчитывает количество непустых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at the given period of time (the default factor is 2 for double-declining balance).   "  
+msgstr "Возвращает сумму амортизации в конкретный период времени (по умолчанию коэффициент 2 для двойного уменьшения остатка).   "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in radians into degrees. "
+msgstr "Преобразует значение в радианы в градусы. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value of the specified field in the single record that meets the criteria. "
+msgstr "Возвращает значение указанного поля в одной записи, которая отвечает установленным критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает максимальное числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the result of multiplying the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает результат умножения числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает стандартное отклонение выборки числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает стандартное отклонение числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает сумму числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает выборочную дисперсию числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Возвращает разницу в числовых значений в указанном поле в записи, которые удовлетворяют критериям. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest even integer. "
+msgstr "Раунды значение в величине даже ближайшего целого числа. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the values are exactly the same, including case, type, etc. "
+msgstr "Возвращает ИСТИНА, если значения совпадают, включая случай, типу и т.д. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns e raised to the value power. "
+msgstr "Возвращает E поднят на энергетической ценностью. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns factorial of the value. "
+msgstr "Возвращает факториал значения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value false. "
+msgstr "Возвращает логическое значение ложь. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the starting position within string2 of the first occurrence of string1 at or after start. If start is omitted, 1 is assumed. "
+msgstr "Возврат в исходное положение в течение string2 от первого появления в string1 или после старта. Если опущена начать, предполагается, 1. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the future value of repeated payments of money invested at the given rate for the specified number of periods, with optional present value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Возвращает будущую стоимость повторной выплаты средств, вложенных в данный курсу на указанное количество периодов, по желанию с текущей стоимостью (по умолчанию 0) и тип платежа (по умолчанию = 0 в конце периода, 1 = начало периода). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the row offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. "
+msgstr "Ищите соответствующее значение для данного значения в диапазоне и вернуть соответствующее значение в ячейке указано в строке смещение. Если rangelookup равно 1 (по умолчанию), а не 0, если в течение матча числовые скобки (Match <= значение), а не точное соответствие. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the hour portion of a time or date/time value. "
+msgstr "Возвращает часы части времени или даты / времени. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Results in true-value if logical-expression is TRUE or non-zero, otherwise results in false-value. "
+msgstr "Результаты в истинной стоимости, если логические выражения имеет значение ИСТИНА или не равно нулю, в противном случае приводит к ложным стоимости. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns a cell or range reference for the specified row and column in the range. If range is 1-dimensional, then only one of rownum or colnum are needed. If range is 2-dimensional and rownum or colnum are zero, a reference to the range of just the specified column or row is returned. You can use the returned reference value in a range, e.g., sum(A1:INDEX(A2:A10,4)). "
+msgstr "Возвращает ячейку или диапазон ведения указанных строк и столбцов в диапазоне. Если диапазон 1-мерных, то только одна из ROWNUM или colnum нужны. Если диапазон 2-мерных и ROWNUM colnum или равны нулю, то ссылка на диапазон всего указанного столбца или строки возвращается. Вы можете использовать возвращенный заданного значения в диапазоне, например, SUM (A1: ИНДЕКС (A2: A10, 4)). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the value rounded down to the nearest integer (towards -infinity). "
+msgstr  "Возвращает значение округлены до ближайшего целого числа (в направлении до бесконечности). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the interest rate at which the cash flows in the range have a net present value of zero. Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "RВозвращает процентная ставка, по которой денежные потоки в диапазоне есть чистая приведенная стоимость нуля. Использование итеративного процесса, который вернет # NUM! ошибки, если она не сходится. Там может быть более чем одно из возможных решений. Обеспечение дополнительное значение думаю, может помочь в некоторых ситуациях, когда не сходятся или считает неуместным решение (по умолчанию, полагаю, 10%). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is a reference to a blank cell. "
+msgstr "Возвращает ИСТИНА, если значение является ссылкой на пустую ячейку. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error but not NA. "
+msgstr "Возвращает истину, если значение имеет тип ошибки, а не НС. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error. "
+msgstr "Возвращает истину, если значение типа ошибки. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Logical (true/false). "
+msgstr "Возвращает ИСТИНА, если значения типа Логический (истина / ложь). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is the error type NA. "
+msgstr "Возвращает ИСТИНА, если значение является ошибкой тип НС. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is not of type Text. "
+msgstr "Возвращает ИСТИНА, если значение не тип текста. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Number (including logical values). "
+msgstr "Возвращает истину, если значение имеет тип номера (включая логические значения). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Text. "
+msgstr "Возвращает истину, если значение имеет тип текста. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value. If count is omitted, 1 is assumed. "
+msgstr "Возвращает указанное количество знаков в тексте значения. Если опущена кол, предполагается 1. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of characters in the text value. "
+msgstr "Возвращает количество символов в тексте значения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the natural logarithm of the value. "
+msgstr "Возвращает натуральный логарифм от значения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logarithm of the value using the specified base. "
+msgstr "Возвращает логарифм стоимости с использованием указанной базы. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the base 10 logarithm of the value. "
+msgstr "Возвращает 10 логарифм значения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all uppercase characters converted to lowercase. "
+msgstr "Возвращает значение с текстом все заглавные символы преобразуются в нижний регистр. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return position (the first is 1) in that range. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. If rangelookup is -1, act like 1 but the bracket is match>=value. "
+msgstr "Ищите соответствующее значение для данного значения в диапазоне и вернуть позиции (первая 1) в этом диапазоне. Если rangelookup равно 1 (по умолчанию), а не 0, если в течение матча числовые скобки (Match <= значение), а не точное соответствие. Если rangelookup -1, действовать как 1, но скобки слово > = значение. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values. "
+msgstr "Возвращает максимальное числовых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the specified position. "
+msgstr "Возвращает указанное количество символов из текстового значения, начиная с указанной позиции. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minimum of the numeric values. "
+msgstr "Возвращает минимальное из числовых значений. "
+ 
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minute portion of a time or date/time value. "
+msgstr "Возвращает минуты части времени или даты / времени. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the remainder of the first value divided by the second. "
+msgstr "Возвращает остаток от первого значения на второе. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the month part of a date value. "
+msgstr "Возвращает месяц части даты. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value if it is a numeric value otherwise an error. "
+msgstr "Возвращает значение, если это числовое значение, в противном случае ошибки. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the #N/A error value which propagates through most operations. "
+msgstr "Возвращает # Н / Д значение ошибки, распространяющийся через большинство операций. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns FALSE if value is true, and TRUE if it is false. "
+msgstr "Возвращает FALSE, если значение является истинным и верным, если оно является ложным. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date/time. "
+msgstr "Возвращает текущую дату / время. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of periods at which payments invested each period at the given rate with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period) has the given present value. "
+msgstr "Возвращает количество периодов, при которой платежи инвестировал каждого периода в данной ставки с будущим факультативным (по умолчанию 0) и тип платежа (по умолчанию = 0 в конце периода, 1 = начало периода) имеет при нынешней стоимости. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the net present value of cash flows (which may be individual values and/or ranges) at the given rate. The flows are positive if income, negative if paid out, and are assumed at the end of each period. "
+msgstr "Возвращает чистую текущую стоимость денежных потоков (которые могут быть индивидуальными ценностями и / или диапазонов) при заданной скорости. Потоки являются положительными, если доход, если негативные выплачены, и, как предполагается в конце каждого периода. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest odd integer. "
+msgstr "Раунды значение в величину до ближайшего нечетного целого. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if any argument is true "
+msgstr "Правда, если один из аргументов является истинным "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "The value 3.1415926... "
+msgstr "Значение 3.1415926 ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of each payment that must be invested at the given rate for the specified number of periods to have the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Возврат суммы всех платежей, которые должны быть инвестированы в данной ставки за определенное количество периодов с указанным настоящей стоимости, с опциональным будущем (по умолчанию 0) и тип платежа (по умолчанию = 0 в конце периода, 1 = начало периода). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the first value raised to the second value power. "
+msgstr "Возвращает первое значение повышена до второй степени ценности. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the result of multiplying the numeric values. "
+msgstr  "Возвращает результат умножения числовых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with the first letter of each word converted to uppercase and the others to lowercase. "
+msgstr "Возвращает текстовое значение с первой буквы каждого слова преобразуются в верхний регистр, а остальные в нижний регистр. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the present value of the given number of payments each invested at the given rate, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Возвращает текущую стоимость данного количества платежей Каждый из них вложил в данном случае, с опциональным будущем (по умолчанию 0) и тип платежа (по умолчанию = 0 в конце периода, 1 = начало периода). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in degrees into radians. "
+msgstr "Преобразование значения в градусах в радианах. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the rate at which the given number of payments each invested at the given rate has the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "Возврат ставки, при которой данное количество платежей Каждый из них вложил в данный курс указанной текущей стоимости, по желанию с будущим (по умолчанию 0) и тип платежа (по умолчанию = 0 в конце периода, 1 = начало периода). Использование итеративного процесса, который вернет # NUM! ошибки, если она не сходится. Там может быть более чем одно из возможных решений. Обеспечение дополнительное значение думаю, может помочь в некоторых ситуациях, когда не сходятся или считает неуместным решение (по умолчанию, полагаю, 10%). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the specified number of characters starting from the specified position replaced by text2. "
+msgstr "Возвращает text1 с определенным количеством символов, начиная с указанной позиции заменен text2. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text repeated the specified number of times. "
+msgstr "Возвращает текст повторяется указанное число раз. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the end. If count is omitted, 1 is assumed. "
+msgstr "Возвращает указанное количество символов из текстового значения, начиная с конца. Если опущена кол, предполагается 1. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value to the specified number of decimal places. If precision is negative, then round to powers of 10. The default precision is 0 (round to integer). "
+msgstr "Раунды значение до указанного количества десятичных разрядов. Если точность является негативным, то круглый степени 10. Точность по умолчанию равна 0 (круглый в целое). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of rows in the range. "
+msgstr "Возвращает количество строк в диапазоне. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the second portion of a time or date/time value (truncated to an integer). "
+msgstr "Возвращает Вторая часть времени или даты / времени (обрезаются до целого числа). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric sine function (value is in radians) "
+msgstr "Тригонометрические функции синус (Значение задается в радианах) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at each period of time using the straight-line method. "
+msgstr "Возвращает сумму амортизации в каждый период времени с использованием линейного метода. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Square root of the value "
+msgstr "Квадратный корень из значения "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values. "
+msgstr "Возвращает стандартное отклонение выборки числовых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values. "
+msgstr "Возвращает стандартное отклонение числовых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the all occurrences of oldtext replaced by newtext. If occurrence is present, then only that occurrence is replaced. "
+msgstr "Возвращает text1 со всех вхождений oldtext заменены newtext. При возникновении присутствует, то только то, что заменили возникновения. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Adds the numeric values. The values to the sum function may be ranges in the form similar to A1:B5. "
+msgstr "Добавляет числовых значений. Значения в сумме функция может быть диапазонов в виде аналогичного А1: В5. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sums the numeric values of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). If range2 is present, then range1 is tested and the corresponding range2 value is summed. "
+msgstr "Сумма числовых значений ячеек в диапазоне, которые отвечают этим критериям. Критерии могут быть значения ( 'X', 15, 1 3) или теста (> 25). Если Range2 присутствует, то Range1 проверена и соответствующие Range2 значения суммируются. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Depreciation by Sum of Year's Digits method. "
+msgstr "Амортизации сумма цифр методом Года. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value or else a null string. "
+msgstr "Возвращает значение текста, либо пустая строка. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric tangent function (value is in radians) "
+msgstr "Тригонометрические функции касательной (Значение задается в радианах) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the time value given the specified hour, minute, and second. "
+msgstr "Возвращает значение времени с учетом указанного часа, минуты и секунды. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date (an integer). Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "Возвращает текущую дату (число). Примечание: В этой программе, это 1 день 31 декабря 1899 и 1900 год не является високосным. Некоторые программы, использование 1 января 1900 года как день, 1 и лечению 1900 как високосный год. В обоих случаях, хотя, даты или после 1 марта 1900, те же самые. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with leading, trailing, and repeated spaces removed. "
+msgstr "Возвращает значение с текстом в начале, и повторил пространства удалено. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value true. "
+msgstr "Возвращает логическое значение ИСТИНА. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Truncates the value to the specified number of decimal places. If precision is negative, truncate to powers of 10. "
+msgstr "Усекает значение до указанного количества десятичных разрядов. Если точность является отрицательным, усечение полномочий по 10. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all lowercase characters converted to uppercase. "
+msgstr "Возвращает значение с текстом все строчные символы преобразуются в верхний регистр. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts the specified text value into a numeric value. Various forms that look like numbers (including digits followed by %, forms that look like dates, etc.) are handled. This may not handle all of the forms accepted by other spreadsheets and may be locale dependent. "
+msgstr "Преобразует заданное значение текст в числовое значение. Различные формы, которые выглядят как номера (числа цифр, за которыми%, формы, которые выглядят как дата и т.д.) обрабатываются. Это не может обрабатывать все формы принимаются по другим таблицам и локали могут быть зависимыми. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the sample variance of the numeric values. "
+msgstr "Возвращает выборочную дисперсию числовых значений. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values. "
+msgstr "Возвращает разницу в числовых значениях. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the column offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match>=value) instead of exact match. "
+msgstr "Ищите соответствующее значение для данного значения в диапазоне и вернуть соответствующее значение в ячейке указано в столбце смещения. Если rangelookup равно 1 (по умолчанию), а не 0, если в течение матча числовые скобки (матч> = значение), а не точное соответствие. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of week specified by the date value. If type is 1 (the default), Sunday is day and Saturday is day 7. If type is 2, Monday is day 1 and Sunday is day 7. If type is 3, Monday is day 0 and Sunday is day 6. "
+msgstr "Возвращает день недели по указанной даты. Если тип 1 (по умолчанию), воскресенье и в субботу день это 7-й день. Если тип 2, понедельник День 1 и воскресеньям день 7. Если тип 3, понедельник День 0 и воскресеньям день 6. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the year part of a date value. "
+msgstr "Возвращает год части даты. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value"
+msgstr "Значение"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value1, value2, ..."
+msgstr "значение1, значение2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "valueX, valueY"
+msgstr  "valueX, valueY"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "index, value1, value2, ..."
+msgstr "индекс, значение1, значение2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range"
+msgstr "линия"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, criteria"
+msgstr "диапазон, критерии"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "year, month, day"
+msgstr "год, месяц, день"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "databaserange, fieldname, criteriarange"
+msgstr "databaserange, FieldName, criteriarange"
+  
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period [, factor]"
+msgstr "стоимость, утиль, срок службы, срок [фактор]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "string1, string2 [, start]"
+msgstr "string1, string2 [, начало]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [pv, [paytype]]"
+msgstr "Курс, N, оплата, [PV, [PayType]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, row, [rangelookup]"
+msgstr "значения, диапазон, строка [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "logical-expression, true-value, false-value"
+msgstr "логические выражения, истинные значения, ложные значения"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, rownum, colnum"
+msgstr "диапазона, ROWNUM, colnum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, [guess]"
+msgstr "Диапазон, [думаю]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, count"
+msgstr "Текст, кол-во"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, base"
+msgstr "Значение, на базе"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, [rangelookup]"
+msgstr "значения, диапазон, [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, start, length"
+msgstr "текст, начало, длина"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, payment, pv, [fv, [paytype]]"
+msgstr "Оцените, оплата, PV, [Ф.В., [PayType]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, value1, value2, ..."
+msgstr "ставка, значение1, значение2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, pv, [fv, [paytype]]"
+msgstr "Оцените, N, PV, [Ф.В., [PayType]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [fv, [paytype]]"
+msgstr "Оцените, N, оплата, [Ф.В., [PayType]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "n, payment, pv, [fv, [paytype, [guess]]]"
+msgstr "N, оплата, PV, [Ф.В., [PayType, [думаю]]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, start, length, text2"
+msgstr "текст1, начало, длина, text2"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, [precision]"
+msgstr  "Значение, [Precision]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime"
+msgstr "стоимость, утиль, жизнь"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period"
+msgstr "стоимость, утиль, срок службы, срок"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, oldtext, newtext [, occurrence]"
+msgstr  "текст1, oldtext, newtext [, возникновение]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "range1, criteria [, range2]"
+msgstr "Range1, критерии [, Range2]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "hour, minute, second"
+msgstr "часы, минуты, секунды"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, col, [rangelookup]"
+msgstr "значения, диапазон, Col, [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date, [type]"
+msgstr "Дата, [тип]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date"
+msgstr  "свидание"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["all", "stat", "lookup", "datetime", "financial", "test", "math", Text]
+#msgstr [ "все", "стать", "поиск", "DateTime", "финансовый", "Испытание", "математика", текст]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "All"
+msgstr "Все"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Statistics"
+msgstr "Статистика"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Lookup"
+msgstr "Поиск"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Date & Time"
+msgstr "Дата & время"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Financial"
+msgstr "Финансовые"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Test"
+msgstr "Проверка"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Math"
+msgstr "Math"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cells to Graph"
+msgstr "Клеток к графике"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Graph"
+msgstr "Задать клеток график"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph Type"
+msgstr  "Тип диаграммы"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "filter:alpha(opacity=90);opacity:.9;"
+msgstr "Фильтр: Alpha (Opacity = 90); непрозрачности: .9;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain"
+msgstr "Равнина"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph"
+msgstr "Графика"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Pie Chart"
+msgstr "Круговая диаграмма"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Help"
+msgstr  "Помощь"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal Bar"
+msgstr "Горизонтальные Бар"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical Bar"
+msgstr "Вертикальная Бар"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Line Chart"
+msgstr "Линейный график"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plot Points"
+msgstr "Участок Очки"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown range name"
+msgstr "Неизвестное имя диапазона"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hide Help"
+msgstr "Hide Help"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Max "
+msgstr "Макс "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Min "
+msgstr "Мин "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " OK "
+msgstr " OK "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Cancel]"
+msgstr "[Отмена]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "TRUE"
+msgstr "TRUE"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "FALSE"
+msgstr "ЛОЖЬ"
+

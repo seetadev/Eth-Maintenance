@@ -1,0 +1,59 @@
+5.0 - January 22, 2010
+* Localization in Spanish, Afrikaans, Hindi, Japanese, Arabic, Russian, Chinese (simplified), French, German and Portuguese. 
+  Localization infrastructure developed by Vijit Singh, Software Engineer at SEETA (http://seeta.in) under the guidance of 
+  Manusheel Gupta with pointers from Dan Bricklin. 
+  Spanish translation undertaken by Claudia Urrea and Reuben Caron, and integrated to the SocialCalc activity by Diksha Khatri 
+  from SEETA (http://seeta.in) and Vijit.
+  Localization in Afrikaans, Japanese, Arabic and Russian undertaken by Sakshi Chawla from SEETA (http://seeta.in) using google translator,
+  and integrated by Vijit.  
+  Localization in Chinese (simplified), French, Hindi, German and Portuguese undertaken by Diksha Khatri and Lakky Rawat from 
+  SEETA (http://seeta.in) using google translator, and integrated by Vijit.  
+
+4.0 - January 5, 2010
+* Ability to read single sheet Excel .xls files in SocialCalc added. Developed by Mahesh Chand Sharma from SEETA (http://seeta.in) and Vijit Singh, 
+  Software Engineer at SEETA (http://seeta.in) under the guidance of Manusheel Gupta.
+
+3.0 - December 4 2009
+* Ability to read single sheet Lotus .wk4 files in SocialCalc added. Developed by Vijit Singh, Software Engineer at SEETA (http://seeta.in) 
+  under the guidance of Manusheel Gupta. 
+
+2.0 - October 25 2009
+* Optimization of the save files. The sheet extents are more likely to include just the part that has data. 
+  Previously there were cases where deleted cells made the program think the sheet was larger than it really was. 
+  It also "canonicalizes" the saved data in other ways, such as removing no longer used formats and color definitions from the save file. 
+  Some input forms, such as "-", that were incorrectly treated as numbers, are now treated as text. Some other minor bugs were fixed. 
+* Localization made easy, especially of text in the user interface. 
+  All of the text that is normally seen during operation should now be easily localizable by changing a single file, socialcalcconstants.js.  
+
+1.0 - July 12 2009
+* Sharing of socialcalc activity over the mesh network. Developed by Vijit Singh, Software Engineer at SEETA (http://seeta.in) 
+under the guidance of Manusheel Gupta. Documentation available at http://seeta.in/wiki/index.php?title=Collaboration_in_SocialCalc .
+
+0.8.3g - June 22 2009
+*Enhanced graphing added by Nick Doiron under the guidance of Manusheel Gupta
+*Fixes a bug about special characters in custom values, such as number format definitions. 
+
+0.8.2 - June 14 2009
+* Conditionals in custom formats and with the argument prompt for VLOOKUP. 
+
+0.8.1 - June 1 2009
+* Function dialog box, a link dialog box, and a multi-line input dialog box added. 
+* Improved vertical scrolling, improved Format tab with many more formats. 
+* Ctrl-C and -Z keyboard shortcuts, and a better UI for graphs and an API for adding graphs. 
+
+0.7.9 - January 11 2009
+* Status bar and color choosers added. 
+* Commands, recalculation, and redisplay more robust. 
+
+0.7.5 - Tue April 15 00:14:58 EDT 2008
+* Now with synchrous method calling
+* Saves and Loads from Journal
+* SVG taken from: http://openclipart.org/media/files/yamazaki/1481
+
+0.7.0 - February 22 2008
+*Version 0.7.0 released. 
+*109 planned formula functions available, along with a simple reference listing them, their arguments, and a brief description on the Help tab.
+
+0.6.3 - February 15 2008
+*Version 0.6.3 released. 
+*Formula functions, copy/cut/paste, merge/unmerge, insert/delete row/column added 

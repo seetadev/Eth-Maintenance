@@ -1,0 +1,1473 @@
+# Copyright (C) 2010 THE PACKAGE"S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# olpc user <olpc@localhost.localdomain>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialCalcActivity.activity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-07 14:46+0000\n"
+"PO-Revision-Date: 2010-01-09 21:53+0530\n"
+"Last-Translator: Diksha<dksh.khatri@gmail.com>\n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "SocialCalcActivity"
+msgstr "SocialCalcActivity"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:10
+#msgid "t"
+#msgstr "t"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:13
+msgid "Browser not supported. "
+msgstr "ブラウザがサポートされません。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:14
+msgid "Internal SocialCalc error (probably an internal bug):"
+msgstr "内部SocialCalcエラー（おそらく内部のバグ）："
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:20
+msgid "Unknown col type item"
+msgstr "不明Col種類のアイテム"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:21
+msgid "Unknown row type item"
+msgstr "未知の行の種類のアイテム"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:22
+msgid "Unknown line type"
+msgstr "未知の行を入力"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:28
+msgid "Unknown cell type item"
+msgstr "未知の細胞の種類のアイテム"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:36
+msgid "Unknown sheet command: "
+msgstr "不明なシートのコマンド： "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:37
+msgid "Unknown set coord command: "
+msgstr "未知の座標コマンド： "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:38
+msgid "Unknown command: "
+msgstr "不明なコマンド： " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:42
+msgid "Circular reference to "
+msgstr "循環参照するために "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:52
+msgid "padding:2px 2px 1px 2px;vertical-align:top;"
+msgstr "パディング：2px 2px 1px 2px;のvertical - align：トップ;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:53
+msgid "normal normal"
+msgstr "ノーマルノーマル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:54
+msgid "small"
+msgstr "小さな"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:55
+msgid "Verdana,Arial,Helvetica,sans-serif"
+msgstr "Verdana Arialなどは、Helvetica、サンセリフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:92
+msgid  "Render Context must have a sheet object"
+msgstr "レンダリングコンテキストシートオブジェクトが必要です"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Executing..."
+msgstr "実行..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Displaying..."
+msgstr "表示中..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Ordering..."
+msgstr "オーダー..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating..."
+msgstr "計算中です..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating... Loading Sheet..."
+msgstr "計算中です...読み込んでシート..."
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "doing server function "
+msgstr "サーバーの機能を行う "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " in cell "
+msgstr " セル内の "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculation start..."
+msgstr "計算を開始..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SUM"
+msgstr "合計"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Multi-line text: Click icon on right to edit]"
+msgstr "[複数行のテキスト：右編集するをクリックしてアイコン]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function "
+msgstr "不明な関数 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane vertically"
+msgstr "垂直方向のウィンドウのロックをドラッグ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane horizontally"
+msgstr "水平方向のウィンドウのロックをドラッグ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Center"
+msgstr "中央揃え"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Left"
+msgstr "左揃え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Right"
+msgstr "右揃え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Alignment"
+msgstr "アライメント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit"
+msgstr "監査"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit Trail This Session"
+msgstr "監査証跡このセッション"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto"
+msgstr "オート"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto Sum"
+msgstr "自動車合計"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto w/ commas"
+msgstr "自動ワット/コンマ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Automatic"
+msgstr "自動"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Background"
+msgstr "背景"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold"
+msgstr "太字"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold &amp; Italics"
+msgstr "ボールド＆イタリック体"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold Italic"
+msgstr "太字斜体"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders"
+msgstr "境界線"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders Off"
+msgstr "国境をオフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders On"
+msgstr "国境で"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom"
+msgstr "底"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom Border"
+msgstr "下のボーダー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CELL SETTINGS"
+msgstr "セル設定"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CSV format"
+msgstr "CSV形式"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Category"
+msgstr "カテゴリー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Center"
+msgstr "センター"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear"
+msgstr "片付ける"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear SocialCalc Clipboard"
+msgstr "クリアSocialCalcクリップ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clipboard"
+msgstr "クリップボード"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Color"
+msgstr "カラー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Column"
+msgstr "列"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Comment"
+msgstr "コメント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Copy"
+msgstr "コピー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Custom"
+msgstr  "風習"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cut"
+msgstr "切る"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default"
+msgstr  "債務不履行"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Alignment"
+msgstr "デフォルトのアラインメント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Column Width"
+msgstr "デフォルトの列幅"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Font"
+msgstr "Fデフォルトのフォント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Format"
+msgstr "既定の形式]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Padding"
+msgstr "デフォルトのパディング"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete"
+msgstr "削除する"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Column"
+msgstr "列を削除"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Contents"
+msgstr  "コンテンツを削除"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Row"
+msgstr "行の削除"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Description"
+msgstr "商品概要"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Display Clipboard in"
+msgstr  "ディスプレイクリップボード内の"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Down"
+msgstr "下に"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Edit"
+msgstr "[編集]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Existing Names"
+msgstr "既存の品名" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Family"
+msgstr "家族"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Down"
+msgstr "フィルダウン"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Right"
+msgstr "塗りつぶし右"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Font"
+msgstr "フォント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Format"
+msgstr "フォーマット"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula"
+msgstr "数式"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Function List"
+msgstr "機能一覧"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Functions"
+msgstr "関数"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Grid"
+msgstr "グリッド"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hidden"
+msgstr "隠し"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal"
+msgstr "水平方向の"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Column"
+msgstr "列の挿入"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Row"
+msgstr "行の挿入"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Italic"
+msgstr "イタリック体"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Last Sort"
+msgstr "最後の並べ替え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left"
+msgstr "左"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left Border"
+msgstr "左罫線"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link"
+msgstr "リンク"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link Input Box"
+msgstr "リンク入力ボックス"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "List"
+msgstr "一覧"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Load SocialCalc Clipboard With This"
+msgstr "負荷SocialCalcクリップこのと" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Major Sort"
+msgstr "主な並べ替え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Manual"
+msgstr "マニュアル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Merge Cells"
+msgstr "セルの結合"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Middle"
+msgstr "中東"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Minor Sort"
+msgstr "マイナーの並べ替え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Insert"
+msgstr "挿入移動"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Paste"
+msgstr "貼り付け移動"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Multi-line Input Box"
+msgstr  "複数行の入力ボックス"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Name"
+msgstr "名前"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Names"
+msgstr "品名"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "No padding"
+msgstr "パディングなし"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Normal"
+msgstr "ノーマル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number"
+msgstr "品番"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number Horizontal"
+msgstr "数水平"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "OK"
+msgstr "[OK]を"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Padding"
+msgstr "パディング"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Page Name"
+msgstr "ページ名"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste"
+msgstr "貼り付け"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste Formats"
+msgstr "貼り付ける形式"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalc"
+msgstr "再計算"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalculation"
+msgstr  "再計算"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " Redo"
+msgstr " REDOログ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right"
+msgstr "右"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right Border"
+msgstr "右枠"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SHEET SETTINGS"
+msgstr "シートの設定"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save"
+msgstr "保存する"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save to"
+msgstr "に保存する"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cell Contents"
+msgstr "設定するセルの内容"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Sort"
+msgstr "設定するセルに並べ替え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Value To"
+msgstr "値の設定するには"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set to Link format"
+msgstr "を設定するリンクのフォーマット"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set/Clear Move From"
+msgstr "セット/クリアから移動"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Cell Settings"
+msgstr "表示するセルの設定"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Sheet Settings"
+msgstr "表示シートの設定"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show in new browser window"
+msgstr "表示する新しいブラウザウィンドウで"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Size"
+msgstr  "寸法"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SocialCalc-save format"
+msgstr "SocialCalc -形式で保存する"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort"
+msgstr "並べ替え"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort Cells"
+msgstr "並べ替えのセル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Swap Colors"
+msgstr "スワップの色"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Tab-delimited format"
+msgstr "タブ区切り形式"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text"
+msgstr "テキスト"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text Horizontal"
+msgstr "テキストの水平方向の"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "This is a<br>sample"
+msgstr "これは<br>サンプル"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top"
+msgstr "頂上"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top Border"
+msgstr "トップボーダー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "UNDONE STEPS"
+msgstr "元に戻す手順"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "URL"
+msgstr "URLを"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Undo"
+msgstr  "元に戻す"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unmerge Cells"
+msgstr "をunmerge細胞"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Up"
+msgstr "上へ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Value"
+msgstr  "値"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical"
+msgstr "垂直"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Workspace"
+msgstr "ワークスペース"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[New]"
+msgstr "[新規]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[None]"
+msgstr "[なし]" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[select range]"
+msgstr  "[選択範囲]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+#msgstr ["日曜日"、"月"、"火"、"水"、"木"、"金曜日"、"土"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+#msgstr ["日"、"月"、"火"、"水"、"木"、"金"、"土"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["January", "February", "March", "April", "May", "June", "July", "August", "September","October", "November", "December"]
+#msgstr ["1月"、"2"、"3月"、"4"、"5月"、"6月"、"7"、"8月"、"9月"、"10"、"11"、"12"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+#msgstr ["01"、"2月"、"03"、"4月"、"5"、"6月"、"7月"、"8月"、"9月"、"10月"、"11月"、"12月"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "AM"
+#msgstr "午前"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "A"
+#msgstr "A"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "PM"
+#msgstr "午後"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "P"
+#msgstr "P"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed number exponent"
+msgstr "不適切な数の指数を形成"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unexpected character in formula"
+msgstr "式の中で、予期しない文字"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed string"
+msgstr "不適切な文字列の形成"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed special value"
+msgstr "不適切な値を形成"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula (two operators inappropriately in a row)"
+msgstr "エラーの数式で行（2つの演算が不適切）の"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing open parenthesis in list with comma(s)."
+msgstr "カンマで区切ってリストに開き括弧が不足（秒）。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Closing parenthesis without open parenthesis. "
+msgstr "開き括弧なしで閉会括弧。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing close parenthesis."
+msgstr "閉じ括弧がありません。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing operand."
+msgstr "オペランドがありません。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula."
+msgstr "数式にエラーがあります。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error value in formula"
+msgstr "数式でエラー値"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula resulting in bad value"
+msgstr "エラーの数式で不正な値の結果"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in range value:"
+msgstr "範囲の値に数式の結果："
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in an bad numeric value"
+msgstr "悪い数値にF1の結果"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Numeric overflow"
+msgstr "数値のオーバーフロー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet unavailable:"
+msgstr "シートが使用できない："
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cell reference missing when expected."
+msgstr "セル参照時に予想さがない。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet name missing when expected."
+msgstr "シート名が予想さがない。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Circular name reference to name"
+msgstr "円形の名前の参照の名前に"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown name"
+msgstr "名前が不明です"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Incorrect arguments to function"
+msgstr "不適切な関数の引数に"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function"
+msgstr "不明な関数"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LN argument must be greater than 0"
+msgstr "LNの引数が0より大きい必要があります"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG10 argument must be greater than 0"
+msgstr "LOG10引数は、0より大きい必要があります"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG second argument must be numeric greater than 0"
+msgstr "ログ2番目の引数は、0より大きい数値でなければなりません"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG first argument must be greater than 0"
+msgstr "ログ最初の引数は、0より大きい必要があります"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "ROUND second argument must be numeric"
+msgstr  "ラウンド2番目の引数は数値でなければなりません"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "DDB life must be greater than 1"
+msgstr "DDBに寿命が1よりも大きくなければなりません。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SLN life must be greater than 1"
+msgstr "slnファイルの生活が1よりも大きくなければなりません。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Absolute value function. "
+msgstr "絶対値関数。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arccosine function. "
+msgstr  "三角関数の逆余弦関数です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if all arguments are true. "
+msgstr "すべての引数が真はTrue。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arcsine function. "
+msgstr "三角関数のアークサイン関数です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arctan function. "
+msgstr "三角関数の逆正接関数関数です。 " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arc tangent function (result is in radians). "
+msgstr "三角関数のアークタンジェント関数（結果はラジアン単位）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values. "
+msgstr "の平均値です。"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value specified by the index. The values may be ranges of cells. "
+msgstr "戻り値は、インデックスで指定された。の値は、セルの範囲があります。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of columns in the range. "
+msgstr "の範囲内の列の数を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric cosine function (value is in radians). "
+msgstr "三角関数の余弦関数（値はラジアンで）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error. "
+msgstr "数値の値の数は、空白ではなく、テキスト、またはエラーをカウントします。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values. "
+msgstr "以外の数が空白の値をカウントします。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of blank values. (Note: '' is not blank.) "
+msgstr "空白の値の数をカウントします。 （注：''、空白はありません。） "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of number of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). "
+msgstr "範囲内のセルの数の数が基準を満たしてカウントします。基準値である可能性があります（'x'を、15、1 3）、またはテスト（25）。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the appropriate date value given numbers for year, month, and day. For example: DATE(2006,2,1) for February 1, 2006. Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "年間の戻り値は、適切な日付の値を指定された数字、月、日。例：日付（2006,2,1）2006年2月1日です。注：このプログラムでは、1日目1899年12月31日および1900年はうるう年ではありません。一部のプログラムは1900年1月1日、1日目として使用すると、うるう年として1900扱います。両方のケースでは、しかし、または1900年3月1日以降の日付は、同じです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values in the specified field in records that meet the criteria. "
+msgstr "平均レコード内の指定されたフィールドの値が基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of month for a date value. "
+msgstr "日付の値を返します月の日。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error, in the specified field in records that meet the criteria. "
+msgstr "数値の値の数は、空白ではなく、テキスト、またはエラーのため、指定されたフィールド内のレコードでは基準を満たしてカウントします。 " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values in the specified field in records that meet the criteria. "
+msgstr "以外の番号を空白の値は、指定されたフィールド内のレコードでは基準を満たしてカウントします。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at the given period of time (the default factor is 2 for double-declining balance).   "  
+msgstr "の時間を指定された期間を返します減価償却費の額（デフォルトでは因子2倍定率法です）。   "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in radians into degrees. "
+msgstr "度をラジアン単位の値に変換します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value of the specified field in the single record that meets the criteria. "
+msgstr "その基準を満たしている1つのレコードで指定されたフィールドの値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "戻り値のレコード内の指定されたフィールド内の数値の値の最大値は、基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the result of multiplying the numeric values in the specified field in records that meet the criteria. "
+msgstr "レコードを返すには、条件を満たす、指定されたフィールドに数値を乗算した結果を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "レコード内の指定されたフィールド内の数値の戻り値は、サンプルの標準偏差は、基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "戻り値のレコード内の指定されたフィールドの数値の値の標準偏差は、基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "戻り値のレコード内の指定されたフィールドの数値の値の合計は、基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "戻り値のレコード内の指定されたフィールド内の数値の標本分散は基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "戻り値のレコード内の指定されたフィールド内の数値の差異は、基準を満たしています。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest even integer. "
+msgstr "最も近い大きさに丸めるの値を偶数の整数。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the values are exactly the same, including case, type, etc. "
+msgstr "trueを返します正確に、大文字と小文字、タイプ、などを含むと同じ場合は、値は、 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns e raised to the value power. "
+msgstr "戻り値eは、値の電力を調達した。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns factorial of the value. "
+msgstr "戻り値の階乗を。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value false. "
+msgstr "戻り値の論理値はfalseです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the starting position within string2 of the first occurrence of string1 at or after start. If start is omitted, 1 is assumed. "
+msgstr "戻り値で、または開始後string2がstring1の最初の出現以内に開始位置。 startが省略された場合、1が想定されます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the future value of repeated payments of money invested at the given rate for the specified number of periods, with optional present value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "期間の終わり=でオプションの現在の値（デフォルトは0）とお支払いの種類と価格の期間の指定された番号については、指定されたレートでの投資を繰り返して支払いの戻り値は、将来価値、（デフォルトは0で、1期の始まり=）。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the row offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. "
+msgstr "範囲内で指定された値は、一致する値を検索して、セルの行のオフセットで指定された対応する値を返します。もしrangelookup 1（デフォルト）と0ではなく、数値、括弧の場合に一致する（一致= value）と正確に一致するの代わりに。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the hour portion of a time or date/time value. "
+msgstr "時刻または日付を返します時間部分/時刻の値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Results in true-value if logical-expression is TRUE or non-zero, otherwise results in false-value. "
+msgstr "真の値の中の場合、論理式がTRUEの場合、非ゼロの場合はfalseを値の結果。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns a cell or range reference for the specified row and column in the range. If range is 1-dimensional, then only one of rownum or colnum are needed. If range is 2-dimensional and rownum or colnum are zero, a reference to the range of just the specified column or row is returned. You can use the returned reference value in a range, e.g., sum(A1:INDEX(A2:A10,4)). "
+msgstr "範囲内で指定された行や列を返しますセルまたはセル範囲の参照です。場合、範囲は、1次元の場合、1つだけrownumは、またはcolnumのに必要なことです。場合、範囲は、2次元およびROWNUMまたはcolnumゼロであるなら、単に指定された列または行の範囲への参照が返されます。現在の範囲で、（A1を：インデックス（a2の：A10に、4））の合計例えば、返される参照値を使用することができます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the value rounded down to the nearest integer (towards -infinity). "
+msgstr  "戻り値は、最も近い整数に四捨五入（への無限大）。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the interest rate at which the cash flows in the range have a net present value of zero. Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "戻り値の現金の範囲で流れて金利がゼロの正味現在価値がある。はに＃NUMを返します。反復プロセスを使用して！エラーが発生しない場合は収束する。 2つ以上可能な解決策になることがあります。特定の状況ではそれはない収束を助けるかもしれない、または不適切な解を求めるオプションの推測値を提供する（デフォルトでは推測10％）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is a reference to a blank cell. "
+msgstr "がtrueを返す場合、値は空白のセルへの参照です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error but not NA. "
+msgstr "がtrueを返す場合は、値の型のエラーではなく、NAのです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error. "
+msgstr "がtrueを返す場合は、値の型エラーです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Logical (true/false). "
+msgstr "がtrueを返す場合は、値型の論理がします（true / false）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is the error type NA. "
+msgstr "がtrueを返す場合、値は、エラーの種類はNAです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is not of type Text. "
+msgstr "がtrueを返す場合は、値を入力しないでテキストの一つです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Number (including logical values). "
+msgstr "がtrueを返す場合は、値の型の数（論理値を含む）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Text. "
+msgstr "がtrueを返す場合は、値の型のテキストです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value. If count is omitted, 1 is assumed. "
+msgstr "テキスト値から文字の戻り値は、指定した数です。 countを省略すると、1とみなされます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of characters in the text value. "
+msgstr "テキスト値の中の文字の数を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the natural logarithm of the value. "
+msgstr "戻り値の自然対数を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logarithm of the value using the specified base. "
+msgstr "戻り値の対数に指定されたベースを使用して。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the base 10 logarithm of the value. "
+msgstr "戻り値は、基本値の10対数を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all uppercase characters converted to lowercase. "
+msgstr "すべての大文字を小文字に変換してテキストを返します値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return position (the first is 1) in that range. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. If rangelookup is -1, act like 1 but the bracket is match>=value. "
+msgstr "範囲内で指定された値と戻り値の位置に一致する値を探します（最初の1）は、範囲内です。もしrangelookup 1（デフォルト）と0ではなく、数値、括弧の場合に一致する（一致= value）と正確に一致するの代わりに。もしrangelookup -1、1のように振る舞うが、ブラケットの一致= valueです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values. "
+msgstr "戻り値は、数値値の最大値。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the specified position. "
+msgstr "テキスト値は、指定された位置からスタートするから文字の戻り値は、指定した数です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minimum of the numeric values. "
+msgstr "戻り値は、数値の値の最小値。 "
+ 
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minute portion of a time or date/time value. "
+msgstr "時刻または日付を返します分の部分を/時刻の値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the remainder of the first value divided by the second. "
+msgstr "戻り値の最初の値、2番目で割った値の残りの部分。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the month part of a date value. "
+msgstr "戻り値の日付の値の月の部分。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value if it is a numeric value otherwise an error. "
+msgstr "値を返す場合は、数値以外はエラーです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the #N/A error value which propagates through most operations. "
+msgstr "戻り値は、＃N /は、ほとんどの操作を介して伝播するエラー値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns FALSE if value is true, and TRUE if it is false. "
+msgstr "場合、値はtrueです戻り値はFALSEとそれがfalseの場合はTRUEです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date/time. "
+msgstr "戻り値は、現在の日付/時刻。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of periods at which payments invested each period at the given rate with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period) has the given present value. "
+msgstr "これでお支払いオプションの将来の値（デフォルトは0）とお支払いの種類を使用して指定されたレート（デフォルトは0期の終わり=で、1期の始まり=）、各期間の投資期間の数を返す、指定された現在の値を持ちます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the net present value of cash flows (which may be individual values and/or ranges) at the given rate. The flows are positive if income, negative if paid out, and are assumed at the end of each period. "
+msgstr "キャッシュフローの戻り値は、正味現在価値（これは個々の値および/または範囲）を指定されたレートでれることがあります。場合に支払わ場合、所得、負のキャッシュフローは、プラスされ、各時代の終わりと見なされます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest odd integer. "
+msgstr "最も近い奇数の整数の大きさに丸めるの値をバックアップします。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if any argument is true "
+msgstr "true trueの場合、任意の引数です "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "The value 3.1415926... "
+msgstr "この値は3.1415926 ... "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of each payment that must be invested at the given rate for the specified number of periods to have the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "戻り値は、期間の指定された番号については、指定されたレートで指定された現在の値を持つ、オプションの将来の値（デフォルトは0）と支払タイプ（デフォルトは0期の終わり=で、1 =最初に投資する必要があります各お支払いの金額期間）。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the first value raised to the second value power. "
+msgstr "戻り値の最初の値は、2番目の値は電源を調達した。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the result of multiplying the numeric values. "
+msgstr  "戻り値は、数値の値を乗算した結果を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with the first letter of each word converted to uppercase and the others to lowercase. "
+msgstr "各単語を大文字に、他は小文字に変換の最初の文字を返しますテキスト値。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the present value of the given number of payments each invested at the given rate, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "の支払いを指定された数を返します現在の値は、各指定されたレートで、オプションの将来の値（デフォルトは0）と支払タイプ（デフォルトは0期の終わり=で、1期の始まり=投資）。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in degrees into radians. "
+msgstr "ラジアンに度の値に変換します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the rate at which the given number of payments each invested at the given rate has the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "を返し、これで支払いを指定された数ごとに、指定されたレートでの投資の割合は、オプションの将来の値（デフォルトは0）とお支払いの種類と期間の終わり=で（デフォルトは0、1期の始まり=）は、指定された現在の値を持ちます。はに＃NUMを返します。反復プロセスを使用して！エラーが発生しない場合は収束する。 2つ以上可能な解決策になることがあります。特定の状況ではそれはない収束を助けるかもしれない、または不適切な解を求めるオプションの推測値を提供する（デフォルトでは推測10％）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the specified number of characters starting from the specified position replaced by text2. "
+msgstr "文字を指定した位置にテキスト2に置き換えから、指定した数を返します[テキスト1]。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text repeated the specified number of times. "
+msgstr "テキスト回指定した数の繰り返しを返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the end. If count is omitted, 1 is assumed. "
+msgstr "テキストの値の末尾から開始から文字の戻り値は、指定した数です。 countを省略すると、1とみなされます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value to the specified number of decimal places. If precision is negative, then round to powers of 10. The default precision is 0 (round to integer). "
+msgstr "丸める小数点以下の桁の指定された番号に値を返します。場合の精度が負の場合、そのラウンドを10の累乗する。デフォルトの精度は整数型の0（ラウンド）です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of rows in the range. "
+msgstr "の範囲内の行数を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the second portion of a time or date/time value (truncated to an integer). "
+msgstr "時刻または日付を返す、2番目の部分/時刻の値（整数）に切り捨てられます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric sine function (value is in radians) "
+msgstr "三角法の正弦関数（値はラジアンでです） "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at each period of time using the straight-line method. "
+msgstr "時間のそれぞれの期間は、定額法を使用して戻り値の減価償却額。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Square root of the value "
+msgstr "値の平方根 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values. "
+msgstr "数値の戻り値は、サンプルの標準偏差を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values. "
+msgstr "戻り値は、数値値の標準偏差を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the all occurrences of oldtext replaced by newtext. If occurrence is present, then only that occurrence is replaced. "
+msgstr "oldtext newtextに置き換え、すべての出現を返します[テキスト1]。もし発生存在する場合、のみが置換されます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Adds the numeric values. The values to the sum function may be ranges in the form similar to A1:B5. "
+msgstr "数値の値を追加します。 sum関数の値は、フォームのA1に同様の範囲：B5の可能性があります。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sums the numeric values of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). If range2 is present, then range1 is tested and the corresponding range2 value is summed. "
+msgstr "範囲内の総和のセルの数値が基準を満たしています。基準値である可能性があります（'x'を、15、1 3）、またはテスト（25）。場合、範囲2の存在する場合、range1、テストされている対応する範囲2の合計値です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Depreciation by Sum of Year's Digits method. "
+msgstr "合計新年の桁法による減価償却費。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value or else a null string. "
+msgstr "戻り値は、テキスト値、または他のnull文字列。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric tangent function (value is in radians) "
+msgstr "三角関数の正接関数（値はラジアンでです） "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the time value given the specified hour, minute, and second. "
+msgstr "指定された時間、分、および2番目の指定された時刻を返します値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date (an integer). Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "戻り値は、現在の日付（整数）。注：このプログラムでは、1日目1899年12月31日および1900年はうるう年ではありません。一部のプログラムは1900年1月1日、1日目として使用すると、うるう年として1900扱います。両方のケースでは、しかし、または1900年3月1日以降の日付は、同じです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with leading, trailing, and repeated spaces removed. "
+msgstr "リードして戻り値のテキスト値は、末尾には、繰り返されるスペースを削除されます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value true. "
+msgstr "戻り値は、論理値はtrueです。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Truncates the value to the specified number of decimal places. If precision is negative, truncate to powers of 10. "
+msgstr "を切り捨てます。小数点以下の桁の指定された番号に値を返します。場合の精度が負の場合、10のべき乗を切り捨てます。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all lowercase characters converted to uppercase. "
+msgstr "すべて小文字の文字を大文字に変換されたテキストを返します値を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts the specified text value into a numeric value. Various forms that look like numbers (including digits followed by %, forms that look like dates, etc.) are handled. This may not handle all of the forms accepted by other spreadsheets and may be locale dependent. "
+msgstr "数値の値に指定したテキスト値に変換します。様々な形態は、（数字％で続いて、フォームの日付のように見えるなど）を処理する場合を含む番号のように見える。これにより、すべてのフォームを他のスプレッドシートによって受け入れ扱うことができないのロケールに依存することがあります。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the sample variance of the numeric values. "
+msgstr "戻り値は、数値の値は、サンプル分散を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values. "
+msgstr "戻り値は、数値の値の分散を返します。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the column offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match>=value) instead of exact match. "
+msgstr "範囲内で指定された値は、一致する値を検索して、セルの列のオフセットで指定された対応する値を返します。もしrangelookup 1（デフォルト）と0ではなく、数値、括弧の場合に一致する（一致= value）と正確に一致するの代わりに。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of week specified by the date value. If type is 1 (the default), Sunday is day and Saturday is day 7. If type is 2, Monday is day 1 and Sunday is day 7. If type is 3, Monday is day 0 and Sunday is day 6. "
+msgstr "戻り週の日付の値によって指定された日。場合、タイプ1（デフォルト）、日曜日、土曜日である7日目です。場合、タイプ2は、月曜日第1日と日曜日の7日目です。場合のタイプ3の場合、月曜日day 0と日曜日の6日目です。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the year part of a date value. "
+msgstr "戻り値の日付の値の年の部分。 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value"
+msgstr "値"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value1, value2, ..."
+msgstr "はvalue1、value2、..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "valueX, valueY"
+msgstr  "valueX、valueY"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "index, value1, value2, ..."
+msgstr "インデックスはvalue1、value2、..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range"
+msgstr "範囲"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, criteria"
+msgstr "範囲、条件"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "year, month, day"
+msgstr "年、月、日"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "databaserange, fieldname, criteriarange"
+msgstr "、フィールド名criteriarange databaserange"
+  
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period [, factor]"
+msgstr "費用、残存価額、寿命期間[因子]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "string1, string2 [, start]"
+msgstr "string1が、string2の[開始]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [pv, [paytype]]"
+msgstr "レート所蔵、お支払い、[PV、歌詞、[paytype]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, row, [rangelookup]"
+msgstr "値、範囲、行、[rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "logical-expression, true-value, false-value"
+msgstr "論理式、真の値を、偽の値"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, rownum, colnum"
+msgstr "範囲は、rownumは、colnum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, [guess]"
+msgstr "範囲は、[推測]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, count"
+msgstr "テキスト、カウント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, base"
+msgstr "値は、基本"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, [rangelookup]"
+msgstr "値、範囲、[rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, start, length"
+msgstr "文字列、開始、長さ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, payment, pv, [fv, [paytype]]"
+msgstr "料金、お支払い、PV、歌詞、[将来価値、[paytype]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, value1, value2, ..."
+msgstr "率はvalue1、value2、..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, pv, [fv, [paytype]]"
+msgstr "レート所蔵、PV、歌詞、[将来価値、[paytype]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [fv, [paytype]]"
+msgstr "レート所蔵、お支払い、[将来価値、[paytype]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "n, payment, pv, [fv, [paytype, [guess]]]"
+msgstr "Ñ、お支払い、PV、歌詞、[将来価値、[paytype、[推測]]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, start, length, text2"
+msgstr "[テキスト1]を起動、長さ、テキスト2"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, [precision]"
+msgstr  "値は、[高精度]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime"
+msgstr "費用、残存価額、耐用寿命"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period"
+msgstr "費用、残存価額、寿命期間"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, oldtext, newtext [, occurrence]"
+msgstr  "[テキスト1]、oldtext、newtext [、発生]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "range1, criteria [, range2]"
+msgstr "range1、条件[、範囲2]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "hour, minute, second"
+msgstr "時間、分、秒"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, col, [rangelookup]"
+msgstr "値の範囲は、カラム、[rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date, [type]"
+msgstr "日付、[タイプ]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date"
+msgstr  "日付"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["all", "stat", "lookup", "datetime", "financial", "test", "math", Text]
+#msgstr ["すべて"、"合計"、"検索"、"datetime"を"、"金融、"テスト"、"数学"、テキスト]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "All"
+msgstr "すべての"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Statistics"
+msgstr "統計"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Lookup"
+msgstr "ルックアップ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Date & Time"
+msgstr "日付と時刻"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Financial"
+msgstr "金融"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Test"
+msgstr "試験"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Math"
+msgstr "数学"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cells to Graph"
+msgstr "セルグラフへ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Graph"
+msgstr "設定するセルにグラフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph Type"
+msgstr  "グラフの種類"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "filter:alpha(opacity=90);opacity:.9;"
+msgstr "フィルタ：アルファ（不透明度= 90）;不透明度：0.9;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain"
+msgstr "平原"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph"
+msgstr "グラフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Pie Chart"
+msgstr "円グラフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Help"
+msgstr  "ヘルプ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal Bar"
+msgstr "水平バー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical Bar"
+msgstr "垂直バー"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Line Chart"
+msgstr "線グラフ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plot Points"
+msgstr "プロットポイント"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown range name"
+msgstr "不明な範囲名"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hide Help"
+msgstr "ヘルプを隠す"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Max "
+msgstr "マックス "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Min "
+msgstr "分 "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " OK "
+msgstr " [OK]を "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Cancel]"
+msgstr "[キャンセル]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "TRUE"
+msgstr "TRUEの"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "FALSE"
+msgstr "FALSEを返します"
+

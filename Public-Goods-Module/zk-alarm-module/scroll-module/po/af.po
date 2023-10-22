@@ -1,0 +1,1476 @@
+# Copyright (C) 2010 THE PACKAGE"S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# olpc user <olpc@localhost.localdomain>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialCalcActivity.activity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-07 14:46+0000\n"
+"PO-Revision-Date: 2010-01-09 21:53+0530\n"
+"Last-Translator: Diksha<dksh.khatri@gmail.com>\n"
+"Language-Team: Hindi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "SocialCalcActivity"
+msgstr "SocialCalcActivity"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:10
+#msgid "t"
+#msgstr "t"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:13
+msgid "Browser not supported. "
+msgstr "Leser nie ondersteun nie. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:14
+msgid "Internal SocialCalc error (probably an internal bug):"
+msgstr "Interne SocialCalc fout (waarskynlik 'n interne fout):"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:20
+msgid "Unknown col type item"
+msgstr "Onbekend col tipe item"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:21
+msgid "Unknown row type item"
+msgstr "Onbekend ry tipe item"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:22
+msgid "Unknown line type"
+msgstr "Onbekend lyn tipe"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:28
+msgid "Unknown cell type item"
+msgstr "Onbekend sel tipe item"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:36
+msgid "Unknown sheet command: "
+msgstr "Onbekende blad opdrag: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:37
+msgid "Unknown set coord command: "
+msgstr "Onbekend ingestel coord opdrag: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:38
+msgid "Unknown command: "
+msgstr "Onbekende opdrag: " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:42
+msgid "Circular reference to "
+msgstr "Omsendbrief verwysing na "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:52
+msgid "padding:2px 2px 1px 2px;vertical-align:top;"
+msgstr "padding: 2px 2px 1px 2px; vertical-align: top;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:53
+msgid "normal normal"
+msgstr "normaal normale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:54
+msgid "small"
+msgstr "klein"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:55
+msgid "Verdana,Arial,Helvetica,sans-serif"
+msgstr "Verdana, Arial, Helvetica, sans-serif"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:92
+msgid  "Render Context must have a sheet object"
+msgstr "Render konteks moet 'n plaat voorwerp"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Executing..."
+msgstr "Uitvoerende ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Displaying..."
+msgstr "Displaying ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Ordering..."
+msgstr "Bestel ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating..."
+msgstr "Berekening..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating... Loading Sheet..."
+msgstr "Berekening van ... Laai Fiche ..."
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "doing server function "
+msgstr "doen bediener funksie "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " in cell "
+msgstr "in sel "
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculation start..."
+msgstr "Berekening begin ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SUM"
+msgstr "BEDRAG"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Multi-line text: Click icon on right to edit]"
+msgstr "[Multi-lyn teks: Klik op die ikoon regs te wysig]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function "
+msgstr "Onbekende funksie "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane vertically"
+msgstr "Sleep om sluis paneel vertikaal"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane horizontally"
+msgstr "Sleep om venster slot horisontaal"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Center"
+msgstr "Rig Middel"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Left"
+msgstr "Links Regterkant"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Right"
+msgstr "Lijn regs uit"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Alignment"
+msgstr "Regterkant"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit"
+msgstr "Oudit"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit Trail This Session"
+msgstr "Audit trail Hierdie Sessie"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto"
+msgstr "Auto"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto Sum"
+msgstr "Auto-Som"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto w/ commas"
+msgstr "Auto-w / kommas"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Automatic"
+msgstr "Outomatiese"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Background"
+msgstr "Agtergrond"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold"
+msgstr "Vet"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold &amp; Italics"
+msgstr "Vet & Kursief"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold Italic"
+msgstr "Vetdruk Kursief"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders"
+msgstr "Grense"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders Off"
+msgstr "Grense Off"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders On"
+msgstr "Grense Op"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom"
+msgstr "Onderkant"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom Border"
+msgstr "Bottom-grens"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CELL SETTINGS"
+msgstr "CELL SETTINGS"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CSV format"
+msgstr "CSV formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cancel"
+msgstr "Styl"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Category"
+msgstr "Kategorie"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Center"
+msgstr "Sentrum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear"
+msgstr "Helder"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear SocialCalc Clipboard"
+msgstr "Duidelik SocialCalc Klembord"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Color"
+msgstr "Kleur"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Column"
+msgstr "Kolom"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Comment"
+msgstr "Kommentaar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Copy"
+msgstr "Kopie"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Custom"
+msgstr  "Gewoonte"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cut"
+msgstr "Sny"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default"
+msgstr  "Verstek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Alignment"
+msgstr "Standaard Orde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Column Width"
+msgstr "Standaard Kolom Breedte"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Font"
+msgstr "Standaard Lettertipe"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Format"
+msgstr "Standaard Formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Padding"
+msgstr "Standaard Padding"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete"
+msgstr "Skrap"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Column"
+msgstr "Verwyder kolom"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Contents"
+msgstr  "Inhoud verwyder"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Row"
+msgstr "Verwyder ry"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Description"
+msgstr "Beskrywing"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Display Clipboard in"
+msgstr  "Display Klembord in"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Down"
+msgstr "Af"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Edit"
+msgstr "Edit"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Existing Names"
+msgstr "Bestaande Name" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Family"
+msgstr "Familie"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Down"
+msgstr "Vul Down"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Right"
+msgstr "Vul Right"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Font"
+msgstr "Skrif"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Format"
+msgstr "Formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula"
+msgstr "Formule"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Function List"
+msgstr "Funksie Lys"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Functions"
+msgstr "Funksies"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Grid"
+msgstr "Grid"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hidden"
+msgstr "Verborge"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal"
+msgstr "Horisontale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Column"
+msgstr "Insert Kolom"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Row"
+msgstr "Insert Row"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Italic"
+msgstr "Italic"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Last Sort"
+msgstr "Laaste Sorteer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left"
+msgstr "Links"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left Border"
+msgstr "Links Grens"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link"
+msgstr "Skakel"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link Input Box"
+msgstr "Skakel Invoer Box"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "List"
+msgstr "Lys"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Load SocialCalc Clipboard With This"
+msgstr "Load SocialCalc Klembord Met hierdie" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Major Sort"
+msgstr "Groot Sorteer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Manual"
+msgstr "Handleiding"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Merge Cells"
+msgstr "Saamsmelt Selle"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Middle"
+msgstr "MIDDEL"
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Minor Sort"
+msgstr "Mineur Sorteer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Insert"
+msgstr "Beweeg Plaas"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Paste"
+msgstr "Beweeg Plak"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Multi-line Input Box"
+msgstr  "Multi-lyn Invoer Box"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Name"
+msgstr "Naam"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Names"
+msgstr "Name"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "No padding"
+msgstr "Geen padding"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Normal"
+msgstr "Normale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number"
+msgstr "Nommer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number Horizontal"
+msgstr "Nommer Horisontale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "OK"
+msgstr "OK"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Padding"
+msgstr "Padding"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Page Name"
+msgstr "Bladsy Naam"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste"
+msgstr "Plak"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste Formats"
+msgstr "Plak Formats"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain Text"
+msgstr "Plain Text"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalc"
+msgstr "Herb Reken"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalculation"
+msgstr  "Herberekening"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " Redo"
+msgstr " Oordoen"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right"
+msgstr "Reg"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right Border"
+msgstr "Right-grens"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SHEET SETTINGS"
+msgstr "BLAD SETTINGS"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save"
+msgstr "Spaar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save to"
+msgstr "Slaan na"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cell Contents"
+msgstr "Set Cell Inhoud"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Sort"
+msgstr "Set Selle Om te sorteer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Value To"
+msgstr "Set Waarde Om"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set to Link format"
+msgstr "Ingestel op Link formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set/Clear Move From"
+msgstr "Set / Duidelike Move Van"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Cell Settings"
+msgstr "Wys Cell Stellings"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Sheet Settings"
+msgstr "Wys Fiche Stellings"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show in new browser window"
+msgstr "Show in nuwe venster"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Size"
+msgstr  "Grootte"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SocialCalc-save format"
+msgstr "SocialCalc-red-formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort"
+msgstr "Sorteer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort Cells"
+msgstr "Sorteer Selle"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Swap Colors"
+msgstr "Swap Colors"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Tab-delimited format"
+msgstr "Tabgescheiden formaat"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text"
+msgstr "Text"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text Horizontal"
+msgstr "Text Horisontale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "This is a<br>sample"
+msgstr "Hierdie is 'n<br>monster"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top"
+msgstr "Top"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top Border"
+msgstr "Bo-grens"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "UNDONE STEPS"
+msgstr "Undone STAPPE"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "URL"
+msgstr "URL"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Undo"
+msgstr  "Boontoe"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unmerge Cells"
+msgstr "Unmerge Selle"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Up"
+msgstr "Op"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Value"
+msgstr  "Waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical"
+msgstr "Vertikale"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Workspace"
+msgstr "Werkplek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[New]"
+msgstr "[New]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[None]"
+msgstr "[Geen]" 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[select range]"
+msgstr  "[kies verskeidenheid]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+#msgstr ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+#msgstr ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["January", "February", "March", "April", "May", "June", "July", "August", "September","October", "November", "December"]
+#msgstr ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+#msgstr ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "AM"
+#msgstr "AM"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "A"
+#msgstr "A"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "PM"
+#msgstr "PM"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "P"
+#msgstr "P"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed number exponent"
+msgstr "Verkeerd is gevorm nommer eksponent"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unexpected character in formula"
+msgstr "Onverwagte karakter in die formule"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed string"
+msgstr "Verkeerd is gevorm snaar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed special value"
+msgstr "Verkeerd is gevorm besondere waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula (two operators inappropriately in a row)"
+msgstr "Fout in die formule (twee operateurs ontoepaslik in 'n ry)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing open parenthesis in list with comma(s)."
+msgstr "Missing oop tussen hakies in die lys met komma (s) gevind."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Closing parenthesis without open parenthesis. "
+msgstr "Sluitingsdatum hakies, sonder oop hakies. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing close parenthesis."
+msgstr "Missing naby hakies."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing operand."
+msgstr "Missing operand."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula."
+msgstr "Fout in die formule."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error value in formula"
+msgstr "Waarde fout in die formule"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula resulting in bad value"
+msgstr "Fout in die formule wat lei tot slegte waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in range value:"
+msgstr "Formule resultate in reeks waarde:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in an bad numeric value"
+msgstr "Formule resultate in 'n slegte numeriese waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Numeric overflow"
+msgstr "Numeriese oorloop"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet unavailable:"
+msgstr "Sheet nie beskikbaar nie:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cell reference missing when expected."
+msgstr "Selverwysing ontbreek as wat verwag is."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet name missing when expected."
+msgstr "Sheet naam ontbreek as wat verwag is."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Circular name reference to name"
+msgstr "Omsendbrief naam verwysing na die naam"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown name"
+msgstr "Onbekend naam"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Incorrect arguments to function"
+msgstr "Verkeerde argumente om te funksioneer"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function"
+msgstr "Onbekende funksie"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LN argument must be greater than 0"
+msgstr "LN argument moet groter as 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG10 argument must be greater than 0"
+msgstr "Log10 argument moet groter as 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG second argument must be numeric greater than 0"
+msgstr "LOG tweede argument moet numeriese groter as 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG first argument must be greater than 0"
+msgstr "LOG eerste argument moet groter as 0"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "ROUND second argument must be numeric"
+msgstr  "RONDTE tweede argument moet numeries wees"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "DDB life must be greater than 1"
+msgstr "DDB lewe moet groter as 1"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SLN life must be greater than 1"
+msgstr "SLN lewe moet groter as 1"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Absolute value function. "
+msgstr "Absolute waarde-funksie. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arccosine function. "
+msgstr  "Trigonometriese arccosine funksie. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if all arguments are true. "
+msgstr "Waar indien al die argumente waar is. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arcsine function. "
+msgstr "Trigonometriese arcsine funksie. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arctan function. "
+msgstr "Trigonometriese funksie arctan. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arc tangent function (result is in radians). "
+msgstr "Trigonometriese boog tangens funksie (resultaat is in radiale). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values. "
+msgstr "Gemiddeldes van die waardes."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value specified by the index. The values may be ranges of cells. "
+msgstr "Opgawes die waarde bepaal deur die indeks. Die waardes kan wissel van selle word. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of columns in the range. "
+msgstr "Opgawes van die aantal kolomme in die reeks. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric cosine function (value is in radians). "
+msgstr "Trigonometriese kosinus funksie (waarde is in radiale)."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error. "
+msgstr "Tel die aantal numeriese waardes, nie leeg is, teks, of foute. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values. "
+msgstr "Tel die aantal nie-leë waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of blank values. (Note: '' is not blank.) "
+msgstr "Tel die aantal leë waardes. (Nota:''nie leeg is.) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of number of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). "
+msgstr "Tel die hoeveelheid van die aantal van die selle in die reeks wat voldoen aan die kriteria. Die kriteria kan wees van 'n waarde (' x ', 15, 1 3) of' n toets (> 25). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the appropriate date value given numbers for year, month, and day. For example: DATE(2006,2,1) for February 1, 2006. Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "Opbrengste van die betrokke datum waarde gegee syfers vir die jaar, maand en dag. Byvoorbeeld: DATUM (2006,2,1) vir 1 Februarie 2006. Let wel: In hierdie program, dag 1 is 31 Desember 1899 en die jaar 1900 is nie 'n skrikkeljaar. Sommige programme gebruik 1 Januarie 1900, soos dag 1 en behandeling van 1900 as 'n skrikkeljaar. In beide gevalle, alhoewel, datums op of na 1 Maart 1900, is dieselfde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values in the specified field in records that meet the criteria. "
+msgstr "Gemiddeldes van die waardes in die gekose veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of month for a date value. "
+msgstr "Opbrengste van die dag van die maand vir 'n datum waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error, in the specified field in records that meet the criteria. "
+msgstr "Tel die aantal numeriese waardes, nie leeg is, teks, of fout in die gekose veld in die rekords wat voldoen aan die kriteria. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values in the specified field in records that meet the criteria. "
+msgstr "Tel die aantal nie-leë waarde in die gekose veld in die rekords wat voldoen aan die kriteria. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at the given period of time (the default factor is 2 for double-declining balance).   "  
+msgstr "Opgawes van die bedrag van waardevermindering op die gegewe tyd (die standaard-faktor is 'n 2 vir dubbel-afnemende balans). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in radians into degrees. "
+msgstr "Bekeerlinge waarde in radiale na grade. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value of the specified field in the single record that meets the criteria. "
+msgstr "Opgawes van die waarde van die gespesifiseerde veld in die enkele rekord wat voldoen aan die kriteria. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes van die maksimum van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the result of multiplying the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opbrengste die resultaat van die vermeerdering van die numeriese waardes van die gespesifiseerde veld in die rekords wat voldoen aan die kriteria. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes die monster standaardafwyking van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes van die standaardafwyking van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes die som van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes die monster variansie van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "Opgawes die variansie van die numeriese waardes van die gespesifiseerde veld in die rekords wat aan die kriteria voldoen. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest even integer. "
+msgstr "Rondtes van die waarde in grootte tot die naaste heelgetal selfs. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the values are exactly the same, including case, type, etc. "
+msgstr "Opgawes waar indien die waardes is presies dieselfde, met inbegrip van die geval, tik, ens. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns e raised to the value power. "
+msgstr "Returns e geopper om die waarde mag. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns factorial of the value. "
+msgstr "Opbrengste van faktore van die waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value false. "
+msgstr "Opgawes die logiese waarde vals. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the starting position within string2 of the first occurrence of string1 at or after start. If start is omitted, 1 is assumed. "
+msgstr "Opgawes die begin posisie binne string2 van die eerste voorkoms van string1 op of na die begin. As begin uitgelaat is, 1 aanname gemaak word. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the future value of repeated payments of money invested at the given rate for the specified number of periods, with optional present value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Opgawes van die toekomstige waarde van herhaalde betalings van geld belê teen die gegewe prys vir die gespesifiseerde aantal tydperke, met die opsionele huidige waarde (standaard 0) en die tipe van betaling (standaard 0 = aan einde van tydperk, 1 = begin van tydperk). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the row offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. "
+msgstr "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the row offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the hour portion of a time or date/time value. "
+msgstr "Opgawes die uur gedeelte van 'n tyd of die datum / tyd waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Results in true-value if logical-expression is TRUE or non-zero, otherwise results in false-value. "
+msgstr "Resultate in die ware waarde as logies-uitdrukking WAAR is of nie-nul, anders sal die resultate in die vals-waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns a cell or range reference for the specified row and column in the range. If range is 1-dimensional, then only one of rownum or colnum are needed. If range is 2-dimensional and rownum or colnum are zero, a reference to the range of just the specified column or row is returned. You can use the returned reference value in a range, e.g., sum(A1:INDEX(A2:A10,4)). "
+msgstr "Opbrengste van 'n sel of omvang verwysing vir die gekose ry en kolom in die reeks. As reeks is 1-dimensionele, dan is slegs een van rownum of colnum is nodig. As reeks is 2-dimensionele en rownum of colnum is nul, 'n verwysing na die omvang van net die gekose kolom of ry teruggestuur is. Jy kan gebruik maak van die teruggestuur verwysing waarde in 'n reeks, bv, som (A1: WELKOM (A2: A10 4)). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the value rounded down to the nearest integer (towards -infinity). "
+msgstr  "Opgawes die waarde afgerond tot die naaste heelgetal (na-oneindigheid). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the interest rate at which the cash flows in the range have a net present value of zero. Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "Opgawes die rentekoers waarteen die kontantvloei in die reeks het 'n netto huidige waarde van nul. Gebruik van 'n iteratiewe proses wat # NUM sal terugkeer! fout as dit nie konvergeer. Miskien is daar meer as een moontlike oplossing. Die verskaffing van die opsionele raai waarde kan help waar dit nie gebeur nie konvergeer in sekere situasies of vind 'n oplossing nie (die standaard dink 10% is). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is a reference to a blank cell. "
+msgstr "Opgawes waar as die waarde is 'n verwysing na' n leë sel. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error but not NA. "
+msgstr "Opgawes waar as die waarde is van die tipe fout, maar nie Nvt. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error. "
+msgstr "Returns ware as die waarde is van die tipe fout. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Logical (true/false). "
+msgstr "Returns ware as die waarde is van die tipe Logiese (waar / onwaar). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is the error type NA. "
+msgstr "Opgawes waar as die waarde is die fout tipe Nvt. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is not of type Text. "
+msgstr "Opgawes waar as die waarde is nie van die soort teks. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Number (including logical values). "
+msgstr "Returns ware as die waarde is van die tipe Number (insluitende logiese waardes). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Text. "
+msgstr "Opgawes waar as die waarde is van die soort teks. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value. If count is omitted, 1 is assumed. "
+msgstr "Opgawes van die gespesifiseerde aantal van karakters uit die teks waarde. As Telling uitgelaat is, 1 aanname gemaak word. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of characters in the text value. "
+msgstr "Opgawes van die aantal karakters in die teks waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the natural logarithm of the value. "
+msgstr "Opgawes van die natuurlike logaritme van die waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logarithm of the value using the specified base. "
+msgstr "Opgawes van die logaritme van die waarde van die gebruik van die gespesifiseerde basis. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the base 10 logarithm of the value. "
+msgstr "Opgawes die grondtal 10 logaritme van die waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all uppercase characters converted to lowercase. "
+msgstr "Opgawes van die teks waarde, met al die hoofletters omgeskakel na klein letters. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return position (the first is 1) in that range. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. If rangelookup is -1, act like 1 but the bracket is match>=value. "
+msgstr "Afhangende van die ooreenstemmende waarde vir die gegewe waarde in die reeks en terugkeer posisie (die eerste is 1) in die reeks. As rangelookup is 1 (standaard) en nie 0, ooreenstem indien dit binne die numeriese hakies (ooreenstem <= waarde) in plaas van exact match. As rangelookup is -1, tree op soos 1, maar die haak is 'match> = waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the maximum of the numeric values. "
+msgstr "Opgawes van die maksimum van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the specified position. "
+msgstr "Opgawes van die gespesifiseerde aantal van karakters uit die teks waarde vanaf die gespesifiseerde posisie. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minimum of the numeric values. "
+msgstr "Opgawes die minimum van die numeriese waardes. "
+ 
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minute portion of a time or date/time value. "
+msgstr "Opgawes die minuut gedeelte van 'n tyd of die datum / tyd waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the remainder of the first value divided by the second. "
+msgstr "Opgawes die res van die eerste waarde gedeel deur die tweede. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the month part of a date value. "
+msgstr "Opgawes van die maand deel van 'n datum waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value if it is a numeric value otherwise an error. "
+msgstr "Opgawes die waarde indien dit 'n numeriese waarde wat andersins' n fout. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the #N/A error value which propagates through most operations. "
+msgstr "Opgawes die # N / A fout waarde wat voortgeplant word deur middel van die meeste bedrywighede. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns FALSE if value is true, and TRUE if it is false. "
+msgstr "Returns ONWAAR is as die waarde waar is, en WAAR indien dit vals is. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date/time. "
+msgstr "Gee die huidige datum / tyd. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of periods at which payments invested each period at the given rate with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period) has the given present value. "
+msgstr "Opgawes van die aantal tydperke waarin die betalings belê elke periode op die gegewe koers met opsionele toekomstige waarde (standaard 0) en die tipe van betaling (standaard 0 = aan einde van tydperk, 1 = begin van tydperk) het die gegewe huidige waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the net present value of cash flows (which may be individual values and/or ranges) at the given rate. The flows are positive if income, negative if paid out, and are assumed at the end of each period. "
+msgstr "Opgawes die netto huidige waarde van kontantvloei (wat moontlik individuele waardes en / of bereik word) by die gegewe prys. Die strome is die positiewe as inkomste, negatiewe as uitbetaal, en is veronderstel om die einde van elke tydperk. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest odd integer. "
+msgstr "Rondtes van die waarde in grootte na die naaste onewe getal is. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if any argument is true "
+msgstr "Waar indien enige argument is waar "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "The value 3.1415926... "
+msgstr "Die waarde 3.1415926 ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of each payment that must be invested at the given rate for the specified number of periods to have the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Opgawes van die bedrag van elke betaling wat op die gegewe persentasie van die gespesifiseerde aantal periodes moet belê word om die gespesifiseerde huidige waarde, met opsioneel toekomstige waarde (standaard 0) en die tipe van betaling (standaard 0 = aan einde van tydperk, 1 = begin van tydperk). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the first value raised to the second value power. "
+msgstr "Gee die eerste waarde te verhoog tot die tweede waarde mag. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the result of multiplying the numeric values. "
+msgstr  "Opbrengste die resultaat van die vermeerdering van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with the first letter of each word converted to uppercase and the others to lowercase. "
+msgstr "Opgawes van die teks waarde in die eerste letter van elke woord omskep in hoofletters en die ander na klein letters. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the present value of the given number of payments each invested at the given rate, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "Opgawes die huidige waarde van die gespesifiseerde getal van die betalings elke belê teen die gegewe prys, met opsioneel toekomstige waarde (standaard 0) en die tipe van betaling (standaard 0 = aan einde van tydperk, 1 = begin van tydperk). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in degrees into radians. "
+msgstr "Converteert waarde in die grade na radiale. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the rate at which the given number of payments each invested at the given rate has the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "Opgawes die tempo waarteen die gegewe aantal betalings elke belê teen die gegewe prys het die gespesifiseerde huidige waarde, met opsioneel toekomstige waarde (standaard 0) en die tipe van betaling (standaard 0 = aan einde van tydperk, 1 = begin van tydperk). Gebruik van 'n iteratiewe proses wat # NUM sal terugkeer! fout as dit nie konvergeer. Miskien is daar meer as een moontlike oplossing. Die verskaffing van die opsionele raai waarde kan help waar dit nie gebeur nie konvergeer in sekere situasies of vind 'n oplossing nie (die standaard dink 10% is). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the specified number of characters starting from the specified position replaced by text2. "
+msgstr "Returns text1 met die gespesifiseerde aantal van karakters vanaf die gespesifiseerde posisie vervang deur text2. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text repeated the specified number of times. "
+msgstr "Opgawes van die teks herhaal die gespesifiseerde aantal kere. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the end. If count is omitted, 1 is assumed. "
+msgstr "Opgawes van die gespesifiseerde aantal van karakters uit die teks waarde vanaf die einde. As Telling uitgelaat is, 1 aanname gemaak word. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value to the specified number of decimal places. If precision is negative, then round to powers of 10. The default precision is 0 (round to integer). "
+msgstr "Rondtes van die waarde van die gespesifiseerde aantal desimale plekke. As akkuraatheid negatief is, dan rond te magte van 10. Die standaard akkuraatheid is 0 (ronde tot heelgetal). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of rows in the range. "
+msgstr "Opgawes die aantal rye in die reeks. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the second portion of a time or date/time value (truncated to an integer). "
+msgstr "Opbrengste van die tweede gedeelte van 'n tyd of die datum / tyd waarde (kapt om' n heelgetal). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric sine function (value is in radians) "
+msgstr "Trigonometriese sinus funksie (waarde is in radiale) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at each period of time using the straight-line method. "
+msgstr "Opgawes van die bedrag van waardevermindering op elke periode van tyd met behulp van die reguitlyn-metode. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Square root of the value "
+msgstr "Vierkantswortel van die waarde "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values. "
+msgstr "Opgawes die monster standaardafwyking van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the standard deviation of the numeric values. "
+msgstr "Opgawes die standaardafwyking van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the all occurrences of oldtext replaced by newtext. If occurrence is present, then only that occurrence is replaced. "
+msgstr "Returns text1 met die alle voorkomste van oldtext vervang deur newtext. As voorval teenwoordig is nie, dan net dat die voorkoms vervang is. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Adds the numeric values. The values to the sum function may be ranges in the form similar to A1:B5. "
+msgstr "Voeg die numeriese waardes. Die waardes aan die som-funksie kan bereik, in die vorm soortgelyk aan A1: B5 word. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sums the numeric values of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). If range2 is present, then range1 is tested and the corresponding range2 value is summed. "
+msgstr "Kostes van die numeriese waardes van die selle in die reeks wat aan die kriteria voldoen. Die kriteria kan wees van 'n waarde (' x ', 15, 1 3) of' n toets (> 25). As range2 teenwoordig is nie, dan range1 is getoets en die ooreenstemmende range2 waarde is opgesom. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Depreciation by Sum of Year's Digits method. "
+msgstr "Waardevermindering deur Som van die Jaar se Tydsbeswaarde metode. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value or else a null string. "
+msgstr "Opgawes van die teks waarde of anders 'gelyk is aan nul. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric tangent function (value is in radians) "
+msgstr "Trigonometriese tangens funksie (waarde is in radiale) "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the time value given the specified hour, minute, and second. "
+msgstr "Opgawes die tydwaarde gegewe die gespesifiseerde uur, minuut, en die tweede. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date (an integer). Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "Gee die huidige datum ( 'n heelgetal). Let wel: In hierdie program, dag 1 is 31 Desember 1899 en die jaar 1900 is nie 'n skrikkeljaar. Sommige programme gebruik 1 Januarie 1900, soos dag 1 en behandeling van 1900 as 'n skrikkeljaar. In beide gevalle, alhoewel, datums op of na 1 Maart 1900, is dieselfde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with leading, trailing, and repeated spaces removed. "
+msgstr "Gee die teks waarde met vooraanstaande, sleep, en herhaalde spasies verwyder. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value true. "
+msgstr "Opgawes die logiese waarde waar. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Truncates the value to the specified number of decimal places. If precision is negative, truncate to powers of 10. "
+msgstr "Truncates die waarde van die gespesifiseerde aantal desimale plekke. As akkuraatheid negatief is, afkorten magte van 10. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all lowercase characters converted to uppercase. "
+msgstr "Opgawes van die teks waarde, met al die klein letters omgeskakel in hoofletters. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts the specified text value into a numeric value. Various forms that look like numbers (including digits followed by %, forms that look like dates, etc.) are handled. This may not handle all of the forms accepted by other spreadsheets and may be locale dependent. "
+msgstr "Vat die gespesifiseerde teks waarde in 'n numeriese waarde. Verskillende vorms wat lyk soos getalle (insluitend die syfers gevolg deur '%, vorms wat lyk soos datums, ens) word hanteer. Dit kan hanteer al die vorms word aanvaar deur ander spread nie en kan plaaslike afhanklik is. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the sample variance of the numeric values. "
+msgstr "Opgawes die monster variansie van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values. "
+msgstr "Opgawes die variansie van die numeriese waardes. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the column offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match>=value) instead of exact match. "
+msgstr "Afhangende van die ooreenstemmende waarde vir die gegewe waarde in die reeks en die terugkeer van die ooreenstemmende waarde in die sel is verskaf deur die kolom verreken. As rangelookup is 1 (standaard) en nie 0, ooreenstem indien dit binne die numeriese hakies (ooreenstem> = waarde) in plaas van exact match. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of week specified by the date value. If type is 1 (the default), Sunday is day and Saturday is day 7. If type is 2, Monday is day 1 and Sunday is day 7. If type is 3, Monday is day 0 and Sunday is day 6. "
+msgstr "Opbrengste van die dag van die week word bepaal deur die datum waarde. As soort is, is 1 (standaard), Sondag is die dag en Saterdag is 'dag 7. As tipe is 2, Maandag is dag 1 en Sondag is die dag 7. As tipe is 3, Maandag is dag 0 en Sondag is die dag 6. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the year part of a date value. "
+msgstr "Opgawes die jaar deel van 'n datum waarde. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value"
+msgstr "waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value1, value2, ..."
+msgstr "waarde1, value2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "valueX, valueY"
+msgstr  "waardeX, valueY"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "index, value1, value2, ..."
+msgstr "indeks, waarde1, value2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range"
+msgstr "reeks"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, criteria"
+msgstr "omvang, kriteria"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "year, month, day"
+msgstr "jaar, maand, dag"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "databaserange, fieldname, criteriarange"
+msgstr "databaserange, fieldname, criteriarange"
+  
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period [, factor]"
+msgstr "koste, berge, leeftyd, periode [, faktor]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "string1, string2 [, start]"
+msgstr "string1, string2 [begin]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [pv, [paytype]]"
+msgstr "koers, n, betaling, [pv, [Betaling Type]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, row, [rangelookup]"
+msgstr "waarde, reeks, ry, [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "logical-expression, true-value, false-value"
+msgstr "logies-uitdrukking, waar-waarde, vals-waarde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, rownum, colnum"
+msgstr "reeks, rownum, colnum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, [guess]"
+msgstr "reeks, [dink]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, count"
+msgstr "teks, reken"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, base"
+msgstr "waarde, basis"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, [rangelookup]"
+msgstr "waarde, reeks, [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, start, length"
+msgstr "teks, die begin van lengte"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, payment, pv, [fv, [paytype]]"
+msgstr "koers, betaling, pv, [fv, [Betaling Type]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, value1, value2, ..."
+msgstr "koers, waarde1, value2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, pv, [fv, [paytype]]"
+msgstr "koers, n, pv, [fv, [Betaling Type]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [fv, [paytype]]"
+msgstr "koers, n, betaling, [fv, [Betaling Type]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "n, payment, pv, [fv, [paytype, [guess]]]"
+msgstr "n, betaling, pv, [fv, [Betaling Type, [dink]]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, start, length, text2"
+msgstr "text1, begin, lengte, text2"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, [precision]"
+msgstr  "waarde, [presies]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime"
+msgstr "kos, redding, leeftyd"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period"
+msgstr "kos, redding, leeftyd, periode"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, oldtext, newtext [, occurrence]"
+msgstr  "text1, oldtext, newtext [, voorkoms]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "range1, criteria [, range2]"
+msgstr "range1, kriteria [, range2]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "hour, minute, second"
+msgstr "uur, minuut, sekonde"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, col, [rangelookup]"
+msgstr "waarde, reeks, kol, [rangelookup]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date, [type]"
+msgstr "datum, [tipe]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date"
+msgstr  "datum"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid ["all", "stat", "lookup", "datetime", "financial", "test", "math", Text]
+#msgstr ["alle", "stat", "soek", "datetime", "finansiële", "toets", "math", teks]
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "All"
+msgstr "Alles"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Statistics"
+msgstr "Statistieke"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Lookup"
+msgstr "Lookup"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Date & Time"
+msgstr "Datum & Tyd"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Financial"
+msgstr "Finansiële"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Test"
+msgstr "Toets"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Math"
+msgstr "Math"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cells to Graph"
+msgstr "Selle te Grafiek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Graph"
+msgstr "Set Selle Om Grafiek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph Type"
+msgstr  "Grafiek Tipe"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "filter:alpha(opacity=90);opacity:.9;"
+msgstr "filter: alpha (opacity = 90); opaciteit: ,9;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain"
+msgstr "Plain"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph"
+msgstr "Grafiek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Pie Chart"
+msgstr "Sirkelgrafiek"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Help"
+msgstr  "Help"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal Bar"
+msgstr "Horizontal Bar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical Bar"
+msgstr "Vertikale Bar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Line Chart"
+msgstr "Lyn Chart"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plot Points"
+msgstr "Plot punte"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown range name"
+msgstr "Onbekend omvang naam"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hide Help"
+msgstr "Steek Hulp"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Max "
+msgstr "Max "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Min "
+msgstr "Min "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " OK "
+msgstr " OK "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Cancel]"
+msgstr "[Cancel]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "TRUE"
+msgstr "Waar"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "FALSE"
+msgstr "ONWAAR"
+

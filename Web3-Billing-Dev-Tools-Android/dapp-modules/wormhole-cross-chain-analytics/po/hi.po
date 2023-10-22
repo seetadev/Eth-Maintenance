@@ -1,0 +1,1480 @@
+﻿#"Project-Id-Version: \n"
+#"POT-Creation-Date: \n"
+#"PO-Revision-Date: \n"
+#"Last-Translator: vijit <vijit_s@yahoo.com>\n"
+#"Language-Team: Hindi\n"
+#"MIME-Version: 1.0\n"
+#"Content-Type: text/plain; charset=utf-8\n"
+#"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "SocialCalcActivity"
+msgstr "SocialCalcActivity"
+
+#msgid "t"
+#msgstr "टी"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:10
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:13
+msgid "Browser not supported. "
+msgstr "ब्राउज़र समर्थित नहीं है"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:14
+msgid "Internal SocialCalc error (probably an internal bug):"
+msgstr "आंतरिक सोशलकेल्क त्रुटि (शायद एक आंतरिक बग):"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:20
+msgid "Unknown col type item"
+msgstr "अज्ञात कौलम प्रकार के आइटम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:21
+msgid "Unknown row type item"
+msgstr "अज्ञात पंक्ति प्रकार के आइटम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:22
+msgid "Unknown line type"
+msgstr "?अज्ञात लाइन प्रकार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:28
+msgid "Unknown cell type item"
+msgstr "अज्ञात सेल प्रकार आइटम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:36
+msgid "Unknown sheet command: "
+msgstr "अज्ञात पत्रक कमांड: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:37
+msgid "Unknown set coord command: "
+msgstr "अज्ञात सेट कौर्ड कमांड: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:38
+msgid "Unknown command: "
+msgstr "अज्ञात आदेश: "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:42
+msgid "Circular reference to "
+msgstr "परिपत्र के लिए संदर्भ"
+
+#msgid "30"
+#msgstr "30"
+#msgid "cell_"
+#msgstr "सेल_"
+#msgid "padding:2px 2px 1px 2px;vertical-align:top;"
+#msgstr "पेढिंग: 2पीएक्स  2पीएक्स  2पीएक्स : 1पीएक्स ; ऊर्ध्वाधर-एलाइन: शीर्ष;"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:46
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:48
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:52
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:53
+msgid "normal normal"
+msgstr "सामान्य सामान्य "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:54
+msgid "small"
+msgstr "छोटे "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Displaying..."
+msgstr "प्रदर्शित ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Ordering..."
+msgstr "आदेश ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating..."
+msgstr "गिना जा रहा है ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculating... Loading Sheet..."
+msgstr "गिना जा रहा है ... शीट लोड हो रहा है ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "doing server function "
+msgstr "कर सर्वर समारोह "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " in cell "
+msgstr "सेल में"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Calculation start..."
+msgstr "गणना शुरू ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SUM"
+msgstr "सम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[Multi-line text: Click icon on right to edit]"
+msgstr "[मल्टी लाइन पाठ: संपादित करना ठीक पर क्लिक करें आइकन]"
+
+#msgid "fontSize:small;fontStyle:italic;padding:2px 10px 1px 2px;cursor:default;"
+#msgstr "फ़ोंटसाईज़: छोटे; फ़ोंटइसटाईल  तिरछा:; padding: 2पीएक्स 10पीएक्स 2पीएक्स: 1पीएक्स; कर्सर: डिफ़ॉल्ट;"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function "
+msgstr "अज्ञात समारोह"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane vertically"
+msgstr "खींचें फलक बंद करने खड़ी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Drag to lock pane horizontally"
+msgstr "खींचें फलक ताला को क्षैतिज"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Center"
+msgstr "क्रमबद्धबीचमें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Left"
+msgstr "बायाँपंक्तिबद्धकरें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Align Right"
+msgstr "दायाँपंक्तिबद्धकरें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Alignment"
+msgstr "संरेखण"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit"
+msgstr "लेखा परीक्षा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Audit Trail This Session"
+msgstr "लेखा परीक्षा ट्राएल  इस सत्र"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto"
+msgstr "ऑटो"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto Sum"
+msgstr "ऑटो जोड़"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Auto w/ commas"
+msgstr "ऑटो डबल्यू  / अल्पविराम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Automatic"
+msgstr "स्वत:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold"
+msgstr "बोल्ड"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold &amp; Italics"
+msgstr "बोल्ड और तिर्छा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bold Italic"
+msgstr "बोल्ड इटैलिक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders"
+msgstr "सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders Off"
+msgstr "बंद सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Borders On"
+msgstr "सीमाओं पर"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom"
+msgstr "तली"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Bottom Border"
+msgstr "नीचे सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CELL SETTINGS"
+msgstr "सेल स्थापन "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "CSV format"
+msgstr "सीएसवी प्रारूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Category"
+msgstr "श्रेणी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Center"
+msgstr "केन्द्र"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear"
+msgstr "स्पष्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clear SocialCalc Clipboard"
+msgstr "स्पष्ट SocialCalc क्लिपबोर्ड"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Clipboard"
+msgstr "क्लिपबोर्ड"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Color"
+msgstr "रंग"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Column"
+msgstr "कॉलम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Copy"
+msgstr "प्रतिलिपि"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Custom"
+msgstr "प्रथा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cut"
+msgstr "काटना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default"
+msgstr "चूक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Alignment"
+msgstr "डिफ़ॉल्ट पंक्तिबद्धता"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Column Width"
+msgstr "डिफ़ॉल्ट स्तम्भ चौड़ाई"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Font"
+msgstr "डिफ़ॉल्ट फ़ॉन्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Format"
+msgstr "डिफ़ॉल्ट स्वरूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Default Padding"
+msgstr "डिफ़ॉल्ट padding"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete"
+msgstr "मिटाना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Column"
+msgstr "हटाएँ कॉलम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Contents"
+msgstr "हटाएँ सामग्री"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Delete Row"
+msgstr "पंक्ति हटाएँ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Description"
+msgstr "विवरण"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Display Clipboard in"
+msgstr "प्रदर्शन क्लिपबोर्ड में"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Down"
+msgstr "नीचे"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Existing Names"
+msgstr "वर्तमान नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Family"
+msgstr "परिवार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Down"
+msgstr "नीचे भरें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Fill Right"
+msgstr "भरने के अधिकार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Font"
+msgstr "फ़ॉन्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Format"
+msgstr "प्रारूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula"
+msgstr "सूत्र"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Function List"
+msgstr "समारोह की सूची"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Functions"
+msgstr "कार्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hidden"
+msgstr "छिपा हुआ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal"
+msgstr "क्षैतिज"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Column"
+msgstr "कॉलम डालें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Insert Row"
+msgstr "पंक्ति डा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Italic"
+msgstr "इटैलिक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Last Sort"
+msgstr "पिछले आधार पर छाँटें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left"
+msgstr "बायां"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Left Border"
+msgstr "वाम सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link"
+msgstr "जोड़ना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Link Input Box"
+msgstr "लिंक इनपुट बॉक्स"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "List"
+msgstr "सूची"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Load SocialCalc Clipboard With This"
+msgstr "लोड सोशलकेल्क इसके साथ क्लिपबोर्ड"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Major Sort"
+msgstr "प्रमुख आधार पर छाँटें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Manual"
+msgstr "मैनुअल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Merge Cells"
+msgstr "विलय प्रकोष्ठों"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Middle"
+msgstr "मध्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Minor Sort"
+msgstr "गौण आधार पर छाँटें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Insert"
+msgstr "डालें हटो"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Move Paste"
+msgstr "चिपकाएँ हटो"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Multi-line Input Box"
+msgstr "बहु पंक्ति इनपुट बॉक्स"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Name"
+msgstr "नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Names"
+msgstr "नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "No padding"
+msgstr "नहीं पेढिंग"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Normal"
+msgstr "सामान्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number"
+msgstr "संख्या"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Number Horizontal"
+msgstr "संख्या क्षैतिज"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "OK"
+msgstr "ठीक है"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Padding"
+msgstr " पेढिंग"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Page Name"
+msgstr "पृष्ठ नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste"
+msgstr "चिपकाएँ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Paste Formats"
+msgstr "चिपकाएँ प्रारूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain Text"
+msgstr "सादा पाठ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalc"
+msgstr "रिकेल्क"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Recalculation"
+msgstr "रीकेलकुलेशन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " Redo"
+msgstr "फिर से करें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right"
+msgstr "दायां"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Right Border"
+msgstr "दाहिनी  सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SHEET SETTINGS"
+msgstr "पत्र की स्थापना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save"
+msgstr "जमा करना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Save to"
+msgstr "बचाने के लिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cell Contents"
+msgstr "निरधारित प्रकोष्ठ समग्री "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Sort"
+msgstr "सेट प्रकोष्ठों सॉर्ट करने के लिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Value To"
+msgstr "निर्धारित मूल्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set to Link format"
+msgstr "निर्धारित प्रारूप के लिए लिंक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set/Clear Move From"
+msgstr "सेट / क्लियर हटो से"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Cell Settings"
+msgstr "दिखाएँ कक्ष सेटिंग्स"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show Sheet Settings"
+msgstr "शीटदिखाएं सेटिंग्स"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Show in new browser window"
+msgstr "नई ब्राउज़र विंडो में दिखाएँ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Size"
+msgstr "आकार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SocialCalc-save format"
+msgstr "सोशलकेल्क-प्रारूप को बचाने के"
+
+#msgid "Sort"
+#msgstr "क्रमबद्ध करें"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort"
+msgstr "क्रमबद्ध करें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sort Cells"
+msgstr "क्रमबद्ध करें प्रकोष्ठों को"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Swap Colors"
+msgstr "रंगो को स्वैप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Tab-delimited format"
+msgstr "टैब सीमांकित स्वरूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text"
+msgstr "पाठ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Text Horizontal"
+msgstr "पाठ को क्षैतिज"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "This is a<br>sample"
+msgstr "यह एक नमूना है <बीआर>"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top"
+msgstr "चरम "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Top Border"
+msgstr "शीर्ष सीमा"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "UNDONE STEPS"
+msgstr "पूर्ववत उपाय"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "URL"
+msgstr "यूआरएल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Undo"
+msgstr "पूर्ववत करें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unmerge Cells"
+msgstr "अविलीन करें प्रकोष्ठों को"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Up"
+msgstr "ऊपर"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Value"
+msgstr "मूल्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical"
+msgstr "खड़ा  "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Workspace"
+msgstr "कार्यक्षेत्र"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[New]"
+msgstr "[नई]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[None]"
+msgstr "[कोई नहीं]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "[select range]"
+msgstr "[चुनें सीमा]"
+
+#msgid ","
+#msgstr ","
+#msgid "."
+#msgstr "."
+#msgid "$"
+#msgstr "$"
+#msgid "["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]"
+#msgstr "["रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार "]"
+#msgid "["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]"
+#msgstr "["रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि "]"
+#msgid "["January", "February", "March", "April", "May", "June", "July", "August", "September",
+# "October", "November", "December"]"
+#msgstr "[ "जनवरी", "फरवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितम्बर",
+#                                     "अक्तूबर", "नवम्बर", "दिसम्बर"]"
+#msgid "["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]"
+#msgstr "[ "जन", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितम्बर", "अक्तूबर", "नवम्बर", "दिसम्बर"]"
+#msgid "AM"
+#msgstr "ऐएम"
+#msgid "A"
+#msgstr "ए"
+#msgid "PM"
+#msgstr "पीएम"
+#msgid "P"
+#msgstr "पी "
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed number exponent"
+msgstr "अनुचित संख्या प्रतिपादक का गठन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unexpected character in formula"
+msgstr "सूत्र में अनपेक्षित चरित्र"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed string"
+msgstr "अनुचित स्ट्रिंग का गठन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Improperly formed special value"
+msgstr "अनुचित विशेष मूल्य का गठन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula (two operators inappropriately in a row)"
+msgstr "सूत्र में त्रुटि (दो ऑपरेटरों अनुपयुक्त एक पंक्ति में)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing open parenthesis in list with comma(s)."
+msgstr "अल्पविराम के साथ सूची में खुले विराम गुम ( एस)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Closing parenthesis without open parenthesis. "
+msgstr "खुला विराम के बिना बंद कोष्टक."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing close parenthesis."
+msgstr "छुपा बंद कोष्टक."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Missing operand."
+msgstr "छुपा संकार्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula."
+msgstr "सूत्र में त्रुटि"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error value in formula"
+msgstr "सूत्र में त्रुटि मूल्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Error in formula resulting in bad value"
+msgstr "सूत्र में त्रुटि बुरा मूल्य में जिसके परिणामस्वरूप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in range value:"
+msgstr "सीमा के मूल्य में फार्मूला परिणाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Formula results in an bad numeric value"
+msgstr "एक बुरा संख्यात्मक मूल्य में फार्मूला परिणाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Numeric overflow"
+msgstr "अंकीय अतिप्रवाह"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet unavailable:"
+msgstr "पत्र अनुपलब्ध:"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cell reference missing when expected."
+msgstr "छुपी सेल संदर्भ जब उम्मीद थी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sheet name missing when expected."
+msgstr "छुपी शीट नाम जब उम्मीद थी."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Circular name reference to name"
+msgstr "परिपत्र नाम संदर्भ के नाम पर"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown name"
+msgstr "अज्ञात नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Incorrect arguments to function"
+msgstr "गलत तर्क समारोह में"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown function"
+msgstr "अज्ञात समारोह"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LN argument must be greater than 0"
+msgstr "एल.एन. तर्क को 0 से अधिक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG10 argument must be greater than 0"
+msgstr "LOG10 तर्क को 0 से अधिक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG second argument must be numeric greater than 0"
+msgstr "LOG दूसरा तर्क संख्यात्मक से अधिक 0 होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "LOG first argument must be greater than 0"
+msgstr "LOG पहली बहस 0 से अधिक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "ROUND second argument must be numeric"
+msgstr "दूसरे दौर तर्क संख्यात्मक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "DDB life must be greater than 1"
+msgstr "DDB जीवन 1 से अधिक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "SLN life must be greater than 1"
+msgstr "एसएलएन  जीवन 1 से अधिक होना चाहिए"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value"
+msgstr "मूल्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value1, value2, ..."
+msgstr "मान 1, मान 2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "valueX, valueY"
+msgstr "मूल्य एक्स, मूल्य वाई "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "index, value1, value2, ..."
+msgstr "सूचकांक, मान 1, मान 2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range"
+msgstr "श्रेणी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, criteria"
+msgstr "श्रेणी, शर्तें"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "year, month, day"
+msgstr "वर्ष, महीने के दिन,"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "databaserange, fieldname, criteriarange"
+msgstr "डैटबेस,फ़ील्डनेम,क्राएटेरियारेन्ज "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period [, factor]"
+msgstr "लागत, बचाना, जीवन, अवधि [कारक,]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "string1, string2 [, start]"
+msgstr "1 स्ट्रिंग, स्ट्रिंग 2 [शुरू]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [pv, [paytype]]"
+msgstr "दर, एन, भुगतान, [पीवी, [पेटाईप]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, row, [rangelookup]"
+msgstr "मूल्य, श्रेणी, पंक्ति, [रैन्जलुकअप]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "logical-expression, true-value, false-value"
+msgstr "तार्किक-अभिव्यक्ति, सही मूल्य, झूठी मूल्य"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, rownum, colnum"
+msgstr "श्रेणी, पंक्ति संख्या, स्तंभ संख्या"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "range, [guess]"
+msgstr "सीमा, [अनुमान]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, count"
+msgstr "पाठ, गिनती"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, base"
+msgstr "मूल्य , आधार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, [rangelookup]"
+msgstr "मूल्य, श्रेणी, [रैन्जलुकअप]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text, start, length"
+msgstr "पाठ, प्रारंभ, लंबाई"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, payment, pv, [fv, [paytype]]"
+msgstr "दर, भुगतान, पीवी , [एफ़वी , [ पेटाईप ]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, value1, value2, ..."
+msgstr "दर, मान 1, मान 2, ..."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, pv, [fv, [paytype]]"
+msgstr "दर,रैन्जलुकअप , पीवी , [एफ़वी , [ पेटाईप ]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "rate, n, payment, [fv, [paytype]]"
+msgstr "दर, एन, भुगतान, [एफ़वी , [ पेटाईप ]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "n, payment, pv, [fv, [paytype, [guess]]]"
+msgstr "एन, भुगतान, पीवी, [एफ़वी, [पेटाईप, [अनुमान]]]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, start, length, text2"
+msgstr "1 पाठ, प्रारंभ, लंबाई, 2 पाठ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, [precision]"
+msgstr "मूल्य, [सटीक]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime"
+msgstr "लागत, बचाना, जीवन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "cost, salvage, lifetime, period"
+msgstr "लागत, बचाना, जीवन, अवध"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text1, oldtext, newtext [, occurrence]"
+msgstr "1 पाठ, पुराने पाठ, नया पाठ [घटना,]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "range1, criteria [, range2]"
+msgstr "श्रेणी 1, मापदंड [, सीमा 2]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "hour, minute, second"
+msgstr "घंटा, मिनट, पल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "text"
+msgstr  "पाठ "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "value, range, col, [rangelookup]"
+msgstr "मूल्य, श्रेणी, कर्नल, [रैन्जलुकअप]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date, [type]"
+msgstr "तारीख, [प्रकार]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "date"
+msgstr "तारीख "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "All"
+msgstr "सभी"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Statistics"
+msgstr "सांख्यिकी "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Lookup"
+msgstr "लुकअप"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Financial"
+msgstr "वित्तीय"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Test"
+msgstr "टेस्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Math"
+msgstr "गणित"
+
+#msgid "Text"
+#msgstr "पाठ"
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Not Set"
+msgstr "सेट नहीं"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "Cells to Graph"
+#msgstr "सेल ग्राफ़ को "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Set Cells To Graph"
+msgstr "सेट सेल करने के लिए ग्राफ़"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph Type"
+msgstr "ग्राफ़ प्रकार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "filter:alpha(opacity=90);opacity:.9;"
+msgstr "फिल्टर: अल्फा (= 90 अस्पष्टता); अपारदर्शिता: .9;"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Absolute value function. "
+msgstr "निरपेक्ष मूल्य क्रिया."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Trigonometric arccosine function. "
+msgstr "त्रिकोणमितीय अर्ककोसाइन क्रिया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if all arguments are true. "
+msgstr "अगर यह सही है सभी तर्क सही हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Trigonometric arcsine function. "
+msgstr "त्रिकोणमितीय अर्ककोसाइन क्रिया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arctan function. "
+msgstr  "त्रिकोणमितीय अर्कटैन क्रिया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric arc tangent function (result is in radians). "
+msgstr "परिणाम त्रिकोणमितीय आर्कस्पर्शज्या क्रिया (रैडीयन में है). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Averages the values. "
+msgstr "औसत मूल्य हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the value specified by the index. The values may be ranges of cells. "
+msgstr  "रिटर्न सूचकांक द्वारा निर्दिष्ट मूल्य. मूल्यों कोशिकाओं की श्रृंखला हो सकती है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the number of columns in the range. "
+msgstr   "रिटर्न रेंज में कॉलम की संख्या. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Trigonometric cosine function (value is in radians). "
+msgstr "त्रिकोणमितीय कोसाइन समारोह (मूल्य रैडीयन में है)."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Counts the number of numeric values, not blank, text, or error. "
+msgstr "संख्यात्मक मूल्यों की संख्या, रिक्त नहीं, पाठ, या त्रुटि मायने रखता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of non-blank values. "
+msgstr "गैर की संख्या में रिक्त मूल्यों मायने रखता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of blank values. (Note: '' is not blank.) "
+msgstr "कोरा मूल्यों की संख्या में गिना जाता है. (नोट: '' खाली नहीं है.)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of number of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). "
+msgstr  "रेंज में कोशिकाओं की संख्या की संख्या मानदंडों को पूरा: मायने रखता है. मानदंड एक मान हो सकता है ( एक्स, 15, 1 3) या एक परीक्षा (> 25). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the appropriate date value given numbers for year, month, and day. For example: DATE(2006,2,1) for February 1, 2006. Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr  "रिटर्न उपयुक्त तारीख वर्ष के लिए नंबर, महीने के मूल्य दिया, और दिन. उदाहरण के लिए DATE 2006,2,1 (:) 1 फ़रवरी 2006 के लिए. नोट: इस कार्यक्रम में, 1 दिन 31 दिसम्बर 1899 और 1900 साल है एक छलांग वर्ष नहीं है. कुछ कार्यक्रमों को 1 जनवरी 1900 का उपयोग करें, दिन के रूप में 1 और एक छलांग के रूप में वर्ष 1900 का इलाज. दोनों ही मामलों में, हालाँकि, पर या 1 मार्च 1900 के बाद की तारीख, वही कर रहे हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Averages the values in the specified field in records that meet the criteria. "
+msgstr "औसत निर्दिष्ट क्षेत्र में रिकॉर्ड में मूल्यों मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of month for a date value. "
+msgstr "एक तारीख मूल्य के लिए रिटर्न महीने के दिन. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Counts the number of numeric values, not blank, text, or error, in the specified field in records that meet the criteria. "
+msgstr "संख्यात्मक मूल्यों की संख्या, रिक्त नहीं, पाठ, या निर्दिष्ट क्षेत्र में त्रुटि, रिकॉर्ड में है कि मानदंडों को पूरा मायने रखता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Counts the number of non-blank values in the specified field in records that meet the criteria. "
+msgstr  "गैर की संख्या निर्दिष्ट क्षेत्र में रिक्त मूल्यों रिकॉर्ड में है कि मानदंडों को पूरा मायने रखता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at the given period of time (the default factor is 2 for double-declining balance).   "
+msgstr "समय दिया अवधि में रिटर्न मूल्यह्रास की राशि (डिफ़ॉल्ट कारक डबल गिरावट के शेष के लिए 2 है). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Converts value in radians into degrees. "
+msgstr  "डिग्री में रैडीयन मूल्य में धर्मान्तरित. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the value of the specified field in the single record that meets the criteria. "
+msgstr   "रिटर्न एक रिकार्ड है कि मानदंड बैठक में निर्दिष्ट क्षेत्र के महत्व होता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the maximum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों की अधिकतम कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "Returns the maximum of the numeric values in the specified field in records that meet the criteria. "
+#msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों की अधिकतम कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the result of multiplying the numeric values in the specified field in records that meet the criteria. "
+msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्य बढ़ रही है कि मानदंडों को पूरा का नतीजा है."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "रिटर्न रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों का नमूना मानक विचलन है कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the standard deviation of the numeric values in the specified field in records that meet the criteria. "
+msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों का मानक विचलन है कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sum of the numeric values in the specified field in records that meet the criteria. "
+msgstr "अभिलेखों में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों की राशि रिटर्न कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों के नमूने विचरण कि मानदंडों को पूरा. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values in the specified field in records that meet the criteria. "
+msgstr "लाभ के रिकॉर्ड में निर्दिष्ट क्षेत्र में संख्यात्मक मूल्यों के विचलन कि मानदंडों को पूरा. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest even integer. "
+msgstr "दौर की सबसे पास के परिमाण में उठ मूल्य भी पूर्णांक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the values are exactly the same, including case, type, etc. "
+msgstr "रिटर्न सही अगर मूल्यों बिल्कुल मामला है, उसी प्रकार सहित, आदि कर रहे हैं"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns e raised to the value power. "
+msgstr "रिटर्न ई मूल्य सत्ता में उठाया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns factorial of the value. "
+msgstr "मूल्य के कारख़ाने लौट आया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logical value false. "
+msgstr "रिटर्न तार्किक मान झूठे "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the starting position within string2 of the first occurrence of string1 at or after start. If start is omitted, 1 is assumed. "
+msgstr "रिटर्न स्ट्रिंग के भीतर का मूल्य उस स्थिति स्ट्रिंग की पहली घटना के 2-पर 1 या शुरुआत के बाद. अगर शुरू लोप है, 1 माना जाता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the future value of repeated payments of money invested at the given rate for the specified number of periods, with optional present value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "समय की निर्दिष्ट संख्या के लिए दी दर पर पैसा निवेश की पुनरावृत्ति भुगतान के भविष्य के मूल्य रिटर्न, वैकल्पिक वर्तमान मूल्य (0 डिफ़ॉल्ट) और भुगतान प्रकार के साथ (0 डिफ़ॉल्ट = अवधि के अंत में, 1 अवधि की शुरुआत =). " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the row offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. "
+msgstr   "श्रेणी में दी मूल्य के लिए मिलान मूल्य के लिए देखो और मुद्रण पंक्ति द्वारा निर्दिष्ट सेल में इसी मूल्य वापसी. यदि रेन्जलुकअप 1 (डिफ़ॉल्ट) और नहीं 0, अगर न्यूमेरिक कोष्ठक के भीतर मैच है (मैच <मूल्य =) के बजाय सटीक मेल का. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the hour portion of a time or date/time value. "
+msgstr  "रिटर्न एक समय या तिथि के घंटे भाग / समय मान. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Results in true-value if logical-expression is TRUE or non-zero, otherwise results in false-value. "
+msgstr "सच मूल्य में: परिणाम अगर तार्किक-अभिव्यक्ति सही है या गैर शून्य, नहीं तो झूठी मूल्य में परिणाम है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns a cell or range reference for the specified row and column in the range. If range is 1-dimensional, then only one of rownum or colnum are needed. If range is 2-dimensional and rownum or colnum are zero, a reference to the range of just the specified column or row is returned. You can use the returned reference value in a range, e.g., sum(A1:INDEX(A2:A10,4)). "
+msgstr "रिटर्न निर्दिष्ट पंक्ति और स्तंभ के लिए एक सेल या श्रेणी श्रेणी संदर्भ में. यदि सीमा 1-आयामी है, तो केवल रोनम या कोलनम में से एक है की जरूरत है. यदि सीमा 2-आयामी और रोनम या कोलनम है शून्य हैं, बस निर्दिष्ट स्तंभ या पंक्ति की दूरी के लिए एक संदर्भ लौटा है. तुम एक रेंज में वापस संदर्भ मूल्य उपयोग करते हैं, जैसे, (ए 1: राशि (ए 2: ए 10,4)) सूचकांक में वृद्धि कर सकते हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value rounded down to the nearest integer (towards -infinity). "
+msgstr "रिटर्न मूल्य निकटतम पूर्णांक के लिए नीचे गोल (प्रति अनंत). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the interest rate at which the cash flows in the range have a net present value of zero. Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "लाभ ब्याज दर पर जो नकद सीमा में बहती है शून्य का शुद्ध वर्तमान मूल्य है. एक चलने प्रक्रिया # नम लौटेगा का उपयोग करता है! त्रुटि एकाग्र नहीं अगर यह होता है. वहाँ एक से अधिक संभव समाधान हो सकता है. वैकल्पिक मूल्य लगता है कुछ स्थितियों में, जहां यह नहीं एकाग्र मदद मिल सकती है या अनुचित समाधान उपलब्ध कराना पाता है (डिफ़ॉल्ट लगता है कि 10% है). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns true if the value is a reference to a blank cell. "
+msgstr "रिटर्न सही अगर मूल्य एक खाली प्रकोष्ठ के लिए एक संदर्भ है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error but not NA. "
+msgstr "रिटर्न सही अगर मान प्रकार की है त्रुटि नहीं एनए."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Error. "
+msgstr "रिटर्न सही अगर मान प्रकार की है त्रुटि. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns true if the value is of type Logical (true/false). "
+msgstr  "रिटर्न सही अगर मान प्रकार की है लॉजिकल (सही / गलत)."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is the error type NA. "
+msgstr "रिटर्न सही अगर मूल्य त्रुटि प्रकार एनए है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns true if the value is not of type Text. "
+msgstr  "रिटर्न सही अगर मान प्रकार का नहीं है पाठ. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Number (including logical values). "
+msgstr "रिटर्न सही अगर मूल्य संख्या (तार्किक मान सहित प्रकार का है)."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns true if the value is of type Text. "
+msgstr "रिटर्न सही अगर मान प्रकार की है पाठ. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the specified number of characters from the text value. If count is omitted, 1 is assumed. "
+msgstr "रिटर्न अक्षर का पाठ मूल्य से निर्दिष्ट संख्या. यदि गणना लोप है, 1 माना जाता है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of characters in the text value. "
+msgstr "रिटर्न पाठ मूल्य में पात्रों की संख्या. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the natural logarithm of the value. "
+msgstr "रिटर्न मूल्य का प्राकृतिक लघुगणक. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the logarithm of the value using the specified base. "
+msgstr "रिटर्न मूल्य का लघुगणक निर्दिष्ट आधार का उपयोग कर. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the base 10 logarithm of the value. "
+msgstr "लाभ के आधार मूल्य का 10 लघुगणक. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all uppercase characters converted to lowercase. "
+msgstr "रिटर्न सभी अपरकेस में परिवर्तित लोअरकेस वर्णों के साथ पाठ मान. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Look for the matching value for the given value in the range and return position (the first is 1) in that range. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match<=value) instead of exact match. If rangelookup is -1, act like 1 but the bracket is match>=value. "
+msgstr "श्रेणी में दी मूल्य और लाभ की स्थिति के लिए मिलान मूल्य के लिए देखो (1 पहले है) कि सीमा में. यदि रेन्जलुकअप 1 (डिफ़ॉल्ट) और नहीं 0, अगर न्यूमेरिक कोष्ठक के भीतर मैच है (मैच <मूल्य =) के बजाय सटीक मेल का. यदि रेन्जलुकअप -1, 1 की तरह अभिनय लेकिन वर्ग मैच> है मूल्य = है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the maximum of the numeric values. "
+msgstr "रिटर्न संख्यात्मक मूल्यों की अधिकतम. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the specified position. "
+msgstr "लाभ पात्रों का मूल पाठ इस प्रकार निर्दिष्ट स्थान से शुरू मूल्य से निर्दिष्ट संख्या. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the minimum of the numeric values. "
+msgstr "रिटर्न संख्यात्मक मूल्यों के कम से कम. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the minute portion of a time or date/time value. "
+msgstr "रिटर्न एक समय या तिथि के मिनट भाग / समय मान. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the remainder of the first value divided by the second. "
+msgstr "रिटर्न पहले दूसरे से विभाजित मूल्य का शेष. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the month part of a date value. "
+msgstr  "वापसी की तारीख एक महीने के मूल्य का हिस्सा है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the value if it is a numeric value otherwise an error. "
+msgstr "रिटर्न मूल्य अगर यह एक अंकीय मान अन्यथा एक त्रुटि है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the #N/A error value which propagates through most operations. "
+msgstr  "रिटर्न # एन / ए त्रुटि मान है जो सबसे ज्यादा अभियानों के माध्यम से propagates. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns FALSE if value is true, and TRUE if it is false. "
+msgstr "कापरिणामहोगागलत अगर मूल्य सही है, और अगर यह झूठा सच है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date/time. "
+msgstr "रिटर्न वर्तमान दिनांक / समय."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of periods at which payments invested each period at the given rate with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period) has the given present value. "
+msgstr "रिटर्न जो समय पर भुगतान वैकल्पिक भविष्य मूल्य (0 डिफ़ॉल्ट) और भुगतान प्रकार के साथ दिया दर से प्रत्येक अवधि के निवेश (0 डिफ़ॉल्ट = अवधि के अंत में, 1 अवधि की शुरुआत =) की संख्या दी वर्तमान मूल्य है."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the net present value of cash flows (which may be individual values and/or ranges) at the given rate. The flows are positive if income, negative if paid out, and are assumed at the end of each period. "
+msgstr  "रिटर्न नकदी प्रवाह का शुद्ध वर्तमान मूल्य (जो व्यक्तिगत मूल्यों और सीमाओं या / दिया दर पर) हो सकता है. प्रवाह सकारात्मक अगर आय, अगर बाहर भुगतान नकारात्मक हैं, और प्रत्येक अवधि के अंत में ग्रहण कर रहे हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value up in magnitude to the nearest odd integer. "
+msgstr "दौर निकटतम विषम पूर्णांक के परिमाण में उठ मूल्य. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "True if any argument is true "
+msgstr "यह सच है कि किसी भी तर्क सच है, "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "The value 3.1415926... "
+msgstr "3.1415926 मूल्य ... " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of each payment that must be invested at the given rate for the specified number of periods to have the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "रिटर्न प्रत्येक भुगतान के उस समय के निर्दिष्ट संख्या के लिए दी दर पर निवेश किया जाना चाहिए निर्दिष्ट वर्तमान मूल्य है, वैकल्पिक भविष्य मूल्य (0 डिफ़ॉल्ट) और भुगतान प्रकार के साथ (0 डिफ़ॉल्ट = अवधि के अंत में, 1 = की राशि अवधि की शुरुआत). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the first value raised to the second value power. "
+msgstr "रिटर्न पहली मूल्य दूसरी मूल्य सत्ता में उठाया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the result of multiplying the numeric values. "
+msgstr  "रिटर्न संख्यात्मक मूल्य बढ़ का नतीजा है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the text value with the first letter of each word converted to uppercase and the others to lowercase. "
+msgstr  "लाभ के लिए प्रत्येक अपरकेस और दूसरों को लोअरकेस में परिवर्तित शब्द के पहले अक्षर से पाठ मान. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the present value of the given number of payments each invested at the given rate, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). "
+msgstr "लाभ के भुगतान की दी गई संख्या के वर्तमान मूल्य दी दर पर निवेश किया, वैकल्पिक भविष्य मूल्य (0 डिफ़ॉल्ट) और भुगतान प्रकार के साथ (0 डिफ़ॉल्ट = अवधि के अंत में, 1 अवधि की शुरुआत = प्रत्येक). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Converts value in degrees into radians. "
+msgstr "डिग्री में कांति मूल्य में धर्मान्तरित. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the rate at which the given number of payments each invested at the given rate has the specified present value, with optional future value (default 0) and payment type (default 0 = at end of period, 1 = beginning of period). Uses an iterative process that will return #NUM! error if it does not converge. There may be more than one possible solution. Providing the optional guess value may help in certain situations where it does not converge or finds an inappropriate solution (the default guess is 10%). "
+msgstr "रिटर्न दर जिस पर भुगतान की दी गई संख्या प्रत्येक दी दर पर निवेश निर्दिष्ट वर्तमान मूल्य है, वैकल्पिक भविष्य मूल्य (0 डिफ़ॉल्ट) और भुगतान प्रकार के साथ (= अवधि के अंत में डिफ़ॉल्ट 0, 1 = अवधि की शुरुआत). चलने का एक प्रक्रिया है कि # नम लौटेगा का उपयोग करता है! त्रुटि एकाग्र नहीं अगर यह होता है. वहाँ एक से अधिक संभव समाधान हो सकता है. वैकल्पिक मूल्य लगता है कुछ स्थितियों में, जहां यह नहीं एकाग्र मदद मिल सकती है या अनुचित समाधान उपलब्ध कराना पाता है (डिफ़ॉल्ट लगता है कि 10% है). "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the specified number of characters starting from the specified position replaced by text2. "
+msgstr "रिटर्न पाठ-1 निर्दिष्ट पाठ की जगह की स्थिति-2 का मूल्य उस अक्षर के निर्दिष्ट संख्या के साथ. " 
+ 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the text repeated the specified number of times. "
+msgstr "रिटर्न पाठ बार की निर्दिष्ट संख्या दोहराया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the specified number of characters from the text value starting from the end. If count is omitted, 1 is assumed. "
+msgstr "लाभ पात्रों की निर्दिष्ट पाठ के अंत से शुरू मूल्य से संख्या. यदि गणना लोप है, 1 माना जाता है. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Rounds the value to the specified number of decimal places. If precision is negative, then round to powers of 10. The default precision is 0 (round to integer). "
+msgstr "दौर दशमलव स्थानों की निर्दिष्ट संख्या के लिए मान. यदि सटीक नकारात्मक है, तो दौर 10 की शक्तियों को. डिफ़ॉल्ट सटीक 0 दौर (को पूर्णांक) है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the number of rows in the range. "
+msgstr "रिटर्न रेंज में पंक्तियों की संख्या. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the second portion of a time or date/time value (truncated to an integer). "
+msgstr "रिटर्न एक समय या तिथि के दूसरे भाग / समय (मूल्य एक पूर्णांक तक छोटा कर दिया). " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Trigonometric sine function (value is in radians) "
+msgstr "त्रिकोणमितीय साइन समारोह (मूल्य कांति में है )"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the amount of depreciation at each period of time using the straight-line method. "
+msgstr "समय के प्रत्येक अवधि के-सीधी रेखा पद्धति का उपयोग करके पर रिटर्न मूल्यह्रास की राशि. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Square root of the value "
+msgstr " मूल्य का वर्गमूल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample standard deviation of the numeric values. "
+msgstr "रिटर्न नमूना संख्यात्मक मूल्यों का मानक विचलन. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the standard deviation of the numeric values. "
+msgstr  "रिटर्न संख्यात्मक मूल्यों का मानक विचलन. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns text1 with the all occurrences of oldtext replaced by newtext. If occurrence is present, then only that occurrence is replaced. "
+msgstr "रिटर्न पाठ-1 निर्दिष्ट पाठ की जगह की स्थिति-2 का मूल्य उस अक्षर के निर्दिष्ट संख्या के साथ. " 
+ 
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Adds the numeric values. The values to the sum function may be ranges in the form similar to A1:B5. "
+msgstr "संख्यात्मक मान जोड़ता है. राशि समारोह में मूल्यों ए 1 के समान रूप: ए 5 में पर्वतमाला हो सकता है. " 
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Sums the numeric values of cells in the range that meet the criteria. The criteria may be a value ('x', 15, 1+3) or a test (>25). If range2 is present, then range1 is tested and the corresponding range2 value is summed. "
+msgstr "श्रेणी में कोशिकाओं का संख्यात्मक मूल्य राशियाँ कि मानदंडों को पूरा. मानदंड एक मान हो सकता है ( एक्स, 15, 1 3) या एक परीक्षा (> 25). यदि सीमा 2 मौजूद है, तो range1 और परीक्षण इसी सीमा 2 मूल्य अभिव्यक्त किया है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Depreciation by Sum of Year's Digits method. "
+msgstr "वर्ष के जोड़ से मूल्यह्रास  अंक विधि एस. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the text value or else a null string. "
+msgstr  "रिटर्न पाठ या किसी और मूल्य एक रिक्त स्ट्रिंग. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Trigonometric tangent function (value is in radians) "
+msgstr "मूल्य त्रिकोणमितीय स्पर्शरेखा समारोह (कांति में है)"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the time value given the specified hour, minute, and second. "
+msgstr "रिटर्न निर्दिष्ट घंटा, मिनट, और दूसरी बार मूल्य दिया."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with leading, trailing, and repeated spaces removed. "
+msgstr "रिटर्न आज की तारीख (एक पूर्णांक). नोट: इस कार्यक्रम में, 1 दिन 31 दिसम्बर 1899 और 1900 साल है एक छलांग वर्ष नहीं है. कुछ कार्यक्रमों को 1 जनवरी 1900 का उपयोग करें, दिन के रूप में 1 और एक छलांग के रूप में वर्ष 1900 का इलाज. दोनों ही मामलों में, हालाँकि, पर या 1 मार्च 1900 के बाद की तारीख, वही क"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Returns the logical value true. "
+msgstr "प्रमुख के साथ पाठ मूल्य रिटर्न, पीछे, और दोहराया रिक्त स्थान हटा दिया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Truncates the value to the specified number of decimal places. If precision is negative, truncate to powers of 10. "
+msgstr "काटना दशमलव स्थानों की निर्दिष्ट संख्या के लिए मान. यदि सटीक नकारात्मक है, 10 की शक्तियों को काटना"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the text value with all lowercase characters converted to uppercase. "
+msgstr "लाभ सभी लोअरकेस में परिवर्तित अपरकेस अक्षरों के साथ पाठ मान."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "Converts the specified text value into a numeric value. Various forms that look like numbers (including digits followed by %, forms that look like dates, etc.) are handled. This may not handle all of the forms accepted by other spreadsheets and may be locale dependent. "
+msgstr "ट्रन्केट  दशमलव स्थानों की निर्दिष्ट संख्या के लिए मान. यदि सटीक नकारात्मक है, 10 की शक्तियों को ट्रन्केट . "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the sample variance of the numeric values. "
+msgstr "संख्यात्मक मूल्यों के नमूने विचरण लौट आया."
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the variance of the numeric values. "
+msgstr "रिटर्न सभी लोअरकेस में परिवर्तित अपरकेस अक्षरों के साथ पाठ मान. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plain"
+msgstr "समतल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Graph"
+msgstr "ग्राफ"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Pie Chart"
+msgstr "पाइ चार्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Cells to Graph"
+msgstr "ग्राफ के लिए सेल"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "graph type"
+#msgstr "ग्राफ प्रकार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Help"
+msgstr "सहायता"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Horizontal Bar"
+msgstr "क्षैतिज बार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Vertical Bar"
+msgstr "ऊर्ध्वाधर बार"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Line Chart"
+msgstr "लाइन चार्ट"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Plot Points"
+msgstr "अन्कित करो अंक"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+#msgid "Not Set"
+#msgstr "सेट नहीं"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Unknown range name"
+msgstr "अज्ञात श्रेणी नाम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Hide Help"
+msgstr "छिपाएँ सहायता"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Max "
+msgstr "अधिकतम"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Min "
+msgstr "मिन"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid " OK "
+msgstr "ठीक है"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Look for the matching value for the given value in the range and return the corresponding value in the cell specified by the column offset. If rangelookup is 1 (the default) and not 0, match if within numeric brackets (match>=value) instead of exact match. "
+msgstr "रेंज में दी मूल्य के लिए मिलान मूल्य के लिए देखो और ऑफसेट कॉलम द्वारा निर्दिष्ट सेल में इसी मूल्य वापसी. यदि रैन्जलुकअप 1 (डिफ़ॉल्ट) और नहीं 0, अगर न्यूमेरिक कोष्ठक के भीतर मैच है (मैच> मूल्य =) के बजाय सटीक मेल का "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the day of week specified by the date value. If type is 1 (the default), Sunday is day and Saturday is day 7. If type is 2, Monday is day 1 and Sunday is day 7. If type is 3, Monday is day 0 and Sunday is day 6. "
+msgstr "वापसी की तारीख मूल्य द्वारा निर्दिष्ट हफ्ते का दिन है. यदि प्रकार है 1 (डिफ़ॉल्ट), रविवार का दिन शनिवार है और 7 दिन है. यदि टाइप 2 है, सोमवार 1 दिन और रविवार 7 दिन है. यदि प्रकार 3 है, सोमवार 0 दिन और रविवार को 6 दिन है. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the year part of a date value. "
+msgstr "एक तारीख मूल्य का हिस्सा वर्ष लौट आया. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Returns the current date (an integer). Note: In this program, day 1 is December 31, 1899 and the year 1900 is not a leap year. Some programs use January 1, 1900, as day 1 and treat 1900 as a leap year. In both cases, though, dates on or after March 1, 1900, are the same. "
+msgstr "रिटर्न आज की तारीख (एक पूर्णांक). नोट: इस कार्यक्रम में, 1 दिन 31 दिसम्बर 1899 और 1900 साल है एक छलांग वर्ष नहीं है. कुछ कार्यक्रमों को 1 जनवरी 1900 का उपयोग करें, दिन के रूप में 1 और एक छलांग के रूप में वर्ष 1900 का इलाज. दोनों ही मामलों में, हालाँकि, पर या 1 मार्च 1900 के बाद की तारीख, वही कर रहे हैं. "
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Date & Time"
+msgstr "दिनांक और समय"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid  "[Cancel]"
+msgstr "[रद्द करें]"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "Verdana,Arial,Helvetica,sans-serif"
+msgstr "वरदना,एरिअल,हेलवेटिका , सेंस -सेरिफ़"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "TRUE"
+msgstr "सच"
+
+#: /home/olpc/Activities/SocialCalcActivity.activity/localized_strings_file.py:
+msgid "FALSE"
+msgstr "गलत"
+

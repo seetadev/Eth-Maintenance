@@ -1,0 +1,9 @@
+[Activity]
+name = SocialCalcActivity
+bundle_id = com.socialtext.SocialCalcActivity
+exec = sugar-activity SocialCalcActivity.SocialCalcActivity
+icon = activity-socialcalc
+activity_version = 8
+show_launcher = Yes
+mime_types =application/vnd.lotus-1-2-3;application/scalc;application/wk4;application/x-wk4;application/lotus123;application/x-lotus123;application/vnd.ms-excel
+

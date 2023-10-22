@@ -1,0 +1,6 @@
+* Introducing multi-user editing, via visualizing peer's e-cells with colored borders.
+* Proper sharing of graphs over the mesh network.
+* Creating the infrastructure to support multi-sheet editing. Primarily, required to open and edit .wk4 and .xls workbooks having multiple worksheets.
+* Improving the interoperability with lotus .wk4 and excel .xls
+* To develop interoperability of socialcalc with other file formats like csv, open-office etc.
+* To improve the localization infrasture and localizing it in many more languages.

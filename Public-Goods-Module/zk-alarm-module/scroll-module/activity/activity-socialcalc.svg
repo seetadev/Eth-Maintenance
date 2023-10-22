@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY ns_svg "http://www.w3.org/2000/svg">
+  <!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+  <!ENTITY fill_color "#FFFFFF">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg  version="1.0" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="48" height="48.119" viewBox="0 0 48 48.119"
+	 overflow="visible" enable-background="new 0 0 48 48.119" xml:space="preserve">
+  <rect x="6" y="19" width="10" height="10" style="fill:&fill_color;;stroke:&stroke_color;;"/> 
+<rect y="14" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect y="16" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect y="30" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect y="32" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect x="32" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<rect x="30" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<rect x="16" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<rect x="14" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<rect x="15" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<rect y="15" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect y="31" style="fill:&fill_color;;stroke:&stroke_color;;" width="48" height="2"/>
+<rect x="31" style="fill:&fill_color;;stroke:&stroke_color;;" width="2" height="48"/>
+<g>
+	<path style="fill:&fill_color;;stroke:&stroke_color;;" d="M21.388,8.767l-0.84,2.544h-1.08l2.748-8.088h1.26l2.761,8.088h-1.117l-0.864-2.544H21.388z M24.04,7.95
+		l-0.804-2.328c-0.168-0.527-0.288-1.008-0.408-1.476h-0.036c-0.108,0.468-0.24,0.972-0.396,1.464l-0.792,2.34H24.04z"/>
+</g>
+<g>
+	<path style="fill:&fill_color;;stroke:&stroke_color;;" d="M36.995,3.336c0.456-0.107,1.188-0.18,1.908-0.18c1.044,0,1.716,0.18,2.208,0.588
+		c0.42,0.312,0.684,0.792,0.684,1.429c0,0.792-0.528,1.476-1.368,1.775v0.036c0.769,0.18,1.668,0.816,1.668,2.016
+		c0,0.696-0.275,1.225-0.695,1.62c-0.553,0.517-1.465,0.756-2.784,0.756c-0.72,0-1.272-0.048-1.62-0.096V3.336z M38.039,6.648h0.948
+		c1.092,0,1.739-0.588,1.739-1.368c0-0.936-0.708-1.32-1.764-1.32c-0.479,0-0.756,0.036-0.924,0.072V6.648z M38.039,10.513
+		c0.216,0.036,0.504,0.048,0.876,0.048c1.08,0,2.076-0.396,2.076-1.572c0-1.092-0.948-1.56-2.088-1.56h-0.864V10.513z"/>
+</g>
+<g>
+	<path style="fill:&fill_color;;stroke:&stroke_color;;" d="M7.499,20.851H7.475l-1.356,0.732l-0.204-0.804l1.704-0.912h0.9v7.8h-1.02V20.851z"/>
+</g>
+<g>
+	<path style="fill:&fill_color;;stroke:&stroke_color;;" d="M5.374,42.835v-0.648l0.828-0.804c1.992-1.896,2.904-2.904,2.904-4.08c0-0.792-0.372-1.523-1.536-1.523
+		c-0.708,0-1.296,0.359-1.656,0.659l-0.336-0.743c0.528-0.444,1.308-0.792,2.208-0.792c1.668,0,2.376,1.151,2.376,2.268
+		c0,1.44-1.044,2.604-2.688,4.188l-0.612,0.575v0.024h3.492v0.876H5.374z"/>
+</g>
+</svg>
