@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Compound III Interface</title>
+</head>
+<body>
+
+  <h1>Interest Rate App</h1>
+
+  <button class="enable-button" id="enable-button">Enable Ethereum</button>
+
+  <select class="hidden" name="instance" id="instance-select"></select>
+
+  <div class="asset-interface">
+    <div class="row1">
+      <h3>Supply or Borrow Base Asset</h3>
+    </div>
+    <div class="row2">
+      <label>
+        Supply APR: <span id="supply-apr">-</span>%
+      </label>
+      <br />
+      <label>
+        Borrow APR: <span id="borrow-apr">-</span>%
+      </label>
+    </div>
+    <div class="row3">
+      <input id="base-supply" type="text" placeholder="-" />
+      <button id="base-supply-button">Supply</button>
+    </div>
+    <div class="row4">
+      <input id="base-withdraw" type="text" placeholder="-" />
+      <button id="base-withdraw-button">Withdraw</button>
+    </div>
+  </div>
+
+  <div class="asset-interface">
+    <div class="row1">
+      <h3>Supply Collateral</h3>
+    </div>
+    <div class="row2">
+      <select name="collateral" id="collateral-select"></select>
+    </div>
+    <div class="row3">
+      <input id="collateral-supply" type="text" placeholder="-" />
+      <button id="collateral-supply-button">Supply</button>
+    </div>
+    <div class="row4">
+      <input id="collateral-withdraw" type="text" placeholder="-" />
+      <button id="collateral-withdraw-button">Withdraw</button>
+    </div>
+  </div>
+
+  <div class="asset-interface">
+    <div class="row1">
+      <h3>My Comet Balances</h3>
+    </div>
+    <div id="balances" class="row3"></div>
+  </div>
+
+</body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+<script type="text/javascript" src="./constants.js"></script>
+<script type="text/javascript" src="./app.js"></script>
+
+</html>
