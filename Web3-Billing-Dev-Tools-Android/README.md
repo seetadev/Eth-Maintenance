@@ -1,5 +1,1 @@
-# Ionic 3 Android Template (26.June.2017) #
-
-This is the template for making android apps in Ionic 3.
-
-Read [wiki](https://bitbucket.org/aspiringappsteam/android-ionic3/wiki/Home) for installation guides.
+UMA: We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
