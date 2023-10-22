@@ -33,4 +33,25 @@ This is especially useful for heavy industrial machinery parts managed by the go
 - Issue green credits for machines via pollution checks by Environment Ministry, Pollution Control department like Water Pollution check control; List green credits per heavy machine; 
 - Handle multiple heavy machinery.
 
+Safe Account Abstraction SDK and Polygon zkEVM: 
+ 
+- ZK Incident Witness Generation tool for Eth-Maintenance using Safe Account Abstraction SDK and Polygon zkEVM: We are developing ZK Incident Witness Generation tool for machinery maintenance using Safe Account Abstraction SDK and Polygon zkEVM. Account Abstraction SDK enables customization of verification logic via plugins with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet dapp on Polygon zkEVM. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
+
+Implementation areas of Account Abstraction plugins:
+
+Enforcing a spending limit for vital machine assets based on the key used for the transaction.
+
+Restricting interaction with a certain citizen wallet or DAO dApp to a specific key.
+
+Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time.
+
+
+
+
+
+
+
+
+
+
   
