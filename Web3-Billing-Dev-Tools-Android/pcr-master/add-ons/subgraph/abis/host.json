@@ -1,0 +1,127 @@
+[     {
+  "anonymous": false,
+  "inputs": [
+    {
+      "components": [
+        {
+          "internalType": "address",
+          "name": "admin",
+          "type": "address"
+        },
+        {
+          "internalType": "int256",
+          "name": "target",
+          "type": "int256"
+        },
+        {
+          "internalType": "enum DataTypes.TargetCondition",
+          "name": "targetCondition",
+          "type": "uint8"
+        },
+        {
+          "internalType": "address",
+          "name": "rewardToken",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "token",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "pcrId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "earliestNextAction",
+          "type": "uint256"
+        },
+        {
+          "components": [
+            {
+              "internalType": "contract FinderInterface",
+              "name": "finder",
+              "type": "address"
+            },
+            {
+              "internalType": "int256",
+              "name": "target",
+              "type": "int256"
+            },
+            {
+              "internalType": "enum DataTypes.TargetCondition",
+              "name": "targetCondition",
+              "type": "uint8"
+            },
+            {
+              "internalType": "uint256",
+              "name": "rewardAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "interval",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "optimisticOracleLivenessTime",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "priceIdentifier",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "enum DataTypes.PriceType",
+              "name": "priceType",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bytes",
+              "name": "customAncillaryData",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct DataTypes.OPTIMISTIC_ORACLE_INPUT",
+          "name": "optimisticOracleInput",
+          "type": "tuple"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "optimisticOracleContract",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "title",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "description",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "url",
+          "type": "bytes"
+        }
+      ],
+      "indexed": false,
+      "internalType": "struct DataTypes.REWARD_EVENT",
+      "name": "reward",
+      "type": "tuple"
+    }
+  ],
+  "name": "RewardCreated",
+  "type": "event"
+}]

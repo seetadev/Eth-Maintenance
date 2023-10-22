@@ -1,0 +1,15 @@
+
+<div class="layout-wrapper"> 
+    <!-- layout-static -->
+<app-topbar>
+</app-topbar>
+
+<div class="layout-main-container">
+    <div class="layout-main">
+        <router-outlet></router-outlet>
+    </div>
+    <app-footer></app-footer>
+</div>
+</div>
+<dapp-loading [isBusy]="blockchain_is_busy"></dapp-loading>
+<p-toast key="tst" [baseZIndex]="99999"></p-toast>

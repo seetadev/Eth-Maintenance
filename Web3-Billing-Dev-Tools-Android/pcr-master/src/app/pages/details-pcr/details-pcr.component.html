@@ -1,0 +1,214 @@
+<div class="grid">
+  <div class="col-12">
+    <div *ngIf="toUpdateReward !== undefined" style="position: relative; border-color: transparent" class="card">
+      <h5><i (click)="back()" style="color: var(--primary-color); font-size: large;cursor:pointer;" class="pi pi-arrow-left"></i>   {{ utils.toUtf8String(toUpdateReward!.title) }}</h5>
+
+      <div style="margin-top: 20px" class="grid p-fluid">
+        <div class="col-12">
+          <div  *ngIf="isAdmin == true" style="position: absolute; right: 25px; top: 10px">
+            <p-inputSwitch (onChange)="changeStatus()" [(ngModel)]="rewardStatus"> </p-inputSwitch>
+          </div>
+
+          <br />
+          <textarea style="font-size:25px;line-height:30px;" pInputTextarea placeholder="Your Message" readonly [autoResize]="true" cols="30">{{toUpdateReward?.displayDescription}}
+       
+          </textarea>
+
+          <!-- ////// STATUS PROPOSAL -->
+
+          <div style="position: relative; background-color: var(--surface-ground)" class="card mt-3 flex align-items-center flex-column justify-content-center">
+
+            <proposal-detail
+              (proposeValue)="proposeValue($event)"
+              (executeProposal)="executeProposal()"
+              (disputeProposal)="disputeProposal()"
+              (refresh)="refresh()"
+              style="width: 100%"
+              *ngIf="currentProposal !== undefined"
+              [proposal]="currentProposal"
+            ></proposal-detail>
+          </div>
+
+          <!-- ////// blocks -->
+
+          <div style="margin-top: 20px" class="grid">
+            <div class="col-12 lg:col-4 xl:col-4">
+              <div style="background-color: var(--surface-ground)" class="card mb-0">
+                <div class="grid p-fluid justify-content-center">
+                  <div class="col-12 flex align-items-center">
+                    <div
+                      [style.background]="+toUpdateReward!.unitsIssued > 0 ? 'var(--green-500)' : 'var(--orange-500)'"
+                      style="width: 25px; height: 25px; border-radius: 13px; background: lightgreen"
+                    ></div>
+                    <span class="block text-500 font-medium ml-2"> Summary</span>
+                  </div>
+                  <!-- #region ISSUERS  ////  -->
+                  <div class="col-4 text-center">
+                    <div class="flex justify-content-between flex-column mb-3">
+                      <div class="text-900 font-medium text-lg">
+                        Members <br />
+                        <span [class]="+toUpdateReward!.unitsIssued > 0 ? 'text-green-500' : 'text-orange-500'"> {{ toUpdateReward!.unitsIssued }}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- #endregion ISSUERS  ////  -->
+
+                  <!-- #region INDEX ////  -->
+                  <div class="col-4 text-center">
+                    <div class="flex justify-content-between flex-column mb-3">
+                      <div class="text-900 font-medium text-lg">
+                        Index <br />
+                        <span style="color: var(--primary-color)"> {{ (+utils.formatEther(toUpdateReward!.currentIndex)).toFixed(2) }}$/unit</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- #endregion INDEX////  -->
+
+                  <!-- #region TOTAL  ////  -->
+                  <div class="col-4 text-center">
+                    <div class="flex justify-content-between flex-column mb-3">
+                      <div class="text-900 font-medium text-lg">
+                        Distributed<br />
+                        <span style="color: var(--primary-color)"> {{ utils.formatEther(toUpdateReward!.totalDistributed) }}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- #endregion INDEX////  -->
+                  <div class="col-12 flex justify-content-around">
+                    <button *ngIf="isAdmin == true" 
+                      pButton
+                      pRipple
+                      style="position: relative; width: fit-content"
+                      (click)="showBulkAddMembers(toUpdateReward!)"
+                      type="button"
+                      label="Add Members"
+                      class="p-button-rounded mr-2 mb-2"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 lg:col-4 xl:col-4">
+              <div style="background-color: var(--surface-ground)" class="card mb-0">
+                <div class="grid p-fluid justify-content-center">
+                  <div style="position: relative" class="col-12 flex align-items-center">
+                    <div
+                      [style.background]="+toUpdateReward!.rewardAmount <= +toUpdateReward!.currentdeposit ? 'var(--green-500)' : 'var(--orange-500)'"
+                      style="width: 25px; height: 25px; border-radius: 13px; background: lightgreen"
+                    ></div>
+                    <span class="block text-500 font-medium ml-2"> Deposit</span>
+                    <img src="assets/images/tokens/{{ toUpdateReward!?.fundToken?.image }}_icon.svg" style="position: absolute; width: 40px; right: 20px" />
+                  </div>
+                  <!-- #region CURRENT DEPOSIT ////  -->
+                  <div class="col-6 text-center">
+                    <div class="flex justify-content-between flex-column mb-3">
+                      <div class="text-900 font-medium text-lg">
+                        Current<br />
+                        <span [class]="+toUpdateReward!.rewardAmount <= +toUpdateReward!.currentdeposit ? 'text-green-500' : 'text-orange-500'">
+                          ${{ (+utils.formatEther(toUpdateReward!.currentdeposit)).toFixed(4) }}</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- #endregion CURRENT DEPOSIT ////  -->
+
+                  <!-- #region REQUIRED DEPOSIT ////  -->
+                  <div class="col-6 text-center">
+                    <div class="flex justify-content-between flex-column mb-3">
+                      <div class="text-900 font-medium text-lg">
+                        Amount<br />
+                        <span style="color: var(--primary-color)"> ${{ (+utils.formatEther(toUpdateReward!.rewardAmount)).toFixed(4) }}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- #endregion REQUIRED DEPOSIT ////  -->
+
+                  <div class="col-12 flex justify-content-around">
+                    <button pButton pRipple style="width: fit-content" (click)="showFunding()" type="button" label="Fund" class="p-button-rounded mr-2 mb-2"></button>
+                    <button *ngIf="isAdmin == true" pButton pRipple style="width: fit-content" (click)="showUpdateRewardAmount()" type="button" label="Change" class="p-button-rounded mr-2 mb-2"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 lg:col-4 xl:col-4">
+              <user-balance (refreshEvent)="getRewardDetails(toUpdateReward!.id)" *ngIf="toUpdateReward?.fundToken !== undefined" [fundToken]="toUpdateReward.fundToken"></user-balance>
+            </div>
+          </div>
+
+          <!-- ////// CHARTSSS  -->
+
+          <charts-pcr *ngIf="chartConfig !== undefined" [chartConfig]="chartConfig"></charts-pcr>
+
+          <div *ngIf="toUpdateReward! == undefined" class="card">
+            <div class="grid flex flex-column align-items-center">
+              <div class="flex justify-content-center align-items-center bg-pink-500 border-circle" style="height: 3.2rem; width: 3.2rem">
+                <i class="pi pi-fw pi-exclamation-circle text-2xl text-white"></i>
+              </div>
+              <h1 class="text-900 font-bold text-5xl mb-2">Nothing Found</h1>
+              <span class="text-600">Please create a new Perpetual Conditional toUpdateReward!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p-dialog header="Let's Add One Member!" [(visible)]="showIssuingState" [modal]="true" showEffect="fade" [style]="{ width: '40vw' }" [breakpoints]="{ '960px': '75vw' }">
+  <p class="line-height-3 m-0">
+    Please add the addresess <span style="color: green">"{{ toUpdateReward?.title }}"</span> <br />
+    <!-- It requires the {{ toUpdateReward?.fundToken?.name }} superToken, your current balance is: {{ toUpdateReward!?.fundToken?.superTokenBalance!}}. You may wamt to: -->
+  </p>
+  <h6>Members</h6>
+  <p class="flex justify-content-between">
+    <input [formControl]="adressesCtrl" pInputText type="text" placeholder="Member to Add" />
+    <button pButton icon="pi pi-check" label="Add" (click)="doAddMember()" class="p-button-outlined"></button>
+  </p>
+
+</p-dialog>
+
+<p-dialog header="Let's Add People!" [(visible)]="showBulkIssuingState" [modal]="true" showEffect="fade" [style]="{ width: '40vw' }" [breakpoints]="{ '960px': '75vw' }">
+  <p class="line-height-3 m-0 mb-4">
+    Please add the addresess separated by a comma <br />
+    </p>
+
+  <div class="p-inputgroup">
+    <textarea style="min-height: 115px;"  [formControl]="bulkAdressesCtrl" pInputTextarea placeholder="Add Members"  [autoResize]="true" cols="30" rows="5"></textarea>
+  </div>
+  <p class="flex justify-content-between mt-4">
+    <button pButton icon="pi pi-check" label="Add" (click)="doBulkAddMembers()" class="p-button-outlined"></button>
+  </p>
+
+</p-dialog>
+
+<p-dialog header="Updating the Reward Amount" [(visible)]="showingUpdateAmount" [modal]="true" showEffect="fade" [style]="{ width: '40vw' }" [breakpoints]="{ '960px': '75vw' }">
+  <p class="line-height-3 m-0">
+    You are about to fund the PCR Token. Your current balannce is
+    {{ toUpdateReward!?.fundToken?.rewardTokenBalance! }} DAI <br />
+    It requires the {{ toUpdateReward!?.fundToken?.name }} superToken, your current balance is: {{ toUpdateReward!?.fundToken?.superTokenBalance! }} DAIx. 
+  <p class="flex justify-content-between">
+    <p-inputNumber [formControl]="toUpdateAmountCtrl" placeholder="Amount" mode="decimal" [showButtons]="true" [min]="0"> </p-inputNumber>
+    <button pButton icon="pi pi-check" label="Change" (click)="doUpdateRewardAmount()" class="p-button-outlined"></button>
+  </p>
+</p-dialog>
+
+<p-dialog header="Let's fund!" [(visible)]="showFundingState" [modal]="true" showEffect="fade" [style]="{ width: '50vw' }" [breakpoints]="{ '960px': '80vw' }">
+  <p class="line-height-3 m-0">
+    You are about to fund the PCR Token.<br>  
+    Your current balance is
+    <span style="font-weight: bold; color: var(--primary-color)">{{ toUpdateReward!?.fundToken?.rewardTokenBalance! }} DAI </span> <br />
+    It requires the {{ toUpdateReward!?.fundToken?.name }} superToken, your current balance is:
+    <span style="font-weight: bold; color: var(--primary-color)">{{ toUpdateReward!?.fundToken?.superTokenBalance! }} DAIx </span>.
+  </p>
+  <h6>Fund The PCR with SuperToken DAIx (values in tokens)</h6>
+  <p class="flex justify-content-between">
+    <p-inputNumber [formControl]="toFundAmountCtrl" placeholder="Amount" mode="decimal" [showButtons]="true" [min]="0"> </p-inputNumber>
+    <button pButton icon="pi pi-check" label="Fund" (click)="doFunding()" class="p-button-outlined"></button>
+  </p>
+
+  <ng-template pTemplate="footer">
+    <!-- <button pButton icon="pi pi-check" label="Fund" class="p-button-outlined"></button> -->
+  </ng-template>
+</p-dialog>

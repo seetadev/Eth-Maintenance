@@ -1,0 +1,144 @@
+<div class="grid p-fluid justify-content-center">
+	<div [formGroup]="rewardForm" class="col-12">
+		<div class="card">
+
+			<div class="col-12">
+				<div style=" border-color: transparent;" class="card">
+					<h5><i (click)="back()" style="color: var(--primary-color); font-size: large;cursor:pointer;" class="pi pi-arrow-left"></i> Perpetual Conditional Reward Name</h5>
+					<div class="p-inputgroup">
+						<input  formControlName="titleCtrl" pInputText type="text" placeholder="Reward Name" />
+					</div>
+					<div class="mt-2 grid p-fluid">
+						<div style="position:relative" class="col-12 md:col-7">
+							
+						
+							<h5>Type of Reward yes/no or KPI?</h5>	
+							<p-dropdown [options]="rewardTypes"  formControlName="rewardTypeCtrl"  placeholder="Select a RewardType">
+								<ng-template pTemplate="selectedItem">
+									<div  style="display:inline-flex; width: 100%;" class="country-item country-item-value" >
+												<div>{{rewardForm.controls.rewardTypeCtrl.value.Condition}}</div>
+									</div>
+								</ng-template>
+								<ng-template let-reward pTemplate="reward">
+									<div  style="width: 100%;" class="flex align-items-center">
+												<span>{{reward.Condition}}</span>
+									</div>
+								</ng-template>
+							</p-dropdown>
+
+
+							<h5>Question describing the Condition for the Reward?</h5>
+						
+							<div class="p-inputgroup">
+								<textarea formControlName="questionCtrl"  pInputTextarea placeholder="Your Message" [autoResize]="true" rows="6" cols="30"></textarea>
+							</div>
+							
+
+							<div *ngIf="rewardForm.controls.rewardTypeCtrl.value.id == 1 ">
+
+								<h5 class="mt-2">KPI Condition</h5>	
+								<p-dropdown [options]="conditions"  formControlName="conditionTypeCtrl"  placeholder="Select a RewardType">
+									<ng-template pTemplate="selectedItem">
+										<div  style="display:inline-flex; width: 100%;" class="country-item country-item-value" >
+													<div>{{rewardForm.controls.conditionTypeCtrl.value.name}}</div>
+										</div>
+									</ng-template>
+									<ng-template let-condition pTemplate="condition">
+										<div  style="width: 100%;" class="flex align-items-center">
+													<span>{{condition.name}}</span>
+										</div>
+									</ng-template>
+								</p-dropdown>
+								<input formControlName="targetAmountCtrl" pInputText type="number" placeholder="target" />
+					
+							</div>
+
+
+							<h6>KPI Check (if any)</h6>
+							<div class="p-inputgroup">
+						
+								<input formControlName="urlCtrl" pInputText type="text" placeholder="Url" />
+							</div>
+						</div>
+				
+					
+						
+						<div class="col-12 md:col-5">
+							<h5>Choose Your Reward Token</h5>
+						
+							
+								<p-dropdown [options]="tokens"  formControlName="tokenCtrl"  placeholder="Select a Token">
+									<ng-template pTemplate="selectedItem">
+										<div  style="display:inline-flex; width: 100%;" class="country-item country-item-value" *ngIf="selectedToken">
+											<img src="assets/images/tokens/{{rewardForm.controls.tokenCtrl.value.image}}_icon.svg" style="width: 20px;margin-right: 10px;" />
+											<div>{{rewardForm.controls.tokenCtrl.value.name}}</div>
+										</div>
+									</ng-template>
+									<ng-template let-token pTemplate="token">
+										<div  style="width: 100%;" class="flex align-items-center">
+											<img src="assets/images/tokens/{{token.image}}_icon.svg" style="width: 20px;margin-right: 10px;" />
+												<span>{{token.name}}</span>
+										</div>
+									</ng-template>
+								</p-dropdown>
+						
+								<p-inputNumber formControlName="tokenAmountCtrl"  placeholder="Amount" mode="decimal" [showButtons]="true" [min]="0">
+								</p-inputNumber>
+								<h5>Reward Interval</h5>
+						
+								<p-dropdown [options]="intervals"   formControlName="intervalCtrl"  placeholder="Select a Interval">
+									<ng-template pTemplate="selectedItem">
+										<div  style="display:inline-flex" class="country-item country-item-value" *ngIf="selectedToken">
+												<div>{{rewardForm.controls.intervalCtrl.value.name}}</div>
+										</div>
+									</ng-template>
+									<ng-template let-interval pTemplate="interval">
+										<div class="flex align-items-center">
+									
+												<span>{{interval.name}}</span>
+										</div>
+									</ng-template>
+								</p-dropdown>
+								<p-inputNumber formControlName="intervalAmountCtrl" placeholder="Interval" mode="decimal" [showButtons]="true" [min]="0">
+								</p-inputNumber>
+								<h5>Liveness Periodl</h5>
+								<p-dropdown [options]="intervals"   formControlName="livenessCtrl"  placeholder="Select a Interval">
+									<ng-template pTemplate="selectedItem">
+										<div  style="display:inline-flex" class="country-item country-item-value" *ngIf="selectedToken">
+												<div>{{rewardForm.controls.livenessCtrl.value.name}}</div>
+										</div>
+									</ng-template>
+									<ng-template let-interval pTemplate="interval">
+										<div class="flex align-items-center">
+									
+												<span>{{interval.name}}</span>
+										</div>
+									</ng-template>
+								</p-dropdown>
+								<p-inputNumber formControlName="livenessAmountCtrl" placeholder="Interval" mode="decimal" [showButtons]="true" [min]="0">
+								</p-inputNumber>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<button  [disabled]="rewardForm.invalid"  pButton pRipple style="margin:auto"  (click)="createPcr()" type="button" label="Create" class="p-button-rounded mr-2 mb-2"></button>
+ 
+		</div>
+		
+
+	</div>
+   </div> 
+   <p-dialog header="Good!" [(visible)]="display" [modal]="true" showEffect="fade" [style]="{width: '30vw'}" [breakpoints]="{'960px': '75vw'}">
+	<p class="line-height-3 m-0">
+		You just created a Created a Perpetual Conditional Reward!<br>
+		You will be redirected to the Dashboard, please don't forget to deposit funds for your reward and add the receivers
+	</p>
+	<ng-template pTemplate="footer">
+			<button pButton icon="pi pi-check" (click)="goHome()" label="Ok" class="p-button-outlined"></button>
+	</ng-template>
+</p-dialog>

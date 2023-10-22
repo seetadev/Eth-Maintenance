@@ -1,0 +1,118 @@
+<div class="grid">
+  <div class="col-12">
+    <div style="position: relative; border-color: transparent" class="card">
+      <h5>Your Pcr's Created</h5>
+    
+      <button pButton pRipple style="position: absolute; top: 15px; right: 20px" (click)="createPcr()" type="button"
+        label="New" class="p-button-rounded mr-2 mb-2"></button>
+
+      <div style="margin-top: 20px" class="grid p-fluid">
+        <div class="col-12">
+          <div (click)="goDetailsToken(reward)"  style="position:relative;cursor:pointer" class="card flex justify-content-between"
+            *ngFor="let reward of pcrTokens;index as i">
+
+            <h6 [ngStyle]="{ lineHeight: '2.5rem' }">
+          
+                <i style="color:var(--primary-color);font-size:25px;position: relative;top: 4px;" class="pi pi-eye"></i>
+                {{ utils.toUtf8String(reward.title) }}
+        
+            </h6>
+            <div *ngIf="reward.rewardStatus == '0'">
+              <div *ngIf="reward.displayStep == 0">
+                <p [ngStyle]="{ lineHeight: '2.5rem' }">Qualifying till {{reward.displayDate}}</p>
+              </div>
+              <div *ngIf="reward.displayStep == 1">
+                <p [ngStyle]="{ lineHeight: '2.5rem' }">Waiting for Proposals</p>
+              </div>
+              <div *ngIf="reward.displayStep == 2">
+                <p [ngStyle]="{ lineHeight: '2.5rem' }">Liveness till
+                  {{reward.displayDate}}</p>
+              </div>
+
+              <div *ngIf="reward.displayStep == 3">
+                <p [ngStyle]="{ lineHeight: '2.5rem' }">Waiting to be executed</p>
+              </div>
+            </div>
+            <div *ngIf="reward.rewardStatus !== '0'">
+            <p [ngStyle]="{ lineHeight: '2.5rem' }">This PCR is not active</p>
+              </div>
+            <div class="flex align-items-center justify-content-end" [ngStyle]="{ width: '200px', height: '2.5rem' }">
+
+              <div class="flex justify-content-center align-items-center">
+                <p class="mr-2 mb-0">Reward: {{utils.formatEther(reward.rewardAmount)}}</p>
+                <img [width]="40" src="assets/images/tokens/{{reward?.fundToken?.image}}_icon.svg"
+                  style="margin-right: 5px;" />
+              </div>
+            </div>
+          </div>
+          <div *ngIf="pcrTokens?.length == 0" class="card">
+            <div class="grid flex flex-column align-items-center">
+              <div class="flex justify-content-center align-items-center bg-pink-500 border-circle"
+                style="height: 3.2rem; width: 3.2rem">
+                <i class="pi pi-fw pi-exclamation-circle text-2xl text-white"></i>
+
+              </div>
+              <h1 class="text-900 font-bold text-5xl mb-2">Nothing Found</h1>
+              <span class="text-600">Please create a new Perpetual Conditional Reward</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div style="position: relative; border-color: transparent" class="card">
+      <h5>Your Pcr's Rewards Received</h5>
+      <div  (click)="goDetailsMembership(membership)" style="position:relative;cursor:pointer" class="card flex justify-content-between"
+      *ngFor="let membership of pcrMemberships">
+
+      <h6 [ngStyle]="{ lineHeight: '2.5rem' }">
+      
+          <i style="color:var(--primary-color);font-size: 25px;position: relative;top: 4px;" class="pi pi-eye"></i>
+     {{ utils.toUtf8String(membership.title)}}: <span style="color:var(--primary-color)">You have {{membership.units}} units</span>
+      </h6>
+      <div *ngIf="membership.rewardStatus === '0'">
+        <div *ngIf="membership.displayStep == 0">
+            <p [ngStyle]="{ lineHeight: '2.5rem' }">Qualifying till {{membership.displayDate}}</p>
+        </div>
+        <div *ngIf="membership.displayStep == 1">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Waiting for Proposals</p>
+        </div>
+        <div *ngIf="membership.displayStep == 2">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Liveness till
+            {{membership.displayDate}}</p>
+        </div>
+
+        <div *ngIf="membership.displayStep == 3">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Waiting to be executed</p>
+        </div>
+      </div>
+      <div *ngIf="membership.rewardStatus !== '0'">
+        <p [ngStyle]="{ lineHeight: '2.5rem' }">This PCR is not active</p>
+          </div>
+      <div  class="flex align-items-center justify-content-end" [ngStyle]="{  height: '2.5rem' }">
+
+        <div class="flex justify-content-center align-items-center">
+          <p class="mr-2 mb-0">Index: {{(+utils.formatEther(membership.currentIndex)).toFixed(4)}}/unit</p>
+          <img [width]="40" src="assets/images/tokens/{{membership?.fundToken?.image}}_icon.svg"
+            style="margin-right: 5px;" />
+        </div>
+      </div>
+
+   
+    </div>
+      <div *ngIf="pcrMemberships?.length == 0" class="card">
+        <div class="grid flex flex-column align-items-center">
+          <div class="flex justify-content-center align-items-center bg-pink-500 border-circle"
+            style="height: 3.2rem; width: 3.2rem">
+            <i class="pi pi-fw pi-exclamation-circle text-2xl text-white"></i>
+
+          </div>
+          <!-- <h1 class="text-900 font-bold text-5xl mb-2"></h1> -->
+          <span class="text-600">So far not subscription to perpetual rewards avaialble</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

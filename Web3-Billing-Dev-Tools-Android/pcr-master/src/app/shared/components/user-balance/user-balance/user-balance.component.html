@@ -1,0 +1,59 @@
+
+    <div style="background-color: var(--surface-ground)" class="card mb-0">
+      <div class="grid justify-content-center">
+        <div style="position:relative;" class="col-12 flex align-items-center">
+        
+          <span class="block text-500 font-medium ml-2"> Your Balance</span>
+          <img src="assets/images/tokens/{{ fundToken?.image }}_icon.svg" style="position: absolute; width: 40px;right: 20px;" />
+  
+        </div>
+        <!-- #region BALANCE REWARDTOKEN ////  -->
+        <div class="col-5 text-center">
+          <div class="flex justify-content-between flex-column mb-3">
+            <div class="text-900 font-medium text-md">
+              ERC20 (DAI)<br />
+              <span *ngIf="fundToken?.rewardTokenBalance" style="color:var(--primary-color)" >  ${{ fundToken?.rewardTokenBalance! }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- #endregion BALANCE REWARDTOKEN  ////  -->
+
+        <!-- #region BALANCE SUPER TOKEN ////  -->
+        <div class="col-7 text-center">
+          <div class="flex justify-content-between flex-column mb-3">
+            <div class="text-900 font-medium text-md">
+             SuperToken (DAIx)<br />
+              <span  *ngIf="fundToken?.superTokenBalance !== undefined" style="color:var(--primary-color)"> ${{fundToken?.superTokenBalance! }}</span>
+            </div>
+          </div>
+        </div>
+        <!-- #endregion BALANCE SUPER TOKE DEPOSIT ////  -->
+
+        <div class="col-12 flex justify-content-around">
+        <button pButton pRipple style="width: fit-content" (click)="showTransfer()" type="button" label="Transfer" class="p-button-rounded mr-2 mb-2"></button>
+          </div>
+      </div>
+    </div>
+
+  <p-dialog header="Token <--> SuperToken!" [(visible)]="showTransferState" [modal]="true" showEffect="fade" [style]="{ width: '50vw' }" [breakpoints]="{ '960px': '80vw' }">
+    <p class="line-height-3 m-0">
+       Your current balance is <span style="font-weight:bold;color:var(--primary-color)">{{fundToken?.rewardTokenBalance!}} DAI </span>   <br />
+      It requires the {{ fundToken?.name }} superToken, your current balance is: <span style="font-weight:bold;color:var(--primary-color)">{{fundToken?.superTokenBalance!}} DAIx </span>. You may want to:
+    </p>
+    <h6>Upgrade from DAI to DAIx (values in tokens)</h6>
+    <p class="flex justify-content-between">
+  
+      <p-inputNumber [formControl]="toUpgradeAmountCtrl" placeholder="Amount" mode="decimal" [showButtons]="true" [min]="0"> </p-inputNumber>
+      <button style="margin-left:30px" pButton icon="pi pi-check" label="Upgrade" (click)="doUpgrade()" class="p-button-outlined"></button>
+    </p>
+    <h6>Downgrade from DAIx to DAI (values in tokens)</h6>
+    <p class="flex justify-content-between" >
+   
+      <p-inputNumber [formControl]="toDowngradeAmountCtrl"[step]="0.01"  pattern="0.00" placeholder="Amount" mode="decimal" [showButtons]="true" [min]="0"> </p-inputNumber>
+      <button style="margin-left:30px"  pButton icon="pi pi-check" label="Downgrade" (click)="doDowngrade()" class="p-button-outlined"></button>
+    </p>
+    <ng-template pTemplate="footer">
+      <!-- <button pButton icon="pi pi-check" label="Fund" class="p-button-outlined"></button> -->
+    </ng-template>
+  </p-dialog>

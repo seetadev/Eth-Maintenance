@@ -1,0 +1,62 @@
+<div *ngIf="proposal.rewardStatus == '0'" style="width: 100%; text-align: center" class="grid p-fluid">
+  <h5 style="margin: 20px auto 5px" class="mb-1">
+    <i (click)="doRefresh()" style="color: var(--primary-color); font-size: 30px;cursor:pointer;margin-right:10px" class="pi pi-refresh"></i>  Current Status: <span style="color: var(--primary-color)">{{ stepItems[display_step].label }}</span> 
+  </h5>
+
+    <p-steps class="col-12" [model]="stepItems" (activeIndexChange)="activeStep = 0" [(activeIndex)]="activeStep" styleClass="mt-5" [readonly]="false"></p-steps>
+    <div style="min-height: 100px; width: 100%; text-align: center" class="flex justify-content-center flex-column">
+      <div *ngIf="activeStep == 0">
+        <div *ngIf="display_step == 0">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Rewals proposals {{ startProposePeriod }}</p>
+        </div>
+        <div *ngIf="display_step > 0">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Period Qualifying ended {{ startProposePeriod }}</p>
+        </div>
+      </div>
+      <div *ngIf="activeStep == 1">
+        <div *ngIf="display_step == 1">
+          <div *ngIf="proposal.priceType == 0">
+            <p [ngStyle]="{ lineHeight: '2.5rem' }">Awaiting proposals: Do you think?</p>
+            <button (click)="doProposeAnswer(1)" pButton pRipple type="button" icon="pi pi-check" class="p-button-rounded p-button-outlined mr-2 mb-2"></button>
+            <button (click)="doProposeAnswer(0)" pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger p-button-outlined mr-2 mb-2"></button>
+          </div>
+          <div *ngIf="proposal.priceType == 1">
+            <p [ngStyle]="{ lineHeight: '2.5rem' }">What is the current Value of the KPI?</p>
+            <div style="width: 250px; margin: auto">
+              <p-inputNumber [formControl]="toProposeKpiAmountCtrl" placeholder="KPI Value" mode="decimal" [showButtons]="true"> </p-inputNumber>
+              <button style="width: fit-content; margin-top: 20px" (click)="doProposeValue()" label="Propose" pButton pRipple type="button" class="p-button-rounded ml-2"></button>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="display_step > 1">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Proposal Submitted {{ startLivenessPeriod }} with {{ priceProposed }}</p>
+        
+        </div>
+      </div>
+      <div *ngIf="activeStep == 2">
+        <div *ngIf="display_step == 2">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">Period Liveliveness will end {{ startExecutionPeriod }}, the answer Proposed is {{ priceProposed }}</p>
+          <button style="width: fit-content; margin-top: 20px" (click)="doDispute()" label="Dispute" pButton pRipple type="button" class="p-button-rounded ml-2"></button>
+
+        </div>
+
+        <div *ngIf="display_step == 3">Period Liveliveness ended at {{ startExecutionPeriod }}</div>
+      </div>
+      <div *ngIf="activeStep == 3">
+        <div *ngIf="display_step == 3">
+          <p [ngStyle]="{ lineHeight: '2.5rem' }">We cann now Execute the proposal and check whether we won the reward!!</p>
+          <button pButton style="width: fit-content; margin: auto" label="Execute" (click)="doExecuteProposal()" class="p-button-rounded"></button>
+        </div>
+      </div>
+
+      <div *ngIf="display_step! < activeStep">We are not yet so far, the Current Step is {{ stepItems[display_step].label }}</div>
+    </div>
+  </div>
+
+
+<div *ngIf="proposal.rewardStatus != '0'" style="width: 100%; text-align: center" class="grid p-fluid">
+  <h5 style="margin: 20px auto 5px" class="mb-1">
+    Current Status: <span style="color: var(--primary-color)">This PCR is not active</span>
+  </h5>
+
+</div>

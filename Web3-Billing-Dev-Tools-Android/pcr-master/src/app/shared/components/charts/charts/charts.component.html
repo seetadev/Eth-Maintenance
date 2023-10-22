@@ -1,0 +1,19 @@
+        <!-- ////// CHARTSSS  -->
+        <div style="margin-top: 20px" class="grid p-fluid">
+            <div class="col-12 lg:col-6 xl:col-6">
+              <div class="card">
+                <h5>Index Evolution</h5>
+                <p *ngIf="showIndexChart == false">Units to members not yet issued</p>
+                <p-chart *ngIf="chartData != undefined && showIndexChart == true" type="line" [data]="chartData" [options]="chartOptions"></p-chart>
+              </div>
+            </div>
+            <div class="col-12 lg:col-6 xl:col-6">
+              <div class="card">
+                <h5>Last Distributions</h5>
+                <p *ngIf="showDistributionChart == false">Proposals not yet execued</p>
+                <p-chart  *ngIf="distributionsChartData!= undefined && showDistributionChart == true && chartConfig?.priceType == 0" type="bar" [data]="distributionsChartData" [options]="distributionsYesNoChartOptions"></p-chart>
+                <p-chart  *ngIf="distributionsChartData!= undefined && showDistributionChart == true && chartConfig?.priceType == 1" type="line" [data]="distributionsChartData" [options]="distributionsTargetChartOptions "></p-chart>
+         
+              </div>
+            </div>
+          </div>

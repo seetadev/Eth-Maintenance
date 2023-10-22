@@ -1,0 +1,87 @@
+<div class="grid">
+  <div class="col-12">
+    <div *ngIf="toUpdateMembership !== undefined" style="position: relative; border-color: transparent" class="card">
+      <h5><i (click)="back()" style="color: var(--primary-color); font-size: large;cursor:pointer;" class="pi pi-arrow-left"></i>   {{utils.toUtf8String( toUpdateMembership!.title) }}</h5>
+
+      <div style="margin-top: 20px" class="grid p-fluid">
+        <div class="col-12">
+          <textarea  style="font-size:25px;line-height:30px;" pInputTextarea placeholder="Your Message" [autoResize]="true" cols="30">{{ toUpdateMembership!.displayDescription}}</textarea>
+          <div style="margin-top: 20px" class="grid">
+            <div class="col-12 lg:col-6 xl:col-6">
+              <div
+                style="position: relative; background-color: var(--surface-ground); text-align: center"
+                class="card  flex align-items-center flex-column justify-content-center"
+              >
+                <h4 class="mb-1">Membership</h4>
+                <div *ngIf="idaMembership?.approved == true">
+                  <p>Your is membership already approved</p>
+                  <button
+                  pButton
+                  pRipple
+                  style="position: relative; width: fit-content"
+                  (click)="cancelMembership()"
+                  type="button"
+                  label="Cancel"
+                  class="p-button-rounded mr-2 mb-2"
+                ></button>
+                </div>
+                <div *ngIf="idaMembership?.approved == false">
+                  <p>Your Membership not yet approved</p>
+                  <button
+                    pButton
+                    pRipple
+                    style="position: relative; width: fit-content"
+                    (click)="approveMembership()"
+                    type="button"
+                    label="Approve"
+                    class="p-button-rounded mr-2 mb-2"
+                  ></button>
+                </div>
+                <div style="margin-top: 20px" *ngIf="+idaMembership?.pendingDistribution! > 0">
+                  <p>
+                    There are already distributed rewards <span style="color: var(--primary-color)">{{ (+utils.formatEther(idaMembership?.pendingDistribution!)).toFixed(4) }} tokens</span> , if you prefer you can
+                    only claim this reward and subscribe later
+                  </p>
+                  <button
+                    pButton
+                    pRipple
+                    style="position: relative; width: fit-content"
+                    (click)="claim()"
+                    type="button"
+                    label="Claim Units"
+                    class="p-button-rounded mr-2 mb-2"
+                  ></button>
+                </div>
+            
+              </div>
+            </div>
+            <div class="col-12 lg:col-6 xl:col-6">
+              <user-balance (refreshEvent)="refresh()"
+              *ngIf="toUpdateMembership?.fundToken !== undefined"  [fundToken]="toUpdateMembership.fundToken"></user-balance>
+       
+            </div>
+          </div>
+
+          <!-- ////// STATUS PROPOSAL -->
+
+          <div style="position: relative; background-color: var(--surface-ground)" class="card flex align-items-center flex-column justify-content-center">
+            <h4 class="mb-1">Current Status</h4>
+            <div style="width: 100%" class="grid p-fluid">
+              <proposal-detail
+                (proposeValue)="proposeValue($event)"
+                (executeProposal)="executeProposal()"
+                (disputeProposal)="disputeProposal()"
+                (refresh)="refresh()"
+                style="width: 100%"
+                *ngIf="currentProposal !== undefined"
+                [proposal]="currentProposal"
+              ></proposal-detail>
+            </div>
+          </div>
+
+          <charts-pcr *ngIf="chartConfig !== undefined" [chartConfig]="chartConfig"></charts-pcr>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

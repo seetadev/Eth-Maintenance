@@ -1,0 +1,88 @@
+specVersion: 0.0.2
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: PcrHost
+    network: localhost
+    source:
+      address: "0xc3d6be0415e8257fe8cec8317a25d73c8c57c0a0"
+      abi: PcrHost
+      startBlock: 31600633
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Reward
+        - Proposal
+        - RewardIndexHistory
+        - UserMembership
+      abis:
+        - name: PcrHost
+          file: PcrHost\abis\host.json
+      eventHandlers:
+        - event: RewardCreated((address,int256,uint8,address,string,uint256,uint256,(address,int256,uint8,uint256,uint256,uint256,bytes32,uint8,bytes),address,address,bytes,bytes,bytes))
+          handler: handleRewardCreated
+      file: PcrHost\PcrHost.wasm
+templates:
+  - name: PcrOptimisticOracle
+    kind: ethereum/contract
+    network: localhost
+    source:
+      abi: PcrOptimisticOracle
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      file: PcrHost\PcrHost.wasm
+      entities:
+        - Reward
+        - Proposal
+        - RewardIndexHistory
+        - UserMembership
+      abis:
+        - name: PcrOptimisticOracle
+          file: PcrOptimisticOracle\abis\pcr_optimistic_oracle.json
+      eventHandlers:
+        - event: RewardDeposit(uint256,uint256)
+          handler: handleRewardDeposit
+        - event: RewardAmountUpdated(uint256,uint256)
+          handler: handleRewardAmountUpdated
+        - event: ProposalCreated(address,uint256,uint256,int256)
+          handler: handleProposalCreated
+        - event: ProposalDisputed(address,uint256,uint256)
+          handler: handleProposalDisputed
+        - event: ProposalRejected(uint256,uint256,uint256,int256)
+          handler: handleProposalRejected
+        - event: ProposalAcceptedAndDistribuition(uint256,uint256,uint256,int256)
+          handler: handleProposalAcceptedAndDistribuition
+        - event: RewardTargetAndConditionChanged(uint256,int256,uint8)
+          handler: handleRewardTargetAndConditionChanged
+        - event: RewardSwitchStatus(uint256,uint8)
+          handler: handleRewardSwitchStatus
+  - name: PcrToken
+    kind: ethereum/contract
+    network: localhost
+    source:
+      abi: PcrToken
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      file: PcrHost\PcrHost.wasm
+      entities:
+        - Reward
+        - Proposal
+        - RewardIndexHistory
+        - UserMembership
+      abis:
+        - name: PcrToken
+          file: PcrToken\abis\pcr_token.json
+      eventHandlers:
+        - event: RewardUnitsIssued(uint256,address,uint256)
+          handler: handleRewardUnitsIssued
+        - event: RewardBulkUnitsIssued(uint256,address[],uint256)
+          handler: handleRewardBulkUnitsIssued
+        - event: RewardUnitsDeleted(uint256,address,uint256)
+          handler: handleRewardUnitsDeleted
