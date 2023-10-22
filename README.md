@@ -45,6 +45,14 @@ Restricting interaction with a certain citizen wallet or DAO dApp to a specific 
 
 Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time.
 
+Gasless Transactions: Giving free transactions to citizen developers, journalists, volunteers sharing anonymized report or incident data of industrial plants: We are extending OpenGSN to enable 0 transaction fees for volunteers sharing anonymized report data using PyTorch or Scikit libraries.
+
+Attestation Hub Contract for Machine Incident Reports: We are extending the Attestation Station smart contract to develop the Attestation Hub smart contract for Machine Incident Reports.
+
+
+
+
+
 
 
 
