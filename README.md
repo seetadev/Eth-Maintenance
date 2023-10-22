@@ -62,7 +62,7 @@ Tableland: We are using Tableland for implementing incident notes maintained by 
 
 - Get Log Events by Incident Types: to get log data for specific incident event along with its metadata
 
-- - Get NFT External Metadata: To get metadata for NFT like attribute and snapshot images.
+- Get NFT External Metadata: To get metadata for NFT like attribute and snapshot images.
 
 
 Spark: ZK SparkLend wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability using SparkLend, Conduits and MakerDAO features. We used Zokrates for building the ZK SparkLend Wallet. 
