@@ -13,7 +13,14 @@ There are 2 key features of our solution:
 
 # Blockchain eco-system   
 
-UMA: We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
+# UMA
+
+We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
+
+Decentralizing service governance with oSnap: With offchain voting, human readable rules, and trustless onchain execution, DAOs can begin to reach their full potential. 
+Please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/uma-superfluid-module
 
 
 Filecoin Virtual Machine (FVM): FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving solutions. This improves better outcomes for monitoring, incident reporting, precision maintenance. We are using FVM for:
@@ -23,6 +30,23 @@ Creating a Service Ticket NFT on the FVM for NFC tags of service and repair prov
 Decentralized NFT-based voting system for contract work for service & maintenance providers and companies. DAOs can issue NFTs to wallets based on service and maintenance performance and work completed, and the holders of these NFTs can create proposals and vote on other proposals whilst they have the NFTs of that contract work.
 
 To develop and use composable blocks and ensure effective design, engineering and delivery of a decentralized solution for machine monitoring and incident management using Ethereum & Filecoin eco-system tools. Automated Workflow for decentralized voting for service providers and DAO.
+
+Deployment of DataDAO contracts using FVM testnet and view at Filfox explorer. Links to automated workflow and FVM screenshots
+at https://drive.google.com/drive/u/1/folders/1Bt24sL_XSbyFjg3XT6_rx-_EZDhYDw1s
+
+Automated Workflow for decentralized voting for service providers and DAOs:
+
+DAOs create a RFP for providing service or maintenance on the dapp.
+Service providers can join a RFP by minting an NFT of that RFP. 
+Service providers that have a certain RFP's NFT are eligible to create proposals and vote on them.
+Voting is gasless and the vote is stored on IPFS and Filecoin with the most recent vote linking to one before.
+
+Lilypad: Creating an NFT for the incident metadata file on the Filecoin Virtual Machine (FVM / FEVM) with Bacalhau Stable Diffusion. Creating an NFT on the FVM for NFC tags of service and repair providers & vehicles to improve road incident management, decentralized NFT-based voting system for contract work by service providers, Votes are uploaded to IPFS with the most recent vote linking to one before.
+Links to automated workflow and FVM screenshots
+at https://drive.google.com/drive/u/1/folders/1Bt24sL_XSbyFjg3XT6_rx-_EZDhYDw1s
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-DAO-modules
+
 
 
 Scroll: Scroll enables hyper scalability of the Ethereum network, leveraging roll-up technology and a decentralized data availability layer to increase efficiency and performance in the industrial iot ecosystem, all while reducing fees and latency. We are developing tools and plugins for the green credits platform for heavy industrial machines along with an alarm viewer dapp (please visit https://drive.google.com/drive/u/1/folders/16BHWrIdMPE8emH2FpOWo7YaivIl4ge_F). The alarm viewer can be used in case a industrial machines' quarterly pollution check is due or has not been completed one week before the penalty set by the government authorities. This alarm viewer can be further extended by the developers to build community tools, analytics and visualization tooling by adding features like pollution check performance ratings and raising alarms and notifications when the registry of an industrial machine to operate in a region expires (example: 15 years for petrol fuel machines and 10 years for diesel fuel small scale machines in Delhi). The alarm viewer application can also be extended for the use case where the pollution testing equipment does not give optimal results, which is very much true when a machine has been used for more than 45,000 hours.
@@ -53,6 +77,8 @@ Defining session keys, which are allowed to initiate service or repair transacti
 Gasless Transactions: Giving free transactions to citizen developers, journalists, volunteers sharing anonymized report or incident data of industrial plants: We are extending OpenGSN to enable 0 transaction fees for volunteers sharing anonymized report data using PyTorch or Scikit libraries.
 
 Attestation Hub Contract for Machine Incident Reports: We are extending the Attestation Station smart contract to develop the Attestation Hub smart contract for Machine Incident Reports.
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module
 
 
 # Wormhole
