@@ -50,6 +50,9 @@ Gasless Transactions: Giving free transactions to citizen developers, journalist
 Attestation Hub Contract for Machine Incident Reports: We are extending the Attestation Station smart contract to develop the Attestation Hub smart contract for Machine Incident Reports.
 
 
+XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
+
+
 
 
 
