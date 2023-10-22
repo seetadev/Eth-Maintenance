@@ -80,13 +80,17 @@ Twitter Post Link: https://twitter.com/DeTransportICM/status/1716154122599059484
 
 # Spark
 
-Spark: ZK SparkLend wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability using SparkLend, Conduits and MakerDAO features. We used Zokrates for building the ZK SparkLend Wallet. 
+ZK SparkLend wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability using SparkLend, Conduits and MakerDAO features. We used Zokrates for building the ZK SparkLend Wallet.
 
 Cross chain lending platform using SparkLend: We can supply collateral and borrow sDAI tokens from a satellite chain to a fork of Ethereum's mainnet using Spark Conduits and SparkLend. Web3 Service Dashboard on Spark to enable third party service and repair organizations to keep track of all the details of their assets, DeFi investments, sDAI transactions and also displays DAO data using a data visualization chart. We are building our solution on top of an existing web3 dashboard system and are planning to integrate an analytics, tabulation and collaboration tool namely EtherCalc.
 
 MakerDAO developer tooling for providing government subsidies for greener fuel and pollution check credits. Government organizations can send sDAI crypto from source-chain to destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with sDAI token.
 
 Please visit the demo at https://drive.google.com/drive/u/1/folders/16BHWrIdMPE8emH2FpOWo7YaivIl4ge_F
+
+zk Multicurrency web wallet and information explorer with data analytics powered by SocialCalc for managing information and payments to emergency service providers, maintenance and repair servicemen and also insuarnce and aggregator providers for availing their services.
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules
 
 
 # Hooks for LP operations of Uniswap v2 and v3
@@ -144,7 +148,8 @@ Please visit https://drive.google.com/drive/u/1/folders/1Bt24sL_XSbyFjg3XT6_rx-_
 https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-DAO-modules
 
 # Compound Protocol  
-Compound Protocol: Cross chain lending platform using Compound protocol. We can supply collateral and borrow tokens for preventive, reactive and pro-active maintenance from a satellite chain to a fork of Ethereum's mainnet using Compound Protocol.
+Cross chain lending platform using Compound protocol. We can supply collateral and borrow tokens for preventive, reactive and pro-active maintenance from a satellite chain to a fork of Ethereum's mainnet using Compound Protocol. Web3 DeFi dashboard to enable third party service and repair organizations to keep track of all the details of their assets, DeFi investments, transactions across all multiple chains and also displays DAO data using a data visualization chart. We are building our solution on top of an existing web3 dashboard system and are planning to integrate an analytics, tabulation and collaboration tool namely EtherCalc. 
+Please visit  https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 and https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules/compound-iii-defi-module
 
 
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
