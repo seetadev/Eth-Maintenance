@@ -32,24 +32,6 @@ Automated workflow:
 
 # Blockchain eco-system   
 
-# UMA
-
-We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
-
-Decentralizing service governance with oSnap: With offchain voting, human readable rules, and trustless onchain execution, DAOs can begin to reach their full potential. 
-Please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1  (Screencast 1, 3)
-
-Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/uma-superfluid-module
-
-
-# Scroll
-
-Scroll enables hyper scalability of the Ethereum network, leveraging roll-up technology and a decentralized data availability layer to increase efficiency and performance in the industrial iot ecosystem, all while reducing fees and latency. We are developing tools and plugins for the green credits platform for heavy industrial machines along with an alarm viewer dapp (please visit https://drive.google.com/drive/u/1/folders/16BHWrIdMPE8emH2FpOWo7YaivIl4ge_F) (Screencast 1, 2 and 3)
-
-The alarm viewer can be used in case a industrial machines' quarterly pollution check is due or has not been completed one week before the penalty set by the government authorities. This alarm viewer can be further extended by the developers to build community tools, analytics and visualization tooling by adding features like pollution check performance ratings and raising alarms and notifications when the registry of an industrial machine to operate in a region expires (example: 15 years for petrol fuel machines and 10 years for diesel fuel small scale machines in Delhi). The alarm viewer application can also be extended for the use case where the pollution testing equipment does not give optimal results, which is very much true when a machine has been used for more than 45,000 hours.
-
-Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module/zk-alarm-module/scroll-module
-
 # Chainlink and Wormhole
 
 Chainlink and Wormhole empowers Web3 developers by enabling multichain transactions and interoperability:
@@ -95,7 +77,6 @@ Attestation Hub Contract for Machine Incident Reports: We are extending the Atte
 Gasless Transactions: Giving free transactions to citizen developers, journalists, volunteers sharing anonymized report or incident data of industrial plants: We are extending OpenGSN to enable 0 transaction fees for volunteers sharing anonymized report data using PyTorch or Scikit libraries. Please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 4)
 
 Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module
-
 
 
 # Spark
@@ -176,7 +157,23 @@ Please visit  https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp
 XMTP: We are implementing XMTP Chat for Machine administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://drive.google.com/drive/u/1/folders/1sv4FCXvUhETwN7iRXy6nzBoFYsVO5Z-0
 
 
+# UMA
 
+We are using UMA's KPI options + Superfluid as a token streaming protocol that lets factory users and consumers create streams of tokens fluidly between addresses. This will enable effective incentivization, management and communication setup for service/repair organizations utilized in Operations and Maintenance. We are extending UMA’s KPI Options with Superfluid’s streaming tokens: Perpetual Conditional Rewards (PCR) tokens that combine Superfluid’s programmable cashflows with UMA’s KPI option concepts. Service Users and administrators would receive immediate benefits and feedback based on how that KPI was doing. Immediate feedback like this would be highly motivating.
+
+Decentralizing service governance with oSnap: With offchain voting, human readable rules, and trustless onchain execution, DAOs can begin to reach their full potential. 
+Please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1  (Screencast 1, 3)
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/uma-superfluid-module
+
+
+# Scroll
+
+Scroll enables hyper scalability of the Ethereum network, leveraging roll-up technology and a decentralized data availability layer to increase efficiency and performance in the industrial iot ecosystem, all while reducing fees and latency. We are developing tools and plugins for the green credits platform for heavy industrial machines along with an alarm viewer dapp (please visit https://drive.google.com/drive/u/1/folders/16BHWrIdMPE8emH2FpOWo7YaivIl4ge_F) (Screencast 1, 2 and 3)
+
+The alarm viewer can be used in case a industrial machines' quarterly pollution check is due or has not been completed one week before the penalty set by the government authorities. This alarm viewer can be further extended by the developers to build community tools, analytics and visualization tooling by adding features like pollution check performance ratings and raising alarms and notifications when the registry of an industrial machine to operate in a region expires (example: 15 years for petrol fuel machines and 10 years for diesel fuel small scale machines in Delhi). The alarm viewer application can also be extended for the use case where the pollution testing equipment does not give optimal results, which is very much true when a machine has been used for more than 45,000 hours.
+
+Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module/zk-alarm-module/scroll-module
 
 
 
