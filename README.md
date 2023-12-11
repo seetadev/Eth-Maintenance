@@ -1,4 +1,4 @@
-# Link Maintenance
+# LINK Maintenance
 
 Developers tools to enable preventive and reactive maintenance of industrial grade machine using iot devices, sensors and Chainlink, Ethereum, Filecoin blockcahin, Web3 ecosystem tools. 
 
