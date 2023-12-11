@@ -1,8 +1,8 @@
 # Eth-Maintenance
 
-Developers tools to enable preventive and reactive maintenance of industrial grade machine using iot devices, sensors and Ethereum blockcahin, Web3 ecosystem tools. 
+Developers tools to enable preventive and reactive maintenance of industrial grade machine using iot devices, sensors and Chainlink, Ethereum, Filecoin blockcahin, Web3 ecosystem tools. 
 
-Execution: Preventive, Proactive and Reactive Maintenance, Refurbishment of industrial grade machine on Ethereum blockchain using UMA, Scroll, Filecoin, Polygon zkEVM and Safe Account Abstraction SDK, Uniswap, Tableland, Wormhole SDK for cross chain interoperability and Web3 Ecosystem tools.
+Execution: Preventive, Proactive and Reactive Maintenance, Refurbishment of industrial grade machine on Chainlink, Ethereum blockchain using UMA, Scroll, Filecoin, Polygon zkEVM and Safe Account Abstraction SDK, Uniswap, Tableland, Wormhole SDK for cross chain interoperability and Web3 Ecosystem tools.
 
 
 There are 2 key features of our solution:
@@ -50,10 +50,24 @@ The alarm viewer can be used in case a industrial machines' quarterly pollution 
 
 Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module/zk-alarm-module/scroll-module
 
+# Chainlink and Wormhole
 
-Polygon zkEVM Public Goods Track and Safe Account Abstraction SDK
+Chainlink and Wormhole empowers Web3 developers by enabling multichain transactions and interoperability:
+⭐️ Massively expand the utility of decentralize repair delivery, machine testing & research on L1 and L2 stack.
+⭐️ Web3 Dev Tooling: Web3 low code modules using wiki like spreadsheet with ionic framework, open source Web3 automation utilities for DICOM data management, visualization, tabulation, organization, graphing and collaboration, anonymization of data using PyDICOM library. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 3)
 
-We are using Polygon zkEVM to develop a platform where government authorities linked with Environment Ministy, Pollution Control department like Water Pollution Monitoring, check control department, Municipality portal can issue, manage and transfer credits of ratings earned by factory owners and their respective heavy industrial machinery via pollution checks, green fuel adoption in machines.
+⭐️ Wormhole Cross Chain Borrow and Lend dapp module and Wormhole cross chain interoperability between L1 and L2 chains.
+⭐️ Multi-token web wallet and information explorer with data analytics powered by SocialCalc for managing information and payments to emergency service providers, maintenance and repair servicemen and also insuarnce and aggregator providers for availing their services using Wormhole solidity sdk. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 3)
+⭐️Analytics tooling for visualization, tabulation, collaboration and organization of data. 
+
+Please visit: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules
+
+Twitter Post Link: https://twitter.com/DeTransportICM/status/1716154122599059484
+
+
+## Chainlink and Polygon zkEVM Public Goods Track and Safe Account Abstraction SDK
+
+We are using Chainlink VRF, Polygon zkEVM to develop a platform where government authorities linked with Environment Ministy, Pollution Control department like Water Pollution Monitoring, check control department, Municipality portal can issue, manage and transfer credits of ratings earned by factory owners and their respective heavy industrial machinery via pollution checks, green fuel adoption in machines.
 This is especially useful for heavy industrial machinery parts managed by the government for public goods delivery (Example: GeM portal goods in India) where co-incentives can be provided to contract organizations for good performance in pollution checks, green fuel adoption (switching away from diesel fuel to liquid hydrogen). The workflow is as follows:
 
 - Industry/Machine role creation procedure; 
@@ -64,7 +78,7 @@ This is especially useful for heavy industrial machinery parts managed by the go
 
   Please visit https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 4)
 
-Safe Account Abstraction SDK and Polygon zkEVM: 
+## Safe Account Abstraction SDK, Chainlink Functions and Automation, Polygon zkEVM: 
  
 - ZK Incident Witness Generation tool for Eth-Maintenance using Safe Account Abstraction SDK and Polygon zkEVM: We are developing ZK Incident Witness Generation tool for machinery maintenance using Safe Account Abstraction SDK and Polygon zkEVM. Account Abstraction SDK enables customization of verification logic via plugins with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet dapp on Polygon zkEVM. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs. 
 
@@ -82,21 +96,6 @@ Gasless Transactions: Giving free transactions to citizen developers, journalist
 
 Source Link: https://github.com/seetadev/Eth-Maintenance/tree/main/Public-Goods-Module
 
-
-# Chainlink and Wormhole
-
-Wormhole empowers Web3 developers by enabling multichain transactions and interoperability:
-⭐️ Massively expand the utility of decentralize repair delivery, machine testing & research on L1 and L2 stack.
-⭐️ Web3 Dev Tooling: Web3 low code modules using wiki like spreadsheet with ionic framework, open source Web3 automation utilities for DICOM data management, visualization, tabulation, organization, graphing and collaboration, anonymization of data using PyDICOM library. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 3)
-
-⭐️ Wormhole Cross Chain Borrow and Lend dapp module and Wormhole cross chain interoperability between L1 and L2 chains.
-⭐️ Multi-token web wallet and information explorer with data analytics powered by SocialCalc for managing information and payments to emergency service providers, maintenance and repair servicemen and also insuarnce and aggregator providers for availing their services using Wormhole solidity sdk. Please visit demos at https://drive.google.com/drive/u/1/folders/1LOA4q6TXw6df7T40rYvNsp8F-FMpKKp1 (Screencast 1, 2 and 3)
-⭐️Analytics tooling for visualization, tabulation, collaboration and organization of data. 
-
-
-Please visit: https://github.com/seetadev/Eth-Maintenance/tree/main/Web3-Billing-Dev-Tools-Android/dapp-modules
-
-Twitter Post Link: https://twitter.com/DeTransportICM/status/1716154122599059484
 
 
 # Spark
