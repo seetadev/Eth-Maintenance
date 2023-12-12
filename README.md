@@ -11,6 +11,10 @@ There are 2 key features of our solution:
 
 2. Web3 Monitor Anaywhere: For developers building cross-platform monitoring dapps using sensors and oscilloscope with low code while retaining dapp core principles and flexibility.
 
+# Mobile Demos using Chainlink VRF and Chainlink Automate
+
+   Please visit Chainlink VRF and Chainlink Automate with Scroll and Filecoin/IPFS demos at https://drive.google.com/drive/u/1/folders/1sdzEmh8KfSiv3-YtDOz3CFy2S_K1wFgh
+
 Automated workflow:
 
 - Input Data gateway: DataDAO using FVM and Tableland, and Data Cleaning on Scroll
