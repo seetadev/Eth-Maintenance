@@ -18,6 +18,17 @@ on:
         type: string
 
 jobs:
+  debug-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug GitHub Event
+        run: |
+          echo "Event name: ${{ github.event_name }}"
+          echo "Event action: ${{ github.event.action }}"
+          echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
+          echo "Issue number: ${{ github.event.issue.number }}"
+          echo "Comment body: ${{ github.event.comment.body }}"
+
   generate-code:
     runs-on: ubuntu-latest
     if: |
@@ -192,7 +203,7 @@ jobs:
               }
               
               # Try to use inference profile first, fallback to direct model ID
-              model_id = os.environ.get('AWS_BEDROCK_MODEL_ID', 'us.anthropic.claude-3-5-sonnet-20241022-v2:0')
+              model_id = os.environ.get('AWS_BEDROCK_MODEL_ID')
               
               try:
                   response = client.invoke_model(
@@ -220,7 +231,6 @@ jobs:
           def create_branch_and_commit(branch_name, generated_content):
               """Create a new branch and commit the generated code"""
               try:
-
                   subprocess.run(['git', 'config', 'user.name', 'Claude Bot'], check=True)
                   subprocess.run(['git', 'config', 'user.email', 'claude-bot@example.com'], check=True)
 
